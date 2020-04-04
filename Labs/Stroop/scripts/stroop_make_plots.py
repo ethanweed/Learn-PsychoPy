@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 #%matplotlib inline
 import numpy as np
 
-pathin = '/Users/ethan/Documents/GitHub/Learn-PsychoPy/Labs/Stroop/experiment/data/'
+pathin = '/Users/ethan/Documents/GitHub/Learn-PsychoPy/Labs/Stroop/experiments/stroop/data/'
 pathout = '/Users/ethan/Documents/GitHub/Learn-PsychoPy/Labs/Stroop/figures/'
 file = 'all_data_agg.csv'
 file_out = pathout + 'stroop_boxplot.png'

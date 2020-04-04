@@ -2,7 +2,7 @@ import pandas as pd
 import glob
 import re
 
-path = '/Users/ethan/Documents/GitHub/Learn-PsychoPy/Labs/Stroop/experiment/data'
+path = '/Users/ethan/Documents/GitHub/Learn-PsychoPy/Labs/Stroop/experiments/stroop/data'
 all_files = glob.glob(path + "/*.csv")
 
 li = []
