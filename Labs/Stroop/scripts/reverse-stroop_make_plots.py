@@ -14,10 +14,3 @@ file_out = pathout + 'reverse_stroop_boxplot.png'
 
 plt.savefig(file_out, transparent=True)
            
- 
-# paired t-test .... look into the warnings...
-#incongruent = df.loc[(df.congruent == 0)].to_numpy()
-#congruent = df.loc[(df.congruent == 1)].to_numpy()
-#from scipy import stats
-#import numpy as np
-#res = stats.ttest_rel(congruent, incongruent)
