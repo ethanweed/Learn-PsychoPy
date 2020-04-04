@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.1.2),
-    on Sat Apr  4 08:37:36 2020
+    on Sat Apr  4 13:24:22 2020
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -51,7 +51,7 @@ filename = _thisDir + os.sep + u'data' + os.sep + '%s_%s' % (expInfo['participan
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='/Users/ethan/Documents/PsychoPy3 Demos/stroop/stroop_lastrun.py',
+    originPath='/Users/ethan/Documents/GitHub/Learn-PsychoPy/PsychoPy3 Demos/stroop/stroop_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -65,7 +65,7 @@ frameTolerance = 0.001  # how close to onset before 'same' frame
 
 # Setup the Window
 win = visual.Window(
-    size=[2560, 1440], fullscr=True, screen=0, 
+    size=[1680, 1050], fullscr=True, screen=0, 
     winType='pyglet', allowGUI=False, allowStencil=False,
     monitor='testMonitor', color='black', colorSpace='rgb',
     blendMode='avg', useFBO=True, 
@@ -334,15 +334,6 @@ for thisTrial in trials:
     
 # completed 5.0 repeats of 'trials'
 
-# get names of stimulus parameters
-if trials.trialList in ([], [None], None):
-    params = []
-else:
-    params = trials.trialList[0].keys()
-# save data for this loop
-trials.saveAsExcel(filename + '.xlsx', sheetName='trials',
-    stimOut=params,
-    dataOut=['n','all_mean','all_std', 'all_raw'])
 
 # ------Prepare to start Routine "thanks"-------
 continueRoutine = True
