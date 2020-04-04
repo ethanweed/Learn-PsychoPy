@@ -1,0 +1,191 @@
+<PsychoPy2experiment version="1.71.01" encoding="utf-8">
+  <Settings>
+    <Param name="Show mouse" val="False" valType="bool" updates="None"/>
+    <Param name="Save csv file" val="False" valType="bool" updates="None"/>
+    <Param name="Monitor" val="testMonitor" valType="str" updates="None"/>
+    <Param name="color" val="$[0,0,0]" valType="str" updates="None"/>
+    <Param name="Window size (pixels)" val="[1680, 1050]" valType="code" updates="None"/>
+    <Param name="Full-screen window" val="True" valType="bool" updates="None"/>
+    <Param name="colorSpace" val="rgb" valType="str" updates="None"/>
+    <Param name="Save log file" val="True" valType="bool" updates="None"/>
+    <Param name="Experiment info" val="{'participant':' ', 'session':'005', 'gender':' ', 'age':' '} " valType="code" updates="None"/>
+    <Param name="Save excel file" val="True" valType="bool" updates="None"/>
+    <Param name="Save psydat file" val="True" valType="bool" updates="None"/>
+    <Param name="logging level" val="exp" valType="code" updates="None"/>
+    <Param name="Units" val="norm" valType="str" updates="None"/>
+    <Param name="Show info dlg" val="True" valType="bool" updates="None"/>
+    <Param name="Saved data folder" val="" valType="code" updates="None"/>
+    <Param name="Screen" val="1" valType="num" updates="None"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <TextComponent name="fixation">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="fixation" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="+" valType="str" updates="constant"/>
+        <Param name="stopVal" val="4" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+      </TextComponent>
+      <TextComponent name="upperStim">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="upperStim" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="$upperWord" valType="str" updates="set every repeat"/>
+        <Param name="stopVal" val="3.0" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="[0, +0.2]" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="norm" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="1.0" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+      </TextComponent>
+      <TextComponent name="lowerStim">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="lowerStim" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="$lowerWord" valType="str" updates="set every repeat"/>
+        <Param name="stopVal" val="3.0" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="[0, -0.2]" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="1.0" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param name="correctAns" val="$corrAns" valType="str" updates="constant"/>
+        <Param name="storeCorrect" val="True" valType="bool" updates="constant"/>
+        <Param name="name" val="key_resp" valType="code" updates="None"/>
+        <Param name="stopVal" val="3.0" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="allowedKeys" val="&quot;up&quot;,&quot;down&quot;" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="1.0" valType="code" updates="None"/>
+        <Param name="store" val="last key" valType="str" updates="constant"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="practiceInstr">
+      <TextComponent name="practInstrText">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="practInstrText" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="Press 'up' or 'down' keys to indicate which of each pair is the real word&#10;&#10;Press an key to begin" valType="str" updates="constant"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+      </TextComponent>
+      <KeyboardComponent name="practiceStart">
+        <Param name="correctAns" val="" valType="str" updates="constant"/>
+        <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
+        <Param name="name" val="practiceStart" valType="code" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="allowedKeys" val="" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="store" val="last key" valType="str" updates="constant"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instr">
+      <TextComponent name="instructions">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="instructions" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="OK, ready for the real thing?&#10;&#10;Press 'up' or 'down' keys to indicate which is the real word&#10;&#10;Press an key to begin" valType="str" updates="constant"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+      </TextComponent>
+      <KeyboardComponent name="mainTrialsStart">
+        <Param name="correctAns" val="" valType="str" updates="constant"/>
+        <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
+        <Param name="name" val="mainTrialsStart" valType="code" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="allowedKeys" val="" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="store" val="last key" valType="str" updates="constant"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instr"/>
+    <LoopInitiator loopType="TrialHandler" name="training">
+      <Param name="conditionsFile" val="trainingB.xlsx" valType="str" updates="None"/>
+      <Param name="name" val="training" valType="code" updates="None"/>
+      <Param name="loopType" val="random" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="conditions" val="[{u'wordType': u'WORD', u'upperWord': u'CLUB', u'lowerWord': u'CLEB', u'corrAns': u'up'}, {u'wordType': u'WORD', u'upperWord': u'COIN', u'lowerWord': u'COAN', u'corrAns': u'up'}, {u'wordType': u'WORD', u'upperWord': u'CORK', u'lowerWord': u'COLK', u'corrAns': u'up'}, {u'wordType': u'WORD', u'upperWord': u'DEAF', u'lowerWord': u'DIAF', u'corrAns': u'up'}, {u'wordType': u'WORD', u'upperWord': u'DENY', u'lowerWord': u'DINY', u'corrAns': u'up'}, {u'wordType': u'WORD', u'upperWord': u'EDGE', u'lowerWord': u'EDLE', u'corrAns': u'up'}, {u'wordType': u'WORD', u'upperWord': u'FALL', u'lowerWord': u'FAHL', u'corrAns': u'up'}, {u'wordType': u'WORD', u'upperWord': u'FISH', u'lowerWord': u'FESH', u'corrAns': u'up'}, {u'wordType': u'WORD', u'upperWord': u'HOOT', u'lowerWord': u'HEOT', u'corrAns': u'up'}, {u'wordType': u'WORD', u'upperWord': u'SAKE', u'lowerWord': u'SIKE', u'corrAns': u'up'}, {u'wordType': u'WORD', u'upperWord': u'SALT', u'lowerWord': u'SART', u'corrAns': u'up'}, {u'wordType': u'WORD', u'upperWord': u'SOIL', u'lowerWord': u'SOEL', u'corrAns': u'up'}, {u'wordType': u'WORD', u'upperWord': u'SPOT', u'lowerWord': u'SMOT', u'corrAns': u'up'}, {u'wordType': u'WORD', u'upperWord': u'TWIN', u'lowerWord': u'TRIN', u'corrAns': u'up'}, {u'wordType': u'WORD', u'upperWord': u'UNIT', u'lowerWord': u'UNAT', u'corrAns': u'up'}, {u'wordType': u'WORD', u'upperWord': u'BESY', u'lowerWord': u'BUSY', u'corrAns': u'down'}, {u'wordType': u'WORD', u'upperWord': u'FOAD', u'lowerWord': u'FOOD', u'corrAns': u'down'}, {u'wordType': u'WORD', u'upperWord': u'HENT', u'lowerWord': u'HINT', u'corrAns': u'down'}, {u'wordType': u'WORD', u'upperWord': u'HULE', u'lowerWord': u'HUGE', u'corrAns': u'down'}, {u'wordType': u'WORD', u'upperWord': u'LEMP', u'lowerWord': u'LIMP', u'corrAns': u'down'}, {u'wordType': u'WORD', u'upperWord': u'OKAL', u'lowerWord': u'OVAL', u'corrAns': u'down'}, {u'wordType': u'WORD', u'upperWord': u'PAKE', u'lowerWord': u'PIKE', u'corrAns': u'down'}, {u'wordType': u'WORD', u'upperWord': u'PASH', u'lowerWord': u'PATH', u'corrAns': u'down'}, {u'wordType': u'WORD', u'upperWord': u'PAUD', u'lowerWord': u'PAID', u'corrAns': u'down'}, {u'wordType': u'WORD', u'upperWord': u'PROT', u'lowerWord': u'PLOT', u'corrAns': u'down'}, {u'wordType': u'WORD', u'upperWord': u'RABE', u'lowerWord': u'RACE', u'corrAns': u'down'}, {u'wordType': u'WORD', u'upperWord': u'SLUB', u'lowerWord': u'SLAB', u'corrAns': u'down'}, {u'wordType': u'WORD', u'upperWord': u'SMIN', u'lowerWord': u'SKIN', u'corrAns': u'down'}, {u'wordType': u'WORD', u'upperWord': u'VOME', u'lowerWord': u'VOTE', u'corrAns': u'down'}, {u'wordType': u'WORD', u'upperWord': u'WIME', u'lowerWord': u'WIPE', u'corrAns': u'down'}]" valType="str" updates="None"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="training"/>
+    <LoopInitiator loopType="TrialHandler" name="testing">
+      <Param name="conditionsFile" val="testing.xlsx" valType="str" updates="None"/>
+      <Param name="name" val="testing" valType="code" updates="None"/>
+      <Param name="loopType" val="random" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="conditions" val="[{u'wordType': u'PSEUDOHOMOPHONE', u'upperWord': u'BILL', u'lowerWord': u'AHMS', u'corrAns': u'up'}, {u'wordType': u'PSEUDOHOMOPHONE', u'upperWord': u'BORN', u'lowerWord': u'BILD', u'corrAns': u'up'}, {u'wordType': u'PSEUDOHOMOPHONE', u'upperWord': u'BOYS', u'lowerWord': u'CORT', u'corrAns': u'up'}, {u'wordType': u'PSEUDOHOMOPHONE', u'upperWord': u'CALL', u'lowerWord': u'DERT', u'corrAns': u'up'}, {u'wordType': u'PSEUDOHOMOPHONE', u'upperWord': u'CARS', u'lowerWord': u'FLOO', u'corrAns': u'up'}, {u'wordType': u'PSEUDOHOMOPHONE', u'upperWord': u'COLD', u'lowerWord': u'GARD', u'corrAns': u'up'}, {u'wordType': u'PSEUDOHOMOPHONE', u'upperWord': u'DARN', u'lowerWord': u'GROE', u'corrAns': u'up'}, {u'wordType': u'CONTROL', u'upperWord': u'DATE', u'lowerWord': u'AHNS', u'corrAns': u'up'}, {u'wordType': u'CONTROL', u'upperWord': u'DEEP', u'lowerWord': u'BAIF', u'corrAns': u'up'}, {u'wordType': u'CONTROL', u'upperWord': u'EASY', u'lowerWord': u'BIRL', u'corrAns': u'up'}, {u'wordType': u'CONTROL', u'upperWord': u'FARM', u'lowerWord': u'BORY', u'corrAns': u'up'}, {u'wordType': u'CONTROL', u'upperWord': u'FEED', u'lowerWord': u'VECE', u'corrAns': u'up'}, {u'wordType': u'CONTROL', u'upperWord': u'FIRE', u'lowerWord': u'DREE', u'corrAns': u'up'}, {u'wordType': u'CONTROL', u'upperWord': u'FOOD', u'lowerWord': u'FEVE', u'corrAns': u'up'}, {u'wordType': u'CONTROL', u'upperWord': u'HOPE', u'lowerWord': u'FUTE', u'corrAns': u'up'}, {u'wordType': u'PSEUDOHOMOPHONE', u'upperWord': u'KORD', u'lowerWord': u'LACK', u'corrAns': u'down'}, {u'wordType': u'PSEUDOHOMOPHONE', u'upperWord': u'LERN', u'lowerWord': u'LIST', u'corrAns': u'down'}, {u'wordType': u'PSEUDOHOMOPHONE', u'upperWord': u'MONE', u'lowerWord': u'MASS', u'corrAns': u'down'}, {u'wordType': u'PSEUDOHOMOPHONE', u'upperWord': u'SUNE', u'lowerWord': u'NEWS', u'corrAns': u'down'}, {u'wordType': u'PSEUDOHOMOPHONE', u'upperWord': u'TAKS', u'lowerWord': u'NOTE', u'corrAns': u'down'}, {u'wordType': u'PSEUDOHOMOPHONE', u'upperWord': u'TODE', u'lowerWord': u'POOL', u'corrAns': u'down'}, {u'wordType': u'PSEUDOHOMOPHONE', u'upperWord': u'WERK', u'lowerWord': u'RACE', u'corrAns': u'down'}, {u'wordType': u'PSEUDOHOMOPHONE', u'upperWord': u'WITE', u'lowerWord': u'RISE', u'corrAns': u'down'}, {u'wordType': u'CONTROL', u'upperWord': u'GAIR', u'lowerWord': u'SHOT', u'corrAns': u'down'}, {u'wordType': u'CONTROL', u'upperWord': u'JATE', u'lowerWord': u'SOON', u'corrAns': u'down'}, {u'wordType': u'CONTROL', u'upperWord': u'NUCK', u'lowerWord': u'STEP', u'corrAns': u'down'}, {u'wordType': u'CONTROL', u'upperWord': u'PLEN', u'lowerWord': u'STOP', u'corrAns': u'down'}, {u'wordType': u'CONTROL', u'upperWord': u'SOAT', u'lowerWord': u'TALK', u'corrAns': u'down'}, {u'wordType': u'CONTROL', u'upperWord': u'TINP', u'lowerWord': u'WHOM', u'corrAns': u'down'}, {u'wordType': u'CONTROL', u'upperWord': u'CEST', u'lowerWord': u'WISE', u'corrAns': u'down'}]" valType="str" updates="None"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="testing"/>
+  </Flow>
+</PsychoPy2experiment>

@@ -1,0 +1,665 @@
+'
+'
+'
+'	K:\Jonathan & Jasper 1st yr Pracs\Memory\Structure&Memory.ebs
+'	Generated on: 2/16/2006	10:50:32
+'
+'
+'	This file generated with E-Studio interface.
+'	E-Prime Copyright © 2002 Psychology Software Tools.
+'	ALL RIGHTS RESERVED
+'
+'	Legal use of this experiment script requires a full E-Prime or Runtime License.
+'
+'
+'	Author:
+'		School Of Psychology
+'
+'
+'
+'
+
+Option CStrings On
+Dim ebContext as Context
+
+
+'--------------------------------------------------------------------------
+' Class Declarations
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+'InitTextDisplayDefaults
+'--------------------------------------------------------------------------
+Sub InitTextDisplayDefaults(theTextDisplay As TextDisplay)
+
+	If theTextDisplay Is Nothing Then Exit Sub
+
+	theTextDisplay.X = "center"
+	theTextDisplay.Y = "center"
+	theTextDisplay.Width = "100%"
+	theTextDisplay.Height = "100%"
+	theTextDisplay.ForeColor = CColor("black")
+	theTextDisplay.BackColor = CColor("white")
+	theTextDisplay.BackStyle = "opaque"
+	theTextDisplay.BorderColor = CColor("black")
+	theTextDisplay.BorderWidth = CLng("0")
+	theTextDisplay.XAlign = "center"
+	theTextDisplay.YAlign = "center"
+	theTextDisplay.AlignHorizontal = "center"
+	theTextDisplay.AlignVertical = "center"
+	theTextDisplay.WordWrap = True
+	theTextDisplay.ClearAfter = CLogical("No")
+	theTextDisplay.FontName = "Courier New"
+	theTextDisplay.FontSize = "18"
+	theTextDisplay.FontBold = CLogical("Yes")
+	theTextDisplay.FontItalic = CLogical("No")
+	theTextDisplay.FontUnderline = CLogical("No")
+	theTextDisplay.FontStrikeout = CLogical("No")
+
+End Sub
+
+
+
+
+
+
+
+'--------------------------------------------------------------------------
+'InitImageDisplayDefaults
+'--------------------------------------------------------------------------
+Sub InitImageDisplayDefaults(theImageDisplay As ImageDisplay)
+
+	If theImageDisplay Is Nothing Then Exit Sub
+
+	theImageDisplay.X = "center"
+	theImageDisplay.Y = "center"
+	theImageDisplay.Width = "100%"
+	theImageDisplay.Height = "100%"
+	theImageDisplay.BackColor = CColor("black")
+	theImageDisplay.BackStyle = "opaque"
+	theImageDisplay.BorderColor = CColor("black")
+	theImageDisplay.BorderWidth = CLng("0")
+	theImageDisplay.XAlign = "center"
+	theImageDisplay.YAlign = "center"
+	theImageDisplay.AlignHorizontal = "center"
+	theImageDisplay.AlignVertical = "center"
+	theImageDisplay.ClearAfter = CLogical("No")
+	theImageDisplay.UseSourceColorKey = CLogical("No")
+	theImageDisplay.SourceColorKey = CColor("black")
+	theImageDisplay.MirrorLeftRight = CLogical("No")
+	theImageDisplay.MirrorUpDown = CLogical("No")
+	theImageDisplay.Stretch = CLogical("No")
+
+End Sub
+
+
+
+
+
+
+
+'--------------------------------------------------------------------------
+' Instance Declarations
+'--------------------------------------------------------------------------
+Dim Display As DisplayDevice
+Dim Sound As SoundDevice
+Dim Keyboard As KeyboardDevice
+Dim Mouse As MouseDevice
+Dim SessionProc As Procedure
+
+Dim Instructions1 As TextDisplay
+Dim Instructions1EchoClients As EchoClientCollection
+
+Dim Instructions2 As TextDisplay
+Dim Instructions2EchoClients As EchoClientCollection
+
+Dim Instructions3 As TextDisplay
+Dim Instructions3EchoClients As EchoClientCollection
+
+Dim List1 As List
+
+Dim LearnThem As Procedure
+
+Dim Stimulus As ImageDisplay
+
+Dim noStruct As ImageDisplay
+
+Dim FixCross As TextDisplay
+
+Dim TextDisplay1 As TextDisplay
+Dim TextDisplay1EchoClients As EchoClientCollection
+
+
+
+'--------------------------------------------------------------------------
+' Package Declare Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' User Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Package Global Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Package Routines
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Implementation
+'--------------------------------------------------------------------------
+Sub SessionProc_Run(c as Context)
+	
+	
+	Instructions1.InputMasks.Reset
+	
+	Instructions1EchoClients.RemoveAll
+	Instructions1.InputMasks.Add Keyboard.CreateInputMask("{SPACE}", "", CLng(Instructions1.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	Instructions1.Run
+	
+	
+	Instructions2.InputMasks.Reset
+	
+	Instructions2EchoClients.RemoveAll
+	Instructions2.InputMasks.Add Keyboard.CreateInputMask("{SPACE}", "", CLng(Instructions2.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	Instructions2.Run
+	
+	
+	Instructions3.InputMasks.Reset
+	
+	Instructions3EchoClients.RemoveAll
+	Instructions3.InputMasks.Add Keyboard.CreateInputMask("{SPACE}", "", CLng(Instructions3.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	Instructions3.Run
+	List1.Run c
+	
+	
+	TextDisplay1.InputMasks.Reset
+	
+	TextDisplay1EchoClients.RemoveAll
+	TextDisplay1.InputMasks.Add Keyboard.CreateInputMask("{SPACE}", "", CLng(TextDisplay1.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	TextDisplay1.Run
+
+	c.Log
+End Sub
+
+Sub LearnThem_Run(c as Context)
+	
+	FixCross.Run
+	
+	Stimulus.Filename = c.GetAttrib("stimulus")
+	Stimulus.Load
+	Stimulus.Run
+
+	c.Log
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+' InitDevices
+'
+'--------------------------------------------------------------------------
+Sub InitDevices(c As Context)
+
+
+
+	SetOSThreadPriority 3
+
+
+	Set Display = New DisplayDevice
+	Display.Name = "Display"
+
+	Dim DisplayDisplayDeviceInfo As DisplayDeviceInfo
+	DisplayDisplayDeviceInfo.XRes = 640
+	DisplayDisplayDeviceInfo.YRes = 480
+	DisplayDisplayDeviceInfo.ColorDepth = 16
+	DisplayDisplayDeviceInfo.RefreshRate = 0
+	DisplayDisplayDeviceInfo.NumPages = 0
+
+	Display.Open DisplayDisplayDeviceInfo
+	c.SetAttrib "Display.RefreshRate", Format$(Display.CalculatedRefreshRate, "0.000")
+
+	Set Sound = New SoundDevice
+	Sound.Name = "Sound"
+
+	Dim SoundSoundOutDeviceInfo As SoundDeviceInfo
+	SoundSoundOutDeviceInfo.Channels = 2
+	SoundSoundOutDeviceInfo.SamplesPerSecond = 22050
+	SoundSoundOutDeviceInfo.BitsPerSample = 16
+	
+	Set Keyboard = New KeyboardDevice
+	Keyboard.Name = "Keyboard"
+
+	Dim KeyboardKeyboardDeviceInfo as KeyboardDeviceInfo
+	KeyboardKeyboardDeviceInfo.CollectionMode = ebPressesOnly
+	KeyboardKeyboardDeviceInfo.CapsLock = ebCapsLockOff
+	KeyboardKeyboardDeviceInfo.NumLock = ebNumLockOff
+	Keyboard.Open KeyboardKeyboardDeviceInfo
+	
+	Set Mouse = New MouseDevice
+	Mouse.Name = "Mouse"
+
+	Dim MouseMouseDeviceInfo as MouseDeviceInfo
+	MouseMouseDeviceInfo.OpenMode = ebMouseOpenModeDirect
+	MouseMouseDeviceInfo.CollectionMode = ebPressesOnly
+	MouseMouseDeviceInfo.ShowCursor = False
+	Mouse.Open MouseMouseDeviceInfo
+
+
+	SetOSThreadPriority 0
+
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+' InitObjects
+'
+'--------------------------------------------------------------------------
+Sub InitObjects(c As Context)
+
+	Set SessionProc = New Procedure
+	SessionProc.Name = "SessionProc"
+	SessionProc.Tag = ""
+	SessionProc.Subroutine = "SessionProc_Run"
+
+	Set Instructions1 = New TextDisplay
+	Instructions1.Name = "Instructions1"
+	Instructions1.Tag = ""
+
+	Set Instructions1EchoClients = New EchoClientCollection
+
+	InitTextDisplayDefaults Instructions1
+
+	Instructions1.Text = "Type your instructions here\n\n<press SPACE to continue>"
+	Instructions1.Duration = CLng("100000")
+	Instructions1.TimingMode = ebTimingModeEvent
+	Instructions1.PreRelease = Val("0")
+
+	Instructions1.OnsetSync = 1
+	Instructions1.OffsetSync = 0
+
+	Set Instructions2 = New TextDisplay
+	Instructions2.Name = "Instructions2"
+	Instructions2.Tag = ""
+
+	Set Instructions2EchoClients = New EchoClientCollection
+
+	InitTextDisplayDefaults Instructions2
+
+	Instructions2.Text = "Type your instructions here2\n\n<press SPACE to continue>"
+	Instructions2.Duration = CLng("100000")
+	Instructions2.TimingMode = ebTimingModeEvent
+	Instructions2.PreRelease = Val("0")
+
+	Instructions2.OnsetSync = 1
+	Instructions2.OffsetSync = 0
+
+	Set Instructions3 = New TextDisplay
+	Instructions3.Name = "Instructions3"
+	Instructions3.Tag = ""
+
+	Set Instructions3EchoClients = New EchoClientCollection
+
+	InitTextDisplayDefaults Instructions3
+
+	Instructions3.Text = "Type you instructions here3\n\n<press SPACE to continue>"
+	Instructions3.Duration = CLng("100000")
+	Instructions3.TimingMode = ebTimingModeEvent
+	Instructions3.PreRelease = Val("0")
+
+	Instructions3.OnsetSync = 1
+	Instructions3.OffsetSync = 0
+
+	Set List1 = New List
+	List1.Name = "List1"
+	List1.Tag = ""
+
+	'Initialization for List1
+	
+	Set List1.Order = New SequentialOrder
+	Set List1.Deletion = NoDeletion
+	List1.ResetEveryRun = False
+
+	' Create the column headings
+	List1.AddAttrib "Stimulus"
+
+
+	' Add the Levels and fill their values
+	List1.AddLevel "1"
+	List1.SetWeight "1", "1"
+	List1.SetProc "1", "LearnThem"
+	'Nested not specified for this level
+	List1.SetAttrib "1", "Stimulus", "hierarch.bmp"
+	List1.AddLevel "2"
+	List1.SetWeight "2", "1"
+	List1.SetProc "2", "LearnThem"
+	'Nested not specified for this level
+	List1.SetAttrib "2", "Stimulus", "nostruct.bmp"
+	List1.Filename = ""
+	List1.LoadMethod = ebLoadMethodScript
+
+	Set List1.TerminateCondition = Cycles(1)
+	Set List1.ResetCondition = Samples(2)
+	List1.Reset
+	
+	Set LearnThem = New Procedure
+	LearnThem.Name = "LearnThem"
+	LearnThem.Tag = ""
+	LearnThem.Subroutine = "LearnThem_Run"
+
+	Set Stimulus = New ImageDisplay
+	Stimulus.Name = "Stimulus"
+	Stimulus.Tag = ""
+
+	InitImageDisplayDefaults Stimulus
+
+	Stimulus.BackColor = CColor("white")
+	Stimulus.Duration = CLng("10000")
+	Stimulus.TimingMode = ebTimingModeEvent
+	Stimulus.PreRelease = Val("0")
+
+	Stimulus.OnsetSync = 1
+	Stimulus.OffsetSync = 0
+
+	Set noStruct = New ImageDisplay
+	noStruct.Name = "noStruct"
+	noStruct.Tag = ""
+
+	InitImageDisplayDefaults noStruct
+
+	noStruct.BackColor = CColor("white")
+	noStruct.Duration = CLng("10000")
+	noStruct.TimingMode = ebTimingModeEvent
+	noStruct.PreRelease = Val("0")
+
+	noStruct.OnsetSync = 1
+	noStruct.OffsetSync = 0
+
+	Set FixCross = New TextDisplay
+	FixCross.Name = "FixCross"
+	FixCross.Tag = ""
+
+	InitTextDisplayDefaults FixCross
+
+	FixCross.Text = "+"
+	FixCross.Duration = CLng("1000")
+	FixCross.TimingMode = ebTimingModeEvent
+	FixCross.PreRelease = Val("0")
+
+	FixCross.OnsetSync = 1
+	FixCross.OffsetSync = 0
+
+	Set TextDisplay1 = New TextDisplay
+	TextDisplay1.Name = "TextDisplay1"
+	TextDisplay1.Tag = ""
+
+	Set TextDisplay1EchoClients = New EchoClientCollection
+
+	InitTextDisplayDefaults TextDisplay1
+
+	TextDisplay1.Text = "Now please recall as many of those words as possible"
+	TextDisplay1.Duration = CLng("50000")
+	TextDisplay1.TimingMode = ebTimingModeEvent
+	TextDisplay1.PreRelease = Val("0")
+
+	TextDisplay1.OnsetSync = 1
+	TextDisplay1.OffsetSync = 0
+
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+' InitPackages
+'
+'--------------------------------------------------------------------------
+Sub InitPackages(c As Context)
+
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+'--------------------------------------------------------------------------
+' UnInitDevices
+'--------------------------------------------------------------------------
+Sub UnInitDevices()
+	Display.Close
+	Set Display = Nothing
+
+	Keyboard.Close
+	Set Keyboard = Nothing
+
+	Mouse.Close
+	Set Mouse = Nothing
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+'--------------------------------------------------------------------------
+' UnInitPackages
+'--------------------------------------------------------------------------
+Sub UnInitPackages()
+End Sub
+
+
+'--------------------------------------------------------------------------
+' UnInitObjects
+'
+'--------------------------------------------------------------------------
+Sub UnInitObjects()
+
+	Set SessionProc = Nothing
+
+	Set Instructions1 = Nothing
+
+	Set Instructions1EchoClients = Nothing
+
+	Set Instructions2 = Nothing
+
+	Set Instructions2EchoClients = Nothing
+
+	Set Instructions3 = Nothing
+
+	Set Instructions3EchoClients = Nothing
+
+	Set List1 = Nothing
+
+	Set LearnThem = Nothing
+
+	Set Stimulus = Nothing
+
+	Set noStruct = Nothing
+
+	Set FixCross = Nothing
+
+	Set TextDisplay1 = Nothing
+
+	Set TextDisplay1EchoClients = Nothing
+
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+' Main
+'
+'--------------------------------------------------------------------------
+Sub Main()
+
+	CreateDefaultPort
+
+	' Create and initialize the default context, data file,
+	' and provide global access to the context.
+	Dim c As Context
+	Set c = New Context
+	Set c.DataFile = New DataFile
+	c.PushNewFrame
+	Set ebContext = c
+
+	' Set the log level names
+	c.SetLogLevelName 1, "Session"
+	c.SetLogLevelName 2, "Block"
+	c.SetLogLevelName 3, "Trial"
+	c.SetLogLevelName 4, "SubTrial"
+	c.SetLogLevelName 5, "LogLevel5"
+	c.SetLogLevelName 6, "LogLevel6"
+	c.SetLogLevelName 7, "LogLevel7"
+	c.SetLogLevelName 8, "LogLevel8"
+	c.SetLogLevelName 9, "LogLevel9"
+	c.SetLogLevelName 10, "LogLevel10"
+
+	' Set standard logging items
+	ebContext.SetAttrib "Experiment", "Structure&Memory"
+	ebContext.SetAttrib "SessionDate", Date$
+	ebContext.SetAttrib "SessionTime", Time$
+	ebContext.SetAttrib "RandomSeed", PRNG.GetSeed()
+
+	If Basic.OS = ebWin32 Then
+		WinActivate "E-Run Experiment Window"
+	End If
+
+	' Get the StartupInfo
+	' Set default for GroupNumber
+	c.SetAttrib "Group", "1"
+
+
+	' Set the defaults for all of the StartupInfo
+	c.SetAttrib "Subject", "1"
+	c.SetAttrib "Session", "1"
+
+	Dim vAnswer As Variant
+StartupInfo_Begin:
+
+StartupInfoPrompt_Subject:
+	vAnswer = AskBox("Please enter the Subject Number (0-32767):", c.GetAttrib("Subject"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Subject
+		ElseIf CLng(vAnswer) < 0 Then
+			MsgBox "The value for Subject must not be less than 0"
+			GoTo StartupInfoPrompt_Subject
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for Subject must be not be greater than 32767"
+			GoTo StartupInfoPrompt_Subject
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Subject", CStr(vAnswer)
+
+StartupInfoPrompt_Session:
+	vAnswer = AskBox("Please enter the Session Number (0-32767):", c.GetAttrib("Session"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Session
+		ElseIf CLng(vAnswer) < 0 Then
+			MsgBox "The value for Session must not be less than 0"
+			GoTo StartupInfoPrompt_Session
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for Session must be not be greater than 32767"
+			GoTo StartupInfoPrompt_Session
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Session", CStr(vAnswer)
+
+	' Display the summary
+	Dim strSummary As String
+	strSummary = "Subject:    " & c.GetAttrib("Subject") & "\n"
+	strSummary = strSummary & "Session:    " & c.GetAttrib("Session") & "\n"
+	strSummary = strSummary & "\nContinue with the above startup info?"
+
+	Dim nSummaryAnswer As Integer
+	nSummaryAnswer = MsgBox(strSummary, ebYesNoCancel + ebQuestion, "Summary of Startup Info")
+	If nSummaryAnswer = ebNo Then
+		GoTo StartupInfo_Begin
+	ElseIf nSummaryAnswer = ebCancel Then
+		GoTo ExperimentAbort
+	End If
+
+
+	' Set the default Data Filename
+	c.DataFile.Filename = CStr(c.GetAttrib("Experiment")) & "-" & CStr(c.GetAttrib("Subject")) & "-" & CStr(c.GetAttrib("Session")) & ".txt"
+
+	' If we are logging data, then prompt to overwrite the data file if it exists
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		If FileExists(c.DataFile.Filename) Then
+			If ebYes <> MsgBox("WARNING: The data file and/or recovery file already exists:\nFILE: " & c.DataFile.Filename & "\n\nDo you want to overwrite?", ebYesNo + ebQuestion) Then
+				GoTo ExperimentAbort
+			End If
+		End If
+	End If
+
+	' Initialize all system devices, packages, and objects
+	InitDevices c
+	InitPackages c
+	InitObjects c
+
+	' If we are logging data, then open the datafile
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		c.DataFile.Open
+		c.LogHeader
+	End If
+
+	' Start the running of the Experiment
+	SessionProc.Run c
+
+	' Clean up the context and close the datafile
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		c.DataFile.Close
+		' Attempt to convert the recovery file into a data file
+		Dim nConvert As Long
+		nConvert = c.DataFile.Convert(ebProgressSimple)
+		If nConvert = 0 Then
+			' Settings in E-Studio are set to not remove E-Recovery file
+		Else
+			' The datafile failed to convert!
+			MsgBox "ERROR: The datafile did not convert!\nFILE: " & c.DataFile.Filename & "\n\nIt is recommended that you recover your data with the E-Recovery utility"
+			MsgBox c.DataFile.GetLastErrorMessage()
+		End If
+	End If
+ExperimentFinish:
+
+	UnInitObjects
+
+	UnInitPackages
+	UnInitDevices
+
+ExperimentAbort:
+
+	' Clean up the context
+	c.PopFrame
+	Set c = Nothing
+	Set ebContext = Nothing
+
+	DestroyDefaultPort
+
+End Sub

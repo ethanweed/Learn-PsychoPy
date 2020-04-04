@@ -1,0 +1,188 @@
+744.9402	WARNING	t of last frame was 2268.61ms (=1/0)
+748.6771	EXP	Created sequence: random, trialTypes=20, nReps=1, seed=None
+749.2240	EXP	Created sequence: random, trialTypes=20, nReps=1, seed=None
+749.5047	EXP	Set instr1_text color=white colorSpace=named
+749.5047	EXP	Set instr1_text color=white colorSpace=named
+749.5047	EXP	Set fix color=white colorSpace=named
+749.5047	EXP	Set face color=[ 1.  1.  1.] colorSpace=rgb
+749.5047	EXP	Set nameText color=white colorSpace=named
+749.5047	EXP	Set instrTestText_2 color=white colorSpace=named
+749.5047	EXP	Set fix_recall color=white colorSpace=named
+749.5047	EXP	Set face_recall color=[ 1.  1.  1.] colorSpace=rgb
+749.5047	EXP	Set endText color=white colorSpace=named
+749.5047	EXP	Started presenting instr1_text
+750.5380	DATA	Keypress: space
+750.5544	EXP	Stopped presenting instr1_text
+750.5544	EXP	Started presenting instr1_text
+753.2389	DATA	Keypress: space
+753.2539	EXP	New trial (rep=0, index=0): {u'image': u'faceStims/m4018.jpg', u'name': u'Thomas'}
+754.1872	WARNING	Image 'faceStims/m4018.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+754.4032	EXP	Stopped presenting instr1_text
+754.4032	EXP	Set face size=[ 360.  480.]
+754.4032	EXP	Started presenting fix
+754.4032	EXP	Started presenting face
+754.4032	EXP	Started presenting nameText
+754.4199	EXP	Stopped presenting fix
+758.7693	EXP	New trial (rep=0, index=1): {u'image': u'faceStims/f4026.jpg', u'name': u'Natasha'}
+758.8057	WARNING	Image 'faceStims/f4026.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+758.9186	EXP	Stopped presenting face
+758.9186	EXP	Stopped presenting nameText
+758.9186	EXP	Set face size=[ 360.  480.]
+758.9186	EXP	Started presenting fix
+759.3018	EXP	Stopped presenting fix
+759.3018	EXP	Started presenting face
+759.3018	EXP	Started presenting nameText
+764.2856	EXP	New trial (rep=0, index=2): {u'image': u'faceStims/f4030.jpg', u'name': u'Imogen'}
+764.3140	WARNING	Image 'faceStims/f4030.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+764.4336	EXP	Stopped presenting face
+764.4336	EXP	Stopped presenting nameText
+764.4336	EXP	Set face size=[ 360.  480.]
+764.4336	EXP	Started presenting fix
+764.8168	EXP	Stopped presenting fix
+764.8168	EXP	Started presenting face
+764.8168	EXP	Started presenting nameText
+769.7990	EXP	New trial (rep=0, index=3): {u'image': u'faceStims/f4016.jpg', u'name': u'Amy'}
+769.8282	WARNING	Image 'faceStims/f4016.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+769.9318	EXP	Stopped presenting face
+769.9318	EXP	Stopped presenting nameText
+769.9318	EXP	Set face size=[ 360.  480.]
+769.9318	EXP	Started presenting fix
+770.3319	EXP	Stopped presenting fix
+770.3319	EXP	Started presenting face
+770.3319	EXP	Started presenting nameText
+775.3141	EXP	New trial (rep=0, index=4): {u'image': u'faceStims/f4001.jpg', u'name': u'Joanna'}
+775.3617	WARNING	Image 'faceStims/f4001.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+775.4803	EXP	Stopped presenting face
+775.4803	EXP	Stopped presenting nameText
+775.4803	EXP	Set face size=[ 360.  480.]
+775.4803	EXP	Started presenting fix
+775.8469	EXP	Stopped presenting fix
+775.8469	EXP	Started presenting face
+775.8469	EXP	Started presenting nameText
+780.8290	EXP	New trial (rep=0, index=5): {u'image': u'faceStims/f4009.jpg', u'name': u'Bethany'}
+780.9164	WARNING	Image 'faceStims/f4009.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+781.0285	EXP	Stopped presenting face
+781.0285	EXP	Stopped presenting nameText
+781.0285	EXP	Set face size=[ 360.  480.]
+781.0285	EXP	Started presenting fix
+781.3618	EXP	Stopped presenting fix
+781.3618	EXP	Started presenting face
+781.3618	EXP	Started presenting nameText
+786.3441	EXP	New trial (rep=0, index=6): {u'image': u'faceStims/f4029.jpg', u'name': u'Zoe'}
+786.4065	WARNING	Image 'faceStims/f4029.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+786.5102	EXP	Stopped presenting face
+786.5102	EXP	Stopped presenting nameText
+786.5102	EXP	Set face size=[ 360.  480.]
+786.5102	EXP	Started presenting fix
+786.8768	EXP	Stopped presenting fix
+786.8768	EXP	Started presenting face
+786.8768	EXP	Started presenting nameText
+791.8590	EXP	New trial (rep=0, index=7): {u'image': u'faceStims/m4026.jpg', u'name': u'Harry'}
+791.9333	WARNING	Image 'faceStims/m4026.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+792.0421	EXP	Stopped presenting face
+792.0421	EXP	Stopped presenting nameText
+792.0421	EXP	Set face size=[ 360.  480.]
+792.0421	EXP	Started presenting fix
+792.3918	EXP	Stopped presenting fix
+792.3918	EXP	Started presenting face
+792.3918	EXP	Started presenting nameText
+797.3740	EXP	New trial (rep=0, index=8): {u'image': u'faceStims/m4077.jpg', u'name': u'William'}
+797.4311	WARNING	Image 'faceStims/m4077.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+797.5403	EXP	Stopped presenting face
+797.5403	EXP	Stopped presenting nameText
+797.5403	EXP	Set face size=[ 360.  480.]
+797.5403	EXP	Started presenting fix
+797.9069	EXP	Stopped presenting fix
+797.9069	EXP	Started presenting face
+797.9069	EXP	Started presenting nameText
+802.8891	EXP	New trial (rep=0, index=9): {u'image': u'faceStims/f4021.jpg', u'name': u'Phoebe'}
+802.9726	WARNING	Image 'faceStims/f4021.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+803.0720	EXP	Stopped presenting face
+803.0720	EXP	Stopped presenting nameText
+803.0720	EXP	Set face size=[ 360.  480.]
+803.0720	EXP	Started presenting fix
+803.4219	EXP	Stopped presenting fix
+803.4219	EXP	Started presenting face
+803.4219	EXP	Started presenting nameText
+808.4040	EXP	New trial (rep=0, index=10): {u'image': u'faceStims/m4066.jpg', u'name': u'Callum'}
+808.4353	WARNING	Image 'faceStims/m4066.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+808.5536	EXP	Stopped presenting face
+808.5536	EXP	Stopped presenting nameText
+808.5536	EXP	Set face size=[ 360.  480.]
+808.5536	EXP	Started presenting fix
+808.9368	EXP	Stopped presenting fix
+808.9368	EXP	Started presenting face
+808.9368	EXP	Started presenting nameText
+813.9191	EXP	New trial (rep=0, index=11): {u'image': u'faceStims/f4017.jpg', u'name': u'Katie'}
+813.9649	WARNING	Image 'faceStims/f4017.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+814.0853	EXP	Stopped presenting face
+814.0853	EXP	Stopped presenting nameText
+814.0853	EXP	Set face size=[ 360.  480.]
+814.0853	EXP	Started presenting fix
+814.4519	EXP	Stopped presenting fix
+814.4519	EXP	Started presenting face
+814.4519	EXP	Started presenting nameText
+819.4348	EXP	New trial (rep=0, index=12): {u'image': u'faceStims/m4024.jpg', u'name': u'Daniel'}
+819.4948	WARNING	Image 'faceStims/m4024.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+819.6003	EXP	Stopped presenting face
+819.6003	EXP	Stopped presenting nameText
+819.6003	EXP	Set face size=[ 360.  480.]
+819.6003	EXP	Started presenting fix
+819.9669	EXP	Stopped presenting fix
+819.9669	EXP	Started presenting face
+819.9669	EXP	Started presenting nameText
+824.9490	EXP	New trial (rep=0, index=13): {u'image': u'faceStims/m4064.jpg', u'name': u'Matthew'}
+825.0031	WARNING	Image 'faceStims/m4064.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+825.1153	EXP	Stopped presenting face
+825.1153	EXP	Stopped presenting nameText
+825.1153	EXP	Set face size=[ 360.  480.]
+825.1153	EXP	Started presenting fix
+825.4820	EXP	Stopped presenting fix
+825.4820	EXP	Started presenting face
+825.4820	EXP	Started presenting nameText
+830.4643	EXP	New trial (rep=0, index=14): {u'image': u'faceStims/f4002.jpg', u'name': u'Helen'}
+830.5268	WARNING	Image 'faceStims/f4002.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+830.6470	EXP	Stopped presenting face
+830.6470	EXP	Stopped presenting nameText
+830.6470	EXP	Set face size=[ 360.  480.]
+830.6470	EXP	Started presenting fix
+830.9968	EXP	Stopped presenting fix
+830.9968	EXP	Started presenting face
+830.9968	EXP	Started presenting nameText
+835.9791	EXP	New trial (rep=0, index=15): {u'image': u'faceStims/m4076.jpg', u'name': u'Luke'}
+836.0307	WARNING	Image 'faceStims/m4076.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+836.1453	EXP	Stopped presenting face
+836.1453	EXP	Stopped presenting nameText
+836.1453	EXP	Set face size=[ 360.  480.]
+836.1453	EXP	Started presenting fix
+836.5119	EXP	Stopped presenting fix
+836.5119	EXP	Started presenting face
+836.5119	EXP	Started presenting nameText
+841.4941	EXP	New trial (rep=0, index=16): {u'image': u'faceStims/f4006.jpg', u'name': u'Rebecca'}
+841.5476	WARNING	Image 'faceStims/f4006.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+841.6603	EXP	Stopped presenting face
+841.6603	EXP	Stopped presenting nameText
+841.6603	EXP	Set face size=[ 360.  480.]
+841.6603	EXP	Started presenting fix
+842.0270	EXP	Stopped presenting fix
+842.0270	EXP	Started presenting face
+842.0270	EXP	Started presenting nameText
+847.0091	EXP	New trial (rep=0, index=17): {u'image': u'faceStims/m4029.jpg', u'name': u'Samuel'}
+847.0694	WARNING	Image 'faceStims/m4029.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+847.1753	EXP	Stopped presenting face
+847.1753	EXP	Stopped presenting nameText
+847.1753	EXP	Set face size=[ 360.  480.]
+847.1753	EXP	Started presenting fix
+847.5419	EXP	Stopped presenting fix
+847.5419	EXP	Started presenting face
+847.5419	EXP	Started presenting nameText
+852.5240	EXP	New trial (rep=0, index=18): {u'image': u'faceStims/m4012.jpg', u'name': u'Jack'}
+852.5891	WARNING	Image 'faceStims/m4012.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+852.6903	EXP	Stopped presenting face
+852.6903	EXP	Stopped presenting nameText
+852.6903	EXP	Set face size=[ 360.  480.]
+852.6903	EXP	Started presenting fix
+853.0569	EXP	Stopped presenting fix
+853.0569	EXP	Started presenting face
+853.0569	EXP	Started presenting nameText
+855.4564	DATA	Keypress: escape

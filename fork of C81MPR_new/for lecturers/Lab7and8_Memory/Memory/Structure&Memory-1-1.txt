@@ -1,0 +1,50 @@
+*** Header Start ***
+VersionPersist: 1
+LevelName: Session
+LevelName: Block
+LevelName: Trial
+LevelName: SubTrial
+LevelName: LogLevel5
+LevelName: LogLevel6
+LevelName: LogLevel7
+LevelName: LogLevel8
+LevelName: LogLevel9
+LevelName: LogLevel10
+Experiment: Structure&Memory
+SessionDate: 02-16-2006
+SessionTime: 10:50:32
+RandomSeed: 863757548
+Group: 1
+Subject: 1
+Session: 1
+Display.RefreshRate: 69.998
+*** Header End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 1
+	Stimulus: hierarch.bmp
+	Procedure: LearnThem
+	List1.Cycle: 1
+	List1.Sample: 1
+	Running: List1
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	List1: 2
+	Stimulus: nostruct.bmp
+	Procedure: LearnThem
+	List1.Cycle: 1
+	List1.Sample: 2
+	Running: List1
+	*** LogFrame End ***
+Level: 1
+*** LogFrame Start ***
+Experiment: Structure&Memory
+SessionDate: 02-16-2006
+SessionTime: 10:50:32
+RandomSeed: 863757548
+Group: 1
+Subject: 1
+Session: 1
+Display.RefreshRate: 69.998
+*** LogFrame End ***

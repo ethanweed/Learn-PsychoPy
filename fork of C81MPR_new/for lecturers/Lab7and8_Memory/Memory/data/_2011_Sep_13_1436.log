@@ -1,0 +1,41 @@
+220.0811	EXP	Created sequence: random, trialTypes=20, nReps=1, seed=None
+220.3443	EXP	Created sequence: random, trialTypes=20, nReps=1, seed=None
+220.5095	EXP	Set instr1_text color=white colorSpace=named
+220.5095	EXP	Set instr1_text color=white colorSpace=named
+220.5095	EXP	Set fix color=white colorSpace=named
+220.5095	EXP	Set face color=[ 1.  1.  1.] colorSpace=rgb
+220.5095	EXP	Set nameText color=white colorSpace=named
+220.5095	EXP	Set instrTestText_2 color=white colorSpace=named
+220.5095	EXP	Set fix_recall color=white colorSpace=named
+220.5095	EXP	Set face_recall color=[ 1.  1.  1.] colorSpace=rgb
+220.5095	EXP	Set endText color=white colorSpace=named
+220.5095	EXP	Started presenting instr1_text
+225.9915	DATA	Keypress: space
+226.0080	EXP	Stopped presenting instr1_text
+226.0080	EXP	Started presenting instr1_text
+228.3241	DATA	Keypress: space
+228.3244	EXP	New trial (rep=0, index=0): {u'image': u'faceStims/f021.bmp', u'name': u'Bethany'}
+228.5294	WARNING	Image 'faceStims/f021.bmp' was not a square power-of-two image. Linearly interpolating to be 1024x1024
+228.7404	EXP	Stopped presenting instr1_text
+228.7404	EXP	Started presenting fix
+228.8570	EXP	Stopped presenting fix
+228.8570	EXP	Started presenting face
+228.8570	EXP	Started presenting nameText
+231.5232	DATA	Keypress: space
+233.8392	EXP	New trial (rep=0, index=1): {u'image': u'faceStims/m004.bmp', u'name': u'Thomas'}
+233.8426	WARNING	Image 'faceStims/m004.bmp' was not a square power-of-two image. Linearly interpolating to be 512x512
+233.9055	EXP	Stopped presenting face
+233.9055	EXP	Stopped presenting nameText
+233.9055	EXP	Started presenting fix
+234.3720	EXP	Stopped presenting fix
+234.3720	EXP	Started presenting face
+234.3720	EXP	Started presenting nameText
+239.3542	EXP	New trial (rep=0, index=2): {u'image': u'faceStims/m075.bmp', u'name': u'Callum'}
+239.3564	WARNING	Image 'faceStims/m075.bmp' was not a square power-of-two image. Linearly interpolating to be 1024x1024
+239.5704	EXP	Stopped presenting face
+239.5704	EXP	Stopped presenting nameText
+239.5704	EXP	Started presenting fix
+239.8871	EXP	Stopped presenting fix
+239.8871	EXP	Started presenting face
+239.8871	EXP	Started presenting nameText
+241.5719	DATA	Keypress: escape

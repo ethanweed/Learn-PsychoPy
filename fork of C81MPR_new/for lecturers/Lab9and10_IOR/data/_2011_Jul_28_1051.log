@@ -1,0 +1,12 @@
+5.4387	EXP	Set  color=white colorSpace=named
+5.4387	EXP	Set  color=white colorSpace=named
+5.4387	EXP	Set  color=[ 1.     0.365 -1.   ] colorSpace=rgb
+5.4387	EXP	Set  color=[-0.271 -0.271 -0.271] colorSpace=rgb
+5.4387	EXP	Set  color=[-0.271 -0.271 -0.271] colorSpace=rgb
+5.4387	EXP	Set  color=white colorSpace=named
+5.4387	EXP	Set  color=white colorSpace=named
+6.5896	DATA	Keypress: space
+6.6056	EXP	New trial (rep=0, index=0): {u'SOA': 0.10000000000000001, u'TargetX': 400, u'corrAns': None, u'Validity': u'Notarg', u'CueX': 10}
+6.6219	EXP	Set  pos=[ 10.   0.]
+9.7557	DATA	Keypress: space
+12.4883	DATA	Keypress: escape

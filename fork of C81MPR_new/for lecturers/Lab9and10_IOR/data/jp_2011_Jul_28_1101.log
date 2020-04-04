@@ -1,0 +1,21 @@
+13.5500	EXP	Set  color=white colorSpace=named
+13.5500	EXP	Set  color=white colorSpace=named
+13.5500	EXP	Set  color=[ 1.     0.365 -1.   ] colorSpace=rgb
+13.5500	EXP	Set  color=[-0.271 -0.271 -0.271] colorSpace=rgb
+13.5500	EXP	Set  color=[-0.271 -0.271 -0.271] colorSpace=rgb
+13.5500	EXP	Set  color=white colorSpace=named
+13.5500	EXP	Set  color=white colorSpace=named
+13.5500	EXP	Set  color=white colorSpace=named
+15.6840	DATA	Keypress: space
+15.7000	EXP	New trial (rep=0, index=0): {u'SOA': 0.10000000000000001, u'TargetX': -10, u'corrAns': u'space', u'Validity': u'Invalid', u'CueX': 10}
+15.7165	EXP	Set  pos=[ 10.   0.]
+15.7165	EXP	Set  pos=[-10.   0.]
+18.8519	DATA	Keypress: space
+18.8669	EXP	New trial (rep=0, index=1): {u'SOA': 0.10000000000000001, u'TargetX': 400, u'corrAns': None, u'Validity': u'Notarg', u'CueX': -10}
+18.8827	EXP	Set  pos=[-10.   0.]
+18.8827	EXP	Set  pos=[ 400.    0.]
+27.3487	DATA	Keypress: space
+29.9819	DATA	Keypress: space
+31.2817	DATA	Keypress: space
+31.7983	DATA	Keypress: space
+32.1649	DATA	Keypress: escape

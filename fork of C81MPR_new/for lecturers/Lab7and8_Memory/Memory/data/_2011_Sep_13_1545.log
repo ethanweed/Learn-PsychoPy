@@ -1,0 +1,34 @@
+144.7826	EXP	Created sequence: random, trialTypes=20, nReps=1, seed=None
+145.0587	EXP	Created sequence: random, trialTypes=20, nReps=1, seed=None
+145.1350	EXP	Set instr1_text color=white colorSpace=named
+145.1350	EXP	Set instr1_text color=white colorSpace=named
+145.1350	EXP	Set fix color=white colorSpace=named
+145.1350	EXP	Set face color=[ 1.  1.  1.] colorSpace=rgb
+145.1350	EXP	Set nameText color=white colorSpace=named
+145.1350	EXP	Set instrTestText_2 color=white colorSpace=named
+145.1350	EXP	Set fix_recall color=white colorSpace=named
+145.1350	EXP	Set face_recall color=[ 1.  1.  1.] colorSpace=rgb
+145.1350	EXP	Set endText color=white colorSpace=named
+145.1350	EXP	Started presenting instr1_text
+146.0683	DATA	Keypress: space
+146.0848	EXP	Stopped presenting instr1_text
+146.0848	EXP	Started presenting instr1_text
+156.5151	DATA	Keypress: space
+156.5154	EXP	New trial (rep=0, index=0): {u'image': u'faceStims/m4018.jpg', u'name': u'Thomas'}
+157.7741	WARNING	Image 'faceStims/m4018.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+157.8811	EXP	Stopped presenting instr1_text
+157.8811	EXP	Started presenting fix
+157.8811	EXP	Started presenting face
+157.8811	EXP	Started presenting nameText
+157.8979	EXP	Stopped presenting fix
+162.0304	EXP	New trial (rep=0, index=1): {u'image': u'faceStims/f4017.jpg', u'name': u'Katie'}
+162.0664	WARNING	Image 'faceStims/f4017.jpg' was not a square power-of-two image. Linearly interpolating to be 512x512
+162.1805	DATA	Keypress: space
+162.1966	EXP	Stopped presenting face
+162.1966	EXP	Stopped presenting nameText
+162.1966	EXP	Started presenting fix
+162.5632	EXP	Stopped presenting fix
+162.5632	EXP	Started presenting face
+162.5632	EXP	Started presenting nameText
+164.6461	DATA	Keypress: space
+166.5456	DATA	Keypress: escape

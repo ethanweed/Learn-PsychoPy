@@ -1,0 +1,127 @@
+<PsychoPy2experiment version="1.62.00" encoding="utf-8">
+  <Settings>
+    <Param name="Monitor" val="testMonitor" valType="str" updates="None"/>
+    <Param name="color" val="$[0,0,0]" valType="str" updates="None"/>
+    <Param name="Window size (pixels)" val="[2560, 1440]" valType="code" updates="None"/>
+    <Param name="Full-screen window" val="True" valType="bool" updates="None"/>
+    <Param name="colorSpace" val="rgb" valType="str" updates="None"/>
+    <Param name="Save log file" val="True" valType="bool" updates="None"/>
+    <Param name="Experiment info" val="{'participant':'', 'session':'005', 'gender':'', 'age':''}" valType="code" updates="None"/>
+    <Param name="Show info dlg" val="True" valType="bool" updates="None"/>
+    <Param name="logging level" val="warning" valType="code" updates="None"/>
+    <Param name="Units" val="use prefs" valType="str" updates="None"/>
+    <Param name="Screen" val="1" valType="num" updates="None"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <TextComponent name="fixation">
+        <Param name="name" val="fixation" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="+" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="duration" val="0.5" valType="code" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+        <Param name="startTime" val="0.0" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="units" val="window units" valType="str" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+      </TextComponent>
+      <PatchComponent name="target">
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="name" val="target" valType="code" updates="constant"/>
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="image" val="$image" valType="str" updates="set every repeat"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="mask" val="none" valType="str" updates="constant"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="interpolate" val="nearest" valType="str" updates="constant"/>
+        <Param name="duration" val="1.5" valType="code" updates="constant"/>
+        <Param name="phase" val="0.0" valType="code" updates="constant"/>
+        <Param name="startTime" val="1.0" valType="code" updates="constant"/>
+        <Param name="ori" val="$orientation" valType="code" updates="set every repeat"/>
+        <Param name="units" val="pix" valType="str" updates="None"/>
+        <Param name="sf" val="None" valType="code" updates="constant"/>
+        <Param name="advancedParams"/>
+        <Param name="size" val="[400,400]" valType="code" updates="constant"/>
+      </PatchComponent>
+      <KeyboardComponent name="resp">
+        <Param name="storeCorrect" val="True" valType="bool" updates="constant"/>
+        <Param name="name" val="resp" valType="code" updates="None"/>
+        <Param name="forceEndTrial" val="True" valType="bool" updates="constant"/>
+        <Param name="correctAns" val="$corrAns" valType="str" updates="constant"/>
+        <Param name="storeResponseTime" val="True" valType="bool" updates="constant"/>
+        <Param name="startTime" val="1.0" valType="code" updates="constant"/>
+        <Param name="allowedKeys" val="[&quot;left&quot;,&quot;right&quot;]" valType="str" updates="constant"/>
+        <Param name="duration" val="1.5" valType="code" updates="constant"/>
+        <Param name="store" val="last key" valType="str" updates="constant"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="goodbye">
+      <TextComponent name="thanksText">
+        <Param name="name" val="thanksText" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="Thanks and goodbye to you!&#10;" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="duration" val="" valType="code" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+        <Param name="startTime" val="0.0" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="units" val="window units" valType="str" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+      </TextComponent>
+      <KeyboardComponent name="endInstr">
+        <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
+        <Param name="name" val="endInstr" valType="code" updates="None"/>
+        <Param name="forceEndTrial" val="True" valType="bool" updates="constant"/>
+        <Param name="correctAns" val="" valType="str" updates="constant"/>
+        <Param name="storeResponseTime" val="False" valType="bool" updates="constant"/>
+        <Param name="startTime" val="0.0" valType="code" updates="constant"/>
+        <Param name="allowedKeys" val="" valType="str" updates="constant"/>
+        <Param name="duration" val="" valType="code" updates="constant"/>
+        <Param name="store" val="nothing" valType="str" updates="constant"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instructions">
+      <TextComponent name="instrText">
+        <Param name="name" val="instrText" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="In this experiment you need to respond by pressing;&#10;  LEFT cursor when the letter is NORMAL&#10;  RIGHT cursor when it's MIRRORED&#10;&#10;Please respond as quickly and accurately as you can&#10;&#10;Press any key to start&#10;" valType="str" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="duration" val="" valType="code" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+        <Param name="startTime" val="0.0" valType="code" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="units" val="window units" valType="str" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+      </TextComponent>
+      <KeyboardComponent name="endInstr">
+        <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
+        <Param name="name" val="endInstr" valType="code" updates="None"/>
+        <Param name="forceEndTrial" val="True" valType="bool" updates="constant"/>
+        <Param name="correctAns" val="" valType="str" updates="constant"/>
+        <Param name="storeResponseTime" val="False" valType="bool" updates="constant"/>
+        <Param name="startTime" val="0.0" valType="code" updates="constant"/>
+        <Param name="allowedKeys" val="" valType="str" updates="constant"/>
+        <Param name="duration" val="" valType="code" updates="constant"/>
+        <Param name="store" val="nothing" valType="str" updates="constant"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="name" val="trials" valType="code" updates="None"/>
+      <Param name="loopType" val="random" valType="str" updates="None"/>
+      <Param name="nReps" val="2" valType="num" updates="None"/>
+      <Param name="trialList" val="[{u'image': u'G.png', u'orientation': 0, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 10, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 20, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 30, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 40, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 50, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 60, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 70, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 80, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 90, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 100, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 110, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 120, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 130, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 140, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 150, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 160, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 170, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'G.png', u'orientation': 180, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'revG.png', u'orientation': 0, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 10, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 20, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 30, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 40, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 50, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 60, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 70, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 80, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 90, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 100, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 110, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 120, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 130, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 140, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 150, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 160, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 170, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revG.png', u'orientation': 180, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'R.png', u'orientation': 0, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 10, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 20, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 30, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 40, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 50, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 60, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 70, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 80, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 90, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 100, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 110, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 120, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 130, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 140, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 150, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 160, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 170, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'R.png', u'orientation': 180, u'mirrored': 0, u'corrAns': u'left'}, {u'image': u'revR.png', u'orientation': 0, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 10, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 20, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 30, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 40, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 50, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 60, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 70, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 80, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 90, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 100, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 110, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 120, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 130, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 140, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 150, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 160, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 170, u'mirrored': 1, u'corrAns': u'right'}, {u'image': u'revR.png', u'orientation': 180, u'mirrored': 1, u'corrAns': u'right'}]" valType="str" updates="None"/>
+      <Param name="trialListFile" val="trialtypes.xlsx" valType="str" updates="None"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="goodbye"/>
+  </Flow>
+</PsychoPy2experiment>

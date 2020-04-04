@@ -1,0 +1,13 @@
+TODO
+
+Memory
+----------
+Teaching about an experiment and an IV/DV?
+Create PP experiment
+    Were faces kept in fixed order for test?
+    What were the wait/forget times? Would these be better put into dialog?
+
+IOR
+---------
+Finish the Component Details on the worksheet to create the experiment in PsychoPy. (A demo of the experiment is provided in the Lecturer's folder)
+Modify analysis section of lecture

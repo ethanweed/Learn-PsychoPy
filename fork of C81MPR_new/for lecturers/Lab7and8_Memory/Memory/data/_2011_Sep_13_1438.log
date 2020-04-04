@@ -1,0 +1,59 @@
+4.5239	EXP	Created sequence: random, trialTypes=20, nReps=1, seed=None
+4.6554	EXP	Created sequence: random, trialTypes=20, nReps=1, seed=None
+4.7168	EXP	Set instr1_text color=white colorSpace=named
+4.7168	EXP	Set instr1_text color=white colorSpace=named
+4.7168	EXP	Set fix color=white colorSpace=named
+4.7168	EXP	Set face color=[ 1.  1.  1.] colorSpace=rgb
+4.7168	EXP	Set nameText color=white colorSpace=named
+4.7168	EXP	Set instrTestText_2 color=white colorSpace=named
+4.7168	EXP	Set fix_recall color=white colorSpace=named
+4.7168	EXP	Set face_recall color=[ 1.  1.  1.] colorSpace=rgb
+4.7168	EXP	Set endText color=white colorSpace=named
+4.7168	EXP	Started presenting instr1_text
+6.1182	DATA	Keypress: space
+6.1497	EXP	Stopped presenting instr1_text
+6.1497	EXP	Started presenting instr1_text
+9.6821	DATA	Keypress: space
+9.6824	EXP	New trial (rep=0, index=0): {u'image': u'faceStims/m004.bmp', u'name': u'Thomas'}
+9.7010	WARNING	Image 'faceStims/m004.bmp' was not a square power-of-two image. Linearly interpolating to be 512x512
+9.7654	EXP	Stopped presenting instr1_text
+9.7654	EXP	Started presenting fix
+10.2151	EXP	Stopped presenting fix
+10.2151	EXP	Started presenting face
+10.2151	EXP	Started presenting nameText
+11.3816	DATA	Keypress: space
+14.0308	DATA	Keypress: space
+15.1973	EXP	New trial (rep=0, index=1): {u'image': u'faceStims/m056.bmp', u'name': u'Harry'}
+15.2005	WARNING	Image 'faceStims/m056.bmp' was not a square power-of-two image. Linearly interpolating to be 1024x1024
+15.4302	EXP	Stopped presenting face
+15.4302	EXP	Stopped presenting nameText
+15.4302	EXP	Started presenting fix
+15.7301	EXP	Stopped presenting fix
+15.7301	EXP	Started presenting face
+15.7301	EXP	Started presenting nameText
+20.7123	EXP	New trial (rep=0, index=2): {u'image': u'faceStims/m078.bmp', u'name': u'Luke'}
+20.7142	WARNING	Image 'faceStims/m078.bmp' was not a square power-of-two image. Linearly interpolating to be 1024x1024
+20.9118	EXP	Stopped presenting face
+20.9118	EXP	Stopped presenting nameText
+20.9118	EXP	Started presenting fix
+21.2451	EXP	Stopped presenting fix
+21.2451	EXP	Started presenting face
+21.2451	EXP	Started presenting nameText
+26.2273	EXP	New trial (rep=0, index=3): {u'image': u'faceStims/f072.bmp', u'name': u'Zoe'}
+26.2301	WARNING	Image 'faceStims/f072.bmp' was not a square power-of-two image. Linearly interpolating to be 1024x1024
+26.4102	EXP	Stopped presenting face
+26.4102	EXP	Stopped presenting nameText
+26.4102	EXP	Started presenting fix
+26.7601	EXP	Stopped presenting fix
+26.7601	EXP	Started presenting face
+26.7601	EXP	Started presenting nameText
+30.1592	DATA	Keypress: space
+31.7423	EXP	New trial (rep=0, index=4): {u'image': u'faceStims/f033.bmp', u'name': u'Katie'}
+31.7442	WARNING	Image 'faceStims/f033.bmp' was not a square power-of-two image. Linearly interpolating to be 1024x1024
+31.9419	EXP	Stopped presenting face
+31.9419	EXP	Stopped presenting nameText
+31.9419	EXP	Started presenting fix
+32.2751	EXP	Stopped presenting fix
+32.2751	EXP	Started presenting face
+32.2751	EXP	Started presenting nameText
+32.8586	DATA	Keypress: escape
