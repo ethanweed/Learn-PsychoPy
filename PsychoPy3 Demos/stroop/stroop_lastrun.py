@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.1.2),
-    on Sat Apr  4 13:24:22 2020
+    on Mon Apr  6 14:24:39 2020
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -95,7 +95,7 @@ ready = keyboard.Keyboard()
 trialClock = core.Clock()
 word = visual.TextStim(win=win, name='word',
     text='default text',
-    font='Arial',
+    font='Ariel',
     pos=[0, 0], height=0.2, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
@@ -206,7 +206,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 trials = data.TrialHandler(nReps=5.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('trialTypes.csv'),
+    trialList=data.importConditions('trialTypes_dan.xlsx'),
     seed=None, name='trials')
 thisExp.addLoop(trials)  # add the loop to the experiment
 thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values

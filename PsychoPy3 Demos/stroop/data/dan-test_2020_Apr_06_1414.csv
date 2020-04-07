@@ -1,0 +1,2 @@
+﻿text,letterColor,corrAns,congruent,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,instrText.started,instrText.stopped,word.started,word.stopped,resp.keys,resp.corr,resp.rt,resp.started,resp.stopped,session,participant,date,expName,psychopyVersion,frameRate,
+blue,red,left,0,0,0,0,5,14.635087066009874,None,15.934568925993517,None,right,0,0.7829132930201013,15.934568925993517,None,01,dan-test,2020_Apr_06_1414,stroop,2020.1.2,59.862530613556245,

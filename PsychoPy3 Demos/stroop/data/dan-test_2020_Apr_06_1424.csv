@@ -1,0 +1,4 @@
+﻿text,letterColor,corrAns,congruent,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,instrText.started,instrText.stopped,word.started,word.stopped,resp.keys,resp.corr,resp.rt,resp.started,resp.stopped,session,participant,date,expName,psychopyVersion,frameRate,
+rød,red,left,1,0,0,0,0,9.16719211099553,None,10.607171111012576,None,down,0,0.5603979369916487,10.607171111012576,None,01,dan-test,2020_Apr_06_1424,stroop,2020.1.2,60.36281128249601,
+blå,blue,right,1,0,1,1,4,,,11.673535448004259,None,left,0,0.2848764350055717,11.673535448004259,None,01,dan-test,2020_Apr_06_1424,stroop,2020.1.2,60.36281128249601,
+rød,green,down,0,0,2,2,1,,,12.473918669013074,None,right,0,0.25149518801481463,12.473918669013074,None,01,dan-test,2020_Apr_06_1424,stroop,2020.1.2,60.36281128249601,
