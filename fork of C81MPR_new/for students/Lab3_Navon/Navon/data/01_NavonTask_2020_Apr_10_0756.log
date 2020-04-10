@@ -1,0 +1,66 @@
+0.8425 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+24.7390 	WARNING 	User requested fullscreen with size [2560 1440], but screen is actually [1680, 1050]. Using actual size
+25.7981 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color='black', colorSpace='named', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x134e79748>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x134ed6470>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+25.7981 	EXP 	window1: recordFrameIntervals = False
+25.9618 	EXP 	window1: recordFrameIntervals = True
+26.1460 	EXP 	window1: recordFrameIntervals = False
+26.3151 	EXP 	Created instruct1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='instruct1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+26.3481 	EXP 	Created fixate = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=2, italic=False, languageStyle='LTR', name='fixate', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='+', units='cm', win=Window(...), wrapWidth=15.0)
+26.3511 	EXP 	Created stimulus = PatchStim(__class__=<class 'psychopy.visual.patch.PatchStim'>, autoDraw=False, autoLog=True, blendmode='avg', color='white', colorSpace='named', contrast=1.0, depth=-1.0, interpolate=True, mask=None, maskParams=None, name='stimulus', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([0.005, 0.005]), size=array([200., 200.]), tex='sin', texRes=128, units='pix', win=Window(...))
+26.4121 	EXP 	Created mask = PatchStim(__class__=<class 'psychopy.visual.patch.PatchStim'>, autoDraw=False, autoLog=True, blendmode='avg', color='white', colorSpace='named', contrast=1.0, depth=-2.0, interpolate=True, mask=None, maskParams=None, name='mask', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([0.005, 0.005]), size=array([200., 200.]), tex='mask.png', texRes=128, units='pix', win=Window(...))
+26.4518 	EXP 	Created feedback_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+26.4794 	EXP 	Created instr2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='instr2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+26.5102 	EXP 	Created fixate = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=2, italic=False, languageStyle='LTR', name='fixate', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='+', units='cm', win=Window(...), wrapWidth=15.0)
+26.5117 	EXP 	Created stimulus = PatchStim(__class__=<class 'psychopy.visual.patch.PatchStim'>, autoDraw=False, autoLog=True, blendmode='avg', color='white', colorSpace='named', contrast=1.0, depth=-1.0, interpolate=True, mask=None, maskParams=None, name='stimulus', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([0.005, 0.005]), size=array([200., 200.]), tex='sin', texRes=128, units='pix', win=Window(...))
+26.5265 	EXP 	Created mask = PatchStim(__class__=<class 'psychopy.visual.patch.PatchStim'>, autoDraw=False, autoLog=True, blendmode='avg', color='white', colorSpace='named', contrast=1.0, depth=-2.0, interpolate=True, mask=None, maskParams=None, name='mask', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([0.005, 0.005]), size=array([200., 200.]), tex='mask.png', texRes=128, units='pix', win=Window(...))
+26.5706 	EXP 	Created thanksMsg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='thanksMsg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text="You're done! Fun, wasn't it!? ;-)", units='norm', win=Window(...), wrapWidth=1)
+26.5971 	EXP 	instruct1: autoDraw = True
+39.0096 	EXP 	Imported trialTypes.xlsx as conditions, 16 conditions, 6 params
+39.0100 	EXP 	Created sequence: random, trialTypes=16, nReps=1, seed=None
+39.0103 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimFile', 'bigHsmallS.png'), ('congruence', 'conflicting'), ('corrAns', 's'), ('xPos', 200), ('yPos', -200), ('location', 'down_right')])
+39.0370 	DATA 	Keypress: space
+39.0708 	EXP 	instruct1: autoDraw = False
+39.0708 	EXP 	stimulus: pos = array([ 200., -200.])
+39.0708 	EXP 	stimulus: tex = 'bigHsmallS.png'
+39.0708 	EXP 	mask: pos = array([ 200., -200.])
+40.0297 	EXP 	fixate: autoDraw = True
+41.0471 	EXP 	fixate: autoDraw = False
+41.0471 	EXP 	stimulus: autoDraw = True
+41.2305 	EXP 	mask: autoDraw = True
+41.2465 	EXP 	stimulus: autoDraw = False
+42.2051 	DATA 	Keypress: h
+42.2304 	EXP 	fixate: autoDraw = False
+42.2304 	EXP 	stimulus: autoDraw = False
+42.2304 	EXP 	mask: autoDraw = False
+42.2304 	EXP 	feedback_2: text = 'Oops! That was wrong'
+42.2304 	EXP 	feedback_2: autoDraw = True
+43.2151 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimFile', 'bigHsmallH.png'), ('congruence', 'consistent'), ('corrAns', 'h'), ('xPos', -200), ('yPos', -200), ('location', 'down_left')])
+43.2504 	EXP 	feedback_2: autoDraw = False
+43.2504 	EXP 	feedback_2: autoDraw = False
+43.2504 	EXP 	stimulus: pos = array([-200., -200.])
+43.2504 	EXP 	stimulus: tex = 'bigHsmallH.png'
+43.2504 	EXP 	mask: pos = array([-200., -200.])
+44.2291 	EXP 	fixate: autoDraw = True
+45.2290 	EXP 	fixate: autoDraw = False
+45.2290 	EXP 	stimulus: autoDraw = True
+45.4290 	EXP 	stimulus: autoDraw = False
+45.4290 	EXP 	mask: autoDraw = True
+47.4065 	DATA 	Keypress: h
+47.4302 	EXP 	fixate: autoDraw = False
+47.4302 	EXP 	stimulus: autoDraw = False
+47.4302 	EXP 	mask: autoDraw = False
+47.4302 	EXP 	feedback_2: text = 'Correct! RT=2.155'
+47.4302 	EXP 	feedback_2: autoDraw = True
+48.4302 	EXP 	New trial (rep=0, index=2): OrderedDict([('stimFile', 'bigSsmallS.png'), ('congruence', 'consistent'), ('corrAns', 's'), ('xPos', -200), ('yPos', 200), ('location', 'up_left')])
+48.4699 	EXP 	feedback_2: autoDraw = False
+48.4699 	EXP 	feedback_2: autoDraw = False
+48.4699 	EXP 	stimulus: pos = array([-200.,  200.])
+48.4699 	EXP 	stimulus: tex = 'bigSsmallS.png'
+48.4699 	EXP 	mask: pos = array([-200.,  200.])
+49.4470 	EXP 	fixate: autoDraw = True
+50.4473 	EXP 	stimulus: autoDraw = True
+50.4628 	EXP 	fixate: autoDraw = False
+50.6449 	EXP 	mask: autoDraw = True
+50.6624 	EXP 	stimulus: autoDraw = False
+52.8822 	DATA 	Keypress: escape
+53.2620 	EXP 	window1: mouseVisible = True

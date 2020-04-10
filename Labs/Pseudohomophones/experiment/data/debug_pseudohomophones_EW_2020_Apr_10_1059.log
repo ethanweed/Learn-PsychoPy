@@ -1,0 +1,640 @@
+0.7887 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.9924 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x13a795780>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x134d9f400>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.9924 	EXP 	window1: recordFrameIntervals = False
+8.1553 	EXP 	window1: recordFrameIntervals = True
+8.3390 	EXP 	window1: recordFrameIntervals = False
+8.4621 	EXP 	Created training_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='training_instr', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.4912 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+8.4953 	EXP 	Created upperStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='upperStim', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.4985 	EXP 	Created lowerStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='lowerStim', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.5406 	EXP 	Created test_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='test_instr', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.5706 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+8.5730 	EXP 	Created upperStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='upperStim', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.5753 	EXP 	Created lowerStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='lowerStim', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.6310 	EXP 	training_instr: autoDraw = True
+11.2114 	DATA 	Keypress: escape
+11.5876 	EXP 	window1: mouseVisible = True
+0.7316 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.6910 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x13a7b7748>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1341ce3c8>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.6910 	EXP 	window1: recordFrameIntervals = False
+7.8561 	EXP 	window1: recordFrameIntervals = True
+8.0402 	EXP 	window1: recordFrameIntervals = False
+8.1647 	EXP 	Created training_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='training_instr', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.1986 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+8.2035 	EXP 	Created upperStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='upperStim', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.2066 	EXP 	Created lowerStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='lowerStim', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.2494 	EXP 	Created test_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='test_instr', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.2799 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+8.2824 	EXP 	Created upperStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='upperStim', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.2848 	EXP 	Created lowerStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='lowerStim', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.3392 	EXP 	training_instr: autoDraw = True
+9.5833 	EXP 	Imported trainingA.xlsx as conditions, 30 conditions, 4 params
+9.5836 	EXP 	Created sequence: random, trialTypes=30, nReps=1, seed=None
+9.5838 	EXP 	New trial (rep=0, index=0): OrderedDict([('upperWord', 'PAUD'), ('lowerWord', 'PAID'), ('corrAns', 'down'), ('wordType', 'WORD')])
+9.6007 	DATA 	Keypress: space
+9.6245 	EXP 	training_instr: autoDraw = False
+9.6245 	EXP 	upperStim: text = 'PAUD'
+9.6245 	EXP 	lowerStim: text = 'PAID'
+9.6245 	EXP 	fixation: autoDraw = True
+10.5728 	EXP 	upperStim: autoDraw = True
+10.5728 	EXP 	lowerStim: autoDraw = True
+11.5408 	EXP 	New trial (rep=0, index=1): OrderedDict([('upperWord', 'ROCE'), ('lowerWord', 'ROLE'), ('corrAns', 'down'), ('wordType', 'HOMOPHONE')])
+11.5494 	DATA 	Keypress: down
+11.5743 	EXP 	fixation: autoDraw = False
+11.5743 	EXP 	upperStim: autoDraw = False
+11.5743 	EXP 	lowerStim: autoDraw = False
+11.5743 	EXP 	upperStim: text = 'ROCE'
+11.5743 	EXP 	lowerStim: text = 'ROLE'
+11.5743 	EXP 	fixation: autoDraw = True
+12.5392 	EXP 	upperStim: autoDraw = True
+12.5392 	EXP 	lowerStim: autoDraw = True
+13.4068 	EXP 	New trial (rep=0, index=2): OrderedDict([('upperWord', 'BIAR'), ('lowerWord', 'BEAR'), ('corrAns', 'down'), ('wordType', 'HOMOPHONE')])
+13.4121 	DATA 	Keypress: down
+13.4260 	EXP 	fixation: autoDraw = False
+13.4260 	EXP 	upperStim: autoDraw = False
+13.4260 	EXP 	lowerStim: autoDraw = False
+13.4260 	EXP 	upperStim: text = 'BIAR'
+13.4260 	EXP 	lowerStim: text = 'BEAR'
+13.4260 	EXP 	fixation: autoDraw = True
+14.4062 	EXP 	upperStim: autoDraw = True
+14.4062 	EXP 	lowerStim: autoDraw = True
+15.1547 	EXP 	New trial (rep=0, index=3): OrderedDict([('upperWord', 'UNIT'), ('lowerWord', 'UNAT'), ('corrAns', 'up'), ('wordType', 'WORD')])
+15.1607 	DATA 	Keypress: down
+15.1746 	EXP 	fixation: autoDraw = False
+15.1746 	EXP 	upperStim: autoDraw = False
+15.1746 	EXP 	lowerStim: autoDraw = False
+15.1746 	EXP 	upperStim: text = 'UNIT'
+15.1746 	EXP 	lowerStim: text = 'UNAT'
+15.1746 	EXP 	fixation: autoDraw = True
+16.1564 	EXP 	upperStim: autoDraw = True
+16.1564 	EXP 	lowerStim: autoDraw = True
+16.8075 	EXP 	New trial (rep=0, index=4): OrderedDict([('upperWord', 'HULE'), ('lowerWord', 'HUGE'), ('corrAns', 'down'), ('wordType', 'WORD')])
+16.8162 	DATA 	Keypress: up
+16.8393 	EXP 	fixation: autoDraw = False
+16.8393 	EXP 	upperStim: autoDraw = False
+16.8393 	EXP 	lowerStim: autoDraw = False
+16.8393 	EXP 	upperStim: text = 'HULE'
+16.8393 	EXP 	lowerStim: text = 'HUGE'
+16.8393 	EXP 	fixation: autoDraw = True
+17.8067 	EXP 	upperStim: autoDraw = True
+17.8067 	EXP 	lowerStim: autoDraw = True
+18.5377 	EXP 	New trial (rep=0, index=5): OrderedDict([('upperWord', 'SPOT'), ('lowerWord', 'SMOT'), ('corrAns', 'up'), ('wordType', 'WORD')])
+18.5446 	DATA 	Keypress: down
+18.5590 	EXP 	fixation: autoDraw = False
+18.5590 	EXP 	upperStim: autoDraw = False
+18.5590 	EXP 	lowerStim: autoDraw = False
+18.5590 	EXP 	upperStim: text = 'SPOT'
+18.5590 	EXP 	lowerStim: text = 'SMOT'
+18.5590 	EXP 	fixation: autoDraw = True
+19.5398 	EXP 	upperStim: autoDraw = True
+19.5398 	EXP 	lowerStim: autoDraw = True
+20.1074 	EXP 	New trial (rep=0, index=6): OrderedDict([('upperWord', 'GUTE'), ('lowerWord', 'GATE'), ('corrAns', 'down'), ('wordType', 'HOMOPHONE')])
+20.1124 	DATA 	Keypress: up
+20.1262 	EXP 	fixation: autoDraw = False
+20.1262 	EXP 	upperStim: autoDraw = False
+20.1262 	EXP 	lowerStim: autoDraw = False
+20.1262 	EXP 	upperStim: text = 'GUTE'
+20.1262 	EXP 	lowerStim: text = 'GATE'
+20.1262 	EXP 	fixation: autoDraw = True
+21.1086 	EXP 	upperStim: autoDraw = True
+21.1086 	EXP 	lowerStim: autoDraw = True
+21.9069 	EXP 	New trial (rep=0, index=7): OrderedDict([('upperWord', 'VOME'), ('lowerWord', 'VOTE'), ('corrAns', 'down'), ('wordType', 'WORD')])
+21.9150 	DATA 	Keypress: down
+21.9415 	EXP 	fixation: autoDraw = False
+21.9415 	EXP 	upperStim: autoDraw = False
+21.9415 	EXP 	lowerStim: autoDraw = False
+21.9415 	EXP 	upperStim: text = 'VOME'
+21.9415 	EXP 	lowerStim: text = 'VOTE'
+21.9415 	EXP 	fixation: autoDraw = True
+22.9041 	EXP 	upperStim: autoDraw = True
+22.9041 	EXP 	lowerStim: autoDraw = True
+23.6739 	EXP 	New trial (rep=0, index=8): OrderedDict([('upperWord', 'FISH'), ('lowerWord', 'FESH'), ('corrAns', 'up'), ('wordType', 'WORD')])
+23.6813 	DATA 	Keypress: down
+23.7086 	EXP 	fixation: autoDraw = False
+23.7086 	EXP 	upperStim: autoDraw = False
+23.7086 	EXP 	lowerStim: autoDraw = False
+23.7086 	EXP 	upperStim: text = 'FISH'
+23.7086 	EXP 	lowerStim: text = 'FESH'
+23.7086 	EXP 	fixation: autoDraw = True
+24.6742 	EXP 	upperStim: autoDraw = True
+24.6742 	EXP 	lowerStim: autoDraw = True
+25.2593 	EXP 	New trial (rep=0, index=9): OrderedDict([('upperWord', 'MOIL'), ('lowerWord', 'MAIL'), ('corrAns', 'down'), ('wordType', 'HOMOPHONE')])
+25.2655 	DATA 	Keypress: up
+25.2903 	EXP 	fixation: autoDraw = False
+25.2903 	EXP 	upperStim: autoDraw = False
+25.2903 	EXP 	lowerStim: autoDraw = False
+25.2903 	EXP 	upperStim: text = 'MOIL'
+25.2903 	EXP 	lowerStim: text = 'MAIL'
+25.2903 	EXP 	fixation: autoDraw = True
+26.2575 	EXP 	upperStim: autoDraw = True
+26.2575 	EXP 	lowerStim: autoDraw = True
+26.9114 	EXP 	New trial (rep=0, index=10): OrderedDict([('upperWord', 'COIN'), ('lowerWord', 'COAN'), ('corrAns', 'up'), ('wordType', 'WORD')])
+26.9180 	DATA 	Keypress: down
+26.9398 	EXP 	fixation: autoDraw = False
+26.9398 	EXP 	upperStim: autoDraw = False
+26.9398 	EXP 	lowerStim: autoDraw = False
+26.9398 	EXP 	upperStim: text = 'COIN'
+26.9398 	EXP 	lowerStim: text = 'COAN'
+26.9398 	EXP 	fixation: autoDraw = True
+27.9078 	EXP 	upperStim: autoDraw = True
+27.9078 	EXP 	lowerStim: autoDraw = True
+28.4742 	EXP 	New trial (rep=0, index=11): OrderedDict([('upperWord', 'MEET'), ('lowerWord', 'MEOT'), ('corrAns', 'up'), ('wordType', 'HOMOPHONE')])
+28.4805 	DATA 	Keypress: up
+28.5063 	EXP 	fixation: autoDraw = False
+28.5063 	EXP 	upperStim: autoDraw = False
+28.5063 	EXP 	lowerStim: autoDraw = False
+28.5063 	EXP 	upperStim: text = 'MEET'
+28.5063 	EXP 	lowerStim: text = 'MEOT'
+28.5063 	EXP 	fixation: autoDraw = True
+29.4741 	EXP 	upperStim: autoDraw = True
+29.4741 	EXP 	lowerStim: autoDraw = True
+30.0270 	EXP 	New trial (rep=0, index=12): OrderedDict([('upperWord', 'FOAD'), ('lowerWord', 'FOOD'), ('corrAns', 'down'), ('wordType', 'WORD')])
+30.0335 	DATA 	Keypress: up
+30.0566 	EXP 	fixation: autoDraw = False
+30.0566 	EXP 	upperStim: autoDraw = False
+30.0566 	EXP 	lowerStim: autoDraw = False
+30.0566 	EXP 	upperStim: text = 'FOAD'
+30.0566 	EXP 	lowerStim: text = 'FOOD'
+30.0566 	EXP 	fixation: autoDraw = True
+31.0263 	EXP 	upperStim: autoDraw = True
+31.0263 	EXP 	lowerStim: autoDraw = True
+31.7108 	DATA 	Keypress: down
+31.7242 	EXP 	New trial (rep=0, index=13): OrderedDict([('upperWord', 'SOVE'), ('lowerWord', 'SORE'), ('corrAns', 'down'), ('wordType', 'HOMOPHONE')])
+31.7389 	EXP 	fixation: autoDraw = False
+31.7389 	EXP 	upperStim: autoDraw = False
+31.7389 	EXP 	lowerStim: autoDraw = False
+31.7389 	EXP 	upperStim: text = 'SOVE'
+31.7389 	EXP 	lowerStim: text = 'SORE'
+31.7389 	EXP 	fixation: autoDraw = True
+32.7214 	EXP 	upperStim: autoDraw = True
+32.7214 	EXP 	lowerStim: autoDraw = True
+34.0078 	EXP 	New trial (rep=0, index=14): OrderedDict([('upperWord', 'PASH'), ('lowerWord', 'PATH'), ('corrAns', 'down'), ('wordType', 'WORD')])
+34.0151 	DATA 	Keypress: down
+34.0398 	EXP 	fixation: autoDraw = False
+34.0398 	EXP 	upperStim: autoDraw = False
+34.0398 	EXP 	lowerStim: autoDraw = False
+34.0398 	EXP 	upperStim: text = 'PASH'
+34.0398 	EXP 	lowerStim: text = 'PATH'
+34.0398 	EXP 	fixation: autoDraw = True
+35.0085 	EXP 	upperStim: autoDraw = True
+35.0085 	EXP 	lowerStim: autoDraw = True
+35.8917 	EXP 	New trial (rep=0, index=15): OrderedDict([('upperWord', 'HOOT'), ('lowerWord', 'HEOT'), ('corrAns', 'up'), ('wordType', 'WORD')])
+35.8981 	DATA 	Keypress: down
+35.9232 	EXP 	fixation: autoDraw = False
+35.9232 	EXP 	upperStim: autoDraw = False
+35.9232 	EXP 	lowerStim: autoDraw = False
+35.9232 	EXP 	upperStim: text = 'HOOT'
+35.9232 	EXP 	lowerStim: text = 'HEOT'
+35.9232 	EXP 	fixation: autoDraw = True
+36.8912 	EXP 	upperStim: autoDraw = True
+36.8912 	EXP 	lowerStim: autoDraw = True
+37.5786 	DATA 	Keypress: up
+37.5951 	EXP 	New trial (rep=0, index=16): OrderedDict([('upperWord', 'DENY'), ('lowerWord', 'DINY'), ('corrAns', 'up'), ('wordType', 'WORD')])
+37.6235 	EXP 	fixation: autoDraw = False
+37.6235 	EXP 	upperStim: autoDraw = False
+37.6235 	EXP 	lowerStim: autoDraw = False
+37.6235 	EXP 	upperStim: text = 'DENY'
+37.6235 	EXP 	lowerStim: text = 'DINY'
+37.6235 	EXP 	fixation: autoDraw = True
+38.6096 	EXP 	upperStim: autoDraw = True
+38.6096 	EXP 	lowerStim: autoDraw = True
+39.4084 	EXP 	New trial (rep=0, index=17): OrderedDict([('upperWord', 'HOEL'), ('lowerWord', 'HEEL'), ('corrAns', 'down'), ('wordType', 'HOMOPHONE')])
+39.4148 	DATA 	Keypress: up
+39.4397 	EXP 	fixation: autoDraw = False
+39.4397 	EXP 	upperStim: autoDraw = False
+39.4397 	EXP 	lowerStim: autoDraw = False
+39.4397 	EXP 	upperStim: text = 'HOEL'
+39.4397 	EXP 	lowerStim: text = 'HEEL'
+39.4397 	EXP 	fixation: autoDraw = True
+40.4085 	EXP 	upperStim: autoDraw = True
+40.4085 	EXP 	lowerStim: autoDraw = True
+41.0093 	EXP 	New trial (rep=0, index=18): OrderedDict([('upperWord', 'LOAD'), ('lowerWord', 'LOED'), ('corrAns', 'up'), ('wordType', 'HOMOPHONE')])
+41.0144 	DATA 	Keypress: down
+41.0403 	EXP 	fixation: autoDraw = False
+41.0403 	EXP 	upperStim: autoDraw = False
+41.0403 	EXP 	lowerStim: autoDraw = False
+41.0403 	EXP 	upperStim: text = 'LOAD'
+41.0403 	EXP 	lowerStim: text = 'LOED'
+41.0403 	EXP 	fixation: autoDraw = True
+42.0063 	EXP 	upperStim: autoDraw = True
+42.0063 	EXP 	lowerStim: autoDraw = True
+42.5912 	EXP 	New trial (rep=0, index=19): OrderedDict([('upperWord', 'TWIN'), ('lowerWord', 'TRIN'), ('corrAns', 'up'), ('wordType', 'WORD')])
+42.5988 	DATA 	Keypress: up
+42.6238 	EXP 	fixation: autoDraw = False
+42.6238 	EXP 	upperStim: autoDraw = False
+42.6238 	EXP 	lowerStim: autoDraw = False
+42.6238 	EXP 	upperStim: text = 'TWIN'
+42.6238 	EXP 	lowerStim: text = 'TRIN'
+42.6238 	EXP 	fixation: autoDraw = True
+43.5908 	EXP 	upperStim: autoDraw = True
+43.5908 	EXP 	lowerStim: autoDraw = True
+44.3614 	EXP 	New trial (rep=0, index=20): OrderedDict([('upperWord', 'HAIR'), ('lowerWord', 'HAUR'), ('corrAns', 'up'), ('wordType', 'HOMOPHONE')])
+44.3678 	DATA 	Keypress: up
+44.3906 	EXP 	fixation: autoDraw = False
+44.3906 	EXP 	upperStim: autoDraw = False
+44.3906 	EXP 	lowerStim: autoDraw = False
+44.3906 	EXP 	upperStim: text = 'HAIR'
+44.3906 	EXP 	lowerStim: text = 'HAUR'
+44.3906 	EXP 	fixation: autoDraw = True
+45.3544 	EXP 	upperStim: autoDraw = True
+45.3544 	EXP 	lowerStim: autoDraw = True
+45.9068 	EXP 	New trial (rep=0, index=21): OrderedDict([('upperWord', 'SLUB'), ('lowerWord', 'SLAB'), ('corrAns', 'down'), ('wordType', 'WORD')])
+45.9133 	DATA 	Keypress: up
+45.9273 	EXP 	fixation: autoDraw = False
+45.9273 	EXP 	upperStim: autoDraw = False
+45.9273 	EXP 	lowerStim: autoDraw = False
+45.9273 	EXP 	upperStim: text = 'SLUB'
+45.9273 	EXP 	lowerStim: text = 'SLAB'
+45.9273 	EXP 	fixation: autoDraw = True
+46.9099 	EXP 	upperStim: autoDraw = True
+46.9099 	EXP 	lowerStim: autoDraw = True
+47.9289 	EXP 	New trial (rep=0, index=22): OrderedDict([('upperWord', 'LIAF'), ('lowerWord', 'LEAF'), ('corrAns', 'down'), ('wordType', 'HOMOPHONE')])
+47.9355 	DATA 	Keypress: down
+47.9580 	EXP 	fixation: autoDraw = False
+47.9580 	EXP 	upperStim: autoDraw = False
+47.9580 	EXP 	lowerStim: autoDraw = False
+47.9580 	EXP 	upperStim: text = 'LIAF'
+47.9580 	EXP 	lowerStim: text = 'LEAF'
+47.9580 	EXP 	fixation: autoDraw = True
+48.9233 	EXP 	upperStim: autoDraw = True
+48.9233 	EXP 	lowerStim: autoDraw = True
+49.5921 	EXP 	New trial (rep=0, index=23): OrderedDict([('upperWord', 'DEAR'), ('lowerWord', 'DEUR'), ('corrAns', 'up'), ('wordType', 'HOMOPHONE')])
+49.5985 	DATA 	Keypress: down
+49.6244 	EXP 	fixation: autoDraw = False
+49.6244 	EXP 	upperStim: autoDraw = False
+49.6244 	EXP 	lowerStim: autoDraw = False
+49.6244 	EXP 	upperStim: text = 'DEAR'
+49.6244 	EXP 	lowerStim: text = 'DEUR'
+49.6244 	EXP 	fixation: autoDraw = True
+50.5893 	EXP 	upperStim: autoDraw = True
+50.5893 	EXP 	lowerStim: autoDraw = True
+51.2104 	EXP 	New trial (rep=0, index=24): OrderedDict([('upperWord', 'SEED'), ('lowerWord', 'SAED'), ('corrAns', 'up'), ('wordType', 'HOMOPHONE')])
+51.2167 	DATA 	Keypress: up
+51.2411 	EXP 	fixation: autoDraw = False
+51.2411 	EXP 	upperStim: autoDraw = False
+51.2411 	EXP 	lowerStim: autoDraw = False
+51.2411 	EXP 	upperStim: text = 'SEED'
+51.2411 	EXP 	lowerStim: text = 'SAED'
+51.2411 	EXP 	fixation: autoDraw = True
+52.2083 	EXP 	upperStim: autoDraw = True
+52.2083 	EXP 	lowerStim: autoDraw = True
+52.6938 	EXP 	New trial (rep=0, index=25): OrderedDict([('upperWord', 'PAKE'), ('lowerWord', 'PIKE'), ('corrAns', 'down'), ('wordType', 'WORD')])
+52.7037 	DATA 	Keypress: up
+52.7236 	EXP 	fixation: autoDraw = False
+52.7236 	EXP 	upperStim: autoDraw = False
+52.7236 	EXP 	lowerStim: autoDraw = False
+52.7236 	EXP 	upperStim: text = 'PAKE'
+52.7236 	EXP 	lowerStim: text = 'PIKE'
+52.7236 	EXP 	fixation: autoDraw = True
+53.7039 	EXP 	upperStim: autoDraw = True
+53.7039 	EXP 	lowerStim: autoDraw = True
+54.6075 	EXP 	New trial (rep=0, index=26): OrderedDict([('upperWord', 'PAER'), ('lowerWord', 'PEER'), ('corrAns', 'down'), ('wordType', 'HOMOPHONE')])
+54.6137 	DATA 	Keypress: down
+54.6392 	EXP 	fixation: autoDraw = False
+54.6392 	EXP 	upperStim: autoDraw = False
+54.6392 	EXP 	lowerStim: autoDraw = False
+54.6392 	EXP 	upperStim: text = 'PAER'
+54.6392 	EXP 	lowerStim: text = 'PEER'
+54.6392 	EXP 	fixation: autoDraw = True
+55.6077 	EXP 	upperStim: autoDraw = True
+55.6077 	EXP 	lowerStim: autoDraw = True
+56.3421 	EXP 	New trial (rep=0, index=27): OrderedDict([('upperWord', 'LAID'), ('lowerWord', 'LAOD'), ('corrAns', 'up'), ('wordType', 'HOMOPHONE')])
+56.3479 	DATA 	Keypress: down
+56.3751 	EXP 	fixation: autoDraw = False
+56.3751 	EXP 	upperStim: autoDraw = False
+56.3751 	EXP 	lowerStim: autoDraw = False
+56.3751 	EXP 	upperStim: text = 'LAID'
+56.3751 	EXP 	lowerStim: text = 'LAOD'
+56.3751 	EXP 	fixation: autoDraw = True
+57.3400 	EXP 	upperStim: autoDraw = True
+57.3400 	EXP 	lowerStim: autoDraw = True
+58.0909 	EXP 	New trial (rep=0, index=28): OrderedDict([('upperWord', 'DEAF'), ('lowerWord', 'DIAF'), ('corrAns', 'up'), ('wordType', 'WORD')])
+58.0956 	DATA 	Keypress: up
+58.1097 	EXP 	fixation: autoDraw = False
+58.1097 	EXP 	upperStim: autoDraw = False
+58.1097 	EXP 	lowerStim: autoDraw = False
+58.1097 	EXP 	upperStim: text = 'DEAF'
+58.1097 	EXP 	lowerStim: text = 'DIAF'
+58.1097 	EXP 	fixation: autoDraw = True
+59.0916 	EXP 	upperStim: autoDraw = True
+59.0916 	EXP 	lowerStim: autoDraw = True
+59.6774 	EXP 	New trial (rep=0, index=29): OrderedDict([('upperWord', 'POUR'), ('lowerWord', 'POIR'), ('corrAns', 'up'), ('wordType', 'HOMOPHONE')])
+59.6841 	DATA 	Keypress: up
+59.7057 	EXP 	fixation: autoDraw = False
+59.7057 	EXP 	upperStim: autoDraw = False
+59.7057 	EXP 	lowerStim: autoDraw = False
+59.7057 	EXP 	upperStim: text = 'POUR'
+59.7057 	EXP 	lowerStim: text = 'POIR'
+59.7057 	EXP 	fixation: autoDraw = True
+60.6738 	EXP 	upperStim: autoDraw = True
+60.6738 	EXP 	lowerStim: autoDraw = True
+61.4430 	DATA 	Keypress: up
+61.4577 	EXP 	fixation: autoDraw = False
+61.4577 	EXP 	upperStim: autoDraw = False
+61.4577 	EXP 	lowerStim: autoDraw = False
+61.4577 	EXP 	test_instr: autoDraw = True
+69.1968 	EXP 	Imported testing.xlsx as conditions, 30 conditions, 4 params
+69.1972 	EXP 	Created sequence: random, trialTypes=30, nReps=1, seed=None
+69.1976 	EXP 	New trial (rep=0, index=0): OrderedDict([('nonwordType', 'CONTROL'), ('upperWord', 'FEED'), ('lowerWord', 'VECE'), ('corrAns', 'up')])
+69.2043 	DATA 	Keypress: space
+69.2241 	EXP 	test_instr: autoDraw = False
+69.2241 	EXP 	upperStim: text = 'FEED'
+69.2241 	EXP 	lowerStim: text = 'VECE'
+69.2241 	EXP 	fixation: autoDraw = True
+70.2073 	EXP 	upperStim: autoDraw = True
+70.2073 	EXP 	lowerStim: autoDraw = True
+70.7234 	DATA 	Keypress: up
+70.7380 	EXP 	New trial (rep=0, index=1): OrderedDict([('nonwordType', 'PSEUDOHOMOPHONE'), ('upperWord', 'MONE'), ('lowerWord', 'MASS'), ('corrAns', 'down')])
+70.7550 	EXP 	fixation: autoDraw = False
+70.7550 	EXP 	upperStim: autoDraw = False
+70.7550 	EXP 	lowerStim: autoDraw = False
+70.7550 	EXP 	upperStim: text = 'MONE'
+70.7550 	EXP 	lowerStim: text = 'MASS'
+70.7550 	EXP 	fixation: autoDraw = True
+71.7401 	EXP 	upperStim: autoDraw = True
+71.7401 	EXP 	lowerStim: autoDraw = True
+72.6948 	EXP 	New trial (rep=0, index=2): OrderedDict([('nonwordType', 'CONTROL'), ('upperWord', 'FARM'), ('lowerWord', 'BORY'), ('corrAns', 'up')])
+72.7016 	DATA 	Keypress: down
+72.7240 	EXP 	fixation: autoDraw = False
+72.7240 	EXP 	upperStim: autoDraw = False
+72.7240 	EXP 	lowerStim: autoDraw = False
+72.7240 	EXP 	upperStim: text = 'FARM'
+72.7240 	EXP 	lowerStim: text = 'BORY'
+72.7240 	EXP 	fixation: autoDraw = True
+73.6874 	EXP 	upperStim: autoDraw = True
+73.6874 	EXP 	lowerStim: autoDraw = True
+74.1897 	EXP 	New trial (rep=0, index=3): OrderedDict([('nonwordType', 'CONTROL'), ('upperWord', 'EASY'), ('lowerWord', 'BIRL'), ('corrAns', 'up')])
+74.1955 	DATA 	Keypress: up
+74.2104 	EXP 	fixation: autoDraw = False
+74.2104 	EXP 	upperStim: autoDraw = False
+74.2104 	EXP 	lowerStim: autoDraw = False
+74.2104 	EXP 	upperStim: text = 'EASY'
+74.2104 	EXP 	lowerStim: text = 'BIRL'
+74.2104 	EXP 	fixation: autoDraw = True
+75.1905 	EXP 	upperStim: autoDraw = True
+75.1905 	EXP 	lowerStim: autoDraw = True
+75.6896 	EXP 	New trial (rep=0, index=4): OrderedDict([('nonwordType', 'PSEUDOHOMOPHONE'), ('upperWord', 'BORN'), ('lowerWord', 'BILD'), ('corrAns', 'up')])
+75.6939 	DATA 	Keypress: up
+75.7073 	EXP 	fixation: autoDraw = False
+75.7073 	EXP 	upperStim: autoDraw = False
+75.7073 	EXP 	lowerStim: autoDraw = False
+75.7073 	EXP 	upperStim: text = 'BORN'
+75.7073 	EXP 	lowerStim: text = 'BILD'
+75.7073 	EXP 	fixation: autoDraw = True
+76.6906 	EXP 	upperStim: autoDraw = True
+76.6906 	EXP 	lowerStim: autoDraw = True
+77.2110 	EXP 	New trial (rep=0, index=5): OrderedDict([('nonwordType', 'CONTROL'), ('upperWord', 'PLEN'), ('lowerWord', 'STOP'), ('corrAns', 'down')])
+77.2180 	DATA 	Keypress: up
+77.2404 	EXP 	fixation: autoDraw = False
+77.2404 	EXP 	upperStim: autoDraw = False
+77.2404 	EXP 	lowerStim: autoDraw = False
+77.2404 	EXP 	upperStim: text = 'PLEN'
+77.2404 	EXP 	lowerStim: text = 'STOP'
+77.2404 	EXP 	fixation: autoDraw = True
+78.2085 	EXP 	upperStim: autoDraw = True
+78.2085 	EXP 	lowerStim: autoDraw = True
+79.1581 	EXP 	New trial (rep=0, index=6): OrderedDict([('nonwordType', 'CONTROL'), ('upperWord', 'FIRE'), ('lowerWord', 'DREE'), ('corrAns', 'up')])
+79.1641 	DATA 	Keypress: down
+79.1888 	EXP 	fixation: autoDraw = False
+79.1888 	EXP 	upperStim: autoDraw = False
+79.1888 	EXP 	lowerStim: autoDraw = False
+79.1888 	EXP 	upperStim: text = 'FIRE'
+79.1888 	EXP 	lowerStim: text = 'DREE'
+79.1888 	EXP 	fixation: autoDraw = True
+80.1533 	EXP 	upperStim: autoDraw = True
+80.1533 	EXP 	lowerStim: autoDraw = True
+80.6904 	DATA 	Keypress: up
+80.7039 	EXP 	New trial (rep=0, index=7): OrderedDict([('nonwordType', 'PSEUDOHOMOPHONE'), ('upperWord', 'CARS'), ('lowerWord', 'FLOO'), ('corrAns', 'up')])
+80.7185 	EXP 	fixation: autoDraw = False
+80.7185 	EXP 	upperStim: autoDraw = False
+80.7185 	EXP 	lowerStim: autoDraw = False
+80.7185 	EXP 	upperStim: text = 'CARS'
+80.7185 	EXP 	lowerStim: text = 'FLOO'
+80.7185 	EXP 	fixation: autoDraw = True
+81.7068 	EXP 	upperStim: autoDraw = True
+81.7068 	EXP 	lowerStim: autoDraw = True
+82.3081 	EXP 	New trial (rep=0, index=8): OrderedDict([('nonwordType', 'PSEUDOHOMOPHONE'), ('upperWord', 'WITE'), ('lowerWord', 'RISE'), ('corrAns', 'down')])
+82.3139 	DATA 	Keypress: up
+82.3388 	EXP 	fixation: autoDraw = False
+82.3388 	EXP 	upperStim: autoDraw = False
+82.3388 	EXP 	lowerStim: autoDraw = False
+82.3388 	EXP 	upperStim: text = 'WITE'
+82.3388 	EXP 	lowerStim: text = 'RISE'
+82.3388 	EXP 	fixation: autoDraw = True
+83.3068 	EXP 	upperStim: autoDraw = True
+83.3068 	EXP 	lowerStim: autoDraw = True
+84.1937 	EXP 	New trial (rep=0, index=9): OrderedDict([('nonwordType', 'PSEUDOHOMOPHONE'), ('upperWord', 'BOYS'), ('lowerWord', 'CORT'), ('corrAns', 'up')])
+84.1999 	DATA 	Keypress: down
+84.2223 	EXP 	fixation: autoDraw = False
+84.2223 	EXP 	upperStim: autoDraw = False
+84.2223 	EXP 	lowerStim: autoDraw = False
+84.2223 	EXP 	upperStim: text = 'BOYS'
+84.2223 	EXP 	lowerStim: text = 'CORT'
+84.2223 	EXP 	fixation: autoDraw = True
+85.1900 	EXP 	upperStim: autoDraw = True
+85.1900 	EXP 	lowerStim: autoDraw = True
+85.7382 	EXP 	New trial (rep=0, index=10): OrderedDict([('nonwordType', 'PSEUDOHOMOPHONE'), ('upperWord', 'TODE'), ('lowerWord', 'POOL'), ('corrAns', 'down')])
+85.7432 	DATA 	Keypress: up
+85.7527 	EXP 	fixation: autoDraw = False
+85.7527 	EXP 	upperStim: autoDraw = False
+85.7527 	EXP 	lowerStim: autoDraw = False
+85.7527 	EXP 	upperStim: text = 'TODE'
+85.7527 	EXP 	lowerStim: text = 'POOL'
+85.7527 	EXP 	fixation: autoDraw = True
+86.7363 	EXP 	upperStim: autoDraw = True
+86.7363 	EXP 	lowerStim: autoDraw = True
+87.5398 	EXP 	New trial (rep=0, index=11): OrderedDict([('nonwordType', 'PSEUDOHOMOPHONE'), ('upperWord', 'KORD'), ('lowerWord', 'LACK'), ('corrAns', 'down')])
+87.5462 	DATA 	Keypress: down
+87.5743 	EXP 	fixation: autoDraw = False
+87.5743 	EXP 	upperStim: autoDraw = False
+87.5743 	EXP 	lowerStim: autoDraw = False
+87.5743 	EXP 	upperStim: text = 'KORD'
+87.5743 	EXP 	lowerStim: text = 'LACK'
+87.5743 	EXP 	fixation: autoDraw = True
+88.5401 	EXP 	upperStim: autoDraw = True
+88.5401 	EXP 	lowerStim: autoDraw = True
+89.4905 	EXP 	New trial (rep=0, index=12): OrderedDict([('nonwordType', 'PSEUDOHOMOPHONE'), ('upperWord', 'SUNE'), ('lowerWord', 'NEWS'), ('corrAns', 'down')])
+89.4977 	DATA 	Keypress: down
+89.5224 	EXP 	fixation: autoDraw = False
+89.5224 	EXP 	upperStim: autoDraw = False
+89.5224 	EXP 	lowerStim: autoDraw = False
+89.5224 	EXP 	upperStim: text = 'SUNE'
+89.5224 	EXP 	lowerStim: text = 'NEWS'
+89.5224 	EXP 	fixation: autoDraw = True
+90.4933 	EXP 	upperStim: autoDraw = True
+90.4933 	EXP 	lowerStim: autoDraw = True
+91.2564 	EXP 	New trial (rep=0, index=13): OrderedDict([('nonwordType', 'PSEUDOHOMOPHONE'), ('upperWord', 'WERK'), ('lowerWord', 'RACE'), ('corrAns', 'down')])
+91.2623 	DATA 	Keypress: down
+91.2766 	EXP 	fixation: autoDraw = False
+91.2766 	EXP 	upperStim: autoDraw = False
+91.2766 	EXP 	lowerStim: autoDraw = False
+91.2766 	EXP 	upperStim: text = 'WERK'
+91.2766 	EXP 	lowerStim: text = 'RACE'
+91.2766 	EXP 	fixation: autoDraw = True
+92.2564 	EXP 	upperStim: autoDraw = True
+92.2564 	EXP 	lowerStim: autoDraw = True
+93.2609 	EXP 	New trial (rep=0, index=14): OrderedDict([('nonwordType', 'PSEUDOHOMOPHONE'), ('upperWord', 'TAKS'), ('lowerWord', 'NOTE'), ('corrAns', 'down')])
+93.2676 	DATA 	Keypress: down
+93.2889 	EXP 	fixation: autoDraw = False
+93.2889 	EXP 	upperStim: autoDraw = False
+93.2889 	EXP 	lowerStim: autoDraw = False
+93.2889 	EXP 	upperStim: text = 'TAKS'
+93.2889 	EXP 	lowerStim: text = 'NOTE'
+93.2889 	EXP 	fixation: autoDraw = True
+94.2573 	EXP 	upperStim: autoDraw = True
+94.2573 	EXP 	lowerStim: autoDraw = True
+95.5227 	EXP 	New trial (rep=0, index=15): OrderedDict([('nonwordType', 'CONTROL'), ('upperWord', 'JATE'), ('lowerWord', 'SOON'), ('corrAns', 'down')])
+95.5304 	DATA 	Keypress: down
+95.5567 	EXP 	fixation: autoDraw = False
+95.5567 	EXP 	upperStim: autoDraw = False
+95.5567 	EXP 	lowerStim: autoDraw = False
+95.5567 	EXP 	upperStim: text = 'JATE'
+95.5567 	EXP 	lowerStim: text = 'SOON'
+95.5567 	EXP 	fixation: autoDraw = True
+96.5251 	EXP 	upperStim: autoDraw = True
+96.5251 	EXP 	lowerStim: autoDraw = True
+97.1817 	DATA 	Keypress: down
+97.2065 	EXP 	New trial (rep=0, index=16): OrderedDict([('nonwordType', 'PSEUDOHOMOPHONE'), ('upperWord', 'CALL'), ('lowerWord', 'DERT'), ('corrAns', 'up')])
+97.2250 	EXP 	fixation: autoDraw = False
+97.2250 	EXP 	upperStim: autoDraw = False
+97.2250 	EXP 	lowerStim: autoDraw = False
+97.2250 	EXP 	upperStim: text = 'CALL'
+97.2250 	EXP 	lowerStim: text = 'DERT'
+97.2250 	EXP 	fixation: autoDraw = True
+98.2054 	EXP 	upperStim: autoDraw = True
+98.2054 	EXP 	lowerStim: autoDraw = True
+99.1600 	DATA 	Keypress: up
+99.1760 	EXP 	New trial (rep=0, index=17): OrderedDict([('nonwordType', 'PSEUDOHOMOPHONE'), ('upperWord', 'COLD'), ('lowerWord', 'GARD'), ('corrAns', 'up')])
+99.2053 	EXP 	fixation: autoDraw = False
+99.2053 	EXP 	upperStim: autoDraw = False
+99.2053 	EXP 	lowerStim: autoDraw = False
+99.2053 	EXP 	upperStim: text = 'COLD'
+99.2053 	EXP 	lowerStim: text = 'GARD'
+99.2053 	EXP 	fixation: autoDraw = True
+100.1744 	EXP 	upperStim: autoDraw = True
+100.1744 	EXP 	lowerStim: autoDraw = True
+100.8738 	EXP 	New trial (rep=0, index=18): OrderedDict([('nonwordType', 'CONTROL'), ('upperWord', 'TINP'), ('lowerWord', 'WHOM'), ('corrAns', 'down')])
+100.8804 	DATA 	Keypress: up
+100.9056 	EXP 	fixation: autoDraw = False
+100.9056 	EXP 	upperStim: autoDraw = False
+100.9056 	EXP 	lowerStim: autoDraw = False
+100.9056 	EXP 	upperStim: text = 'TINP'
+100.9056 	EXP 	lowerStim: text = 'WHOM'
+100.9056 	EXP 	fixation: autoDraw = True
+101.8735 	EXP 	upperStim: autoDraw = True
+101.8735 	EXP 	lowerStim: autoDraw = True
+102.6081 	EXP 	New trial (rep=0, index=19): OrderedDict([('nonwordType', 'PSEUDOHOMOPHONE'), ('upperWord', 'DARN'), ('lowerWord', 'GROE'), ('corrAns', 'up')])
+102.6146 	DATA 	Keypress: down
+102.6383 	EXP 	fixation: autoDraw = False
+102.6383 	EXP 	upperStim: autoDraw = False
+102.6383 	EXP 	lowerStim: autoDraw = False
+102.6383 	EXP 	upperStim: text = 'DARN'
+102.6383 	EXP 	lowerStim: text = 'GROE'
+102.6383 	EXP 	fixation: autoDraw = True
+103.6038 	EXP 	upperStim: autoDraw = True
+103.6038 	EXP 	lowerStim: autoDraw = True
+104.5423 	EXP 	New trial (rep=0, index=20): OrderedDict([('nonwordType', 'CONTROL'), ('upperWord', 'CEST'), ('lowerWord', 'WISE'), ('corrAns', 'down')])
+104.5490 	DATA 	Keypress: up
+104.5720 	EXP 	fixation: autoDraw = False
+104.5720 	EXP 	upperStim: autoDraw = False
+104.5720 	EXP 	lowerStim: autoDraw = False
+104.5720 	EXP 	upperStim: text = 'CEST'
+104.5720 	EXP 	lowerStim: text = 'WISE'
+104.5720 	EXP 	fixation: autoDraw = True
+105.5406 	EXP 	upperStim: autoDraw = True
+105.5406 	EXP 	lowerStim: autoDraw = True
+106.2577 	EXP 	New trial (rep=0, index=21): OrderedDict([('nonwordType', 'CONTROL'), ('upperWord', 'FOOD'), ('lowerWord', 'FEVE'), ('corrAns', 'up')])
+106.2643 	DATA 	Keypress: down
+106.2898 	EXP 	fixation: autoDraw = False
+106.2898 	EXP 	upperStim: autoDraw = False
+106.2898 	EXP 	lowerStim: autoDraw = False
+106.2898 	EXP 	upperStim: text = 'FOOD'
+106.2898 	EXP 	lowerStim: text = 'FEVE'
+106.2898 	EXP 	fixation: autoDraw = True
+107.2573 	EXP 	upperStim: autoDraw = True
+107.2573 	EXP 	lowerStim: autoDraw = True
+107.8460 	EXP 	New trial (rep=0, index=22): OrderedDict([('nonwordType', 'PSEUDOHOMOPHONE'), ('upperWord', 'BILL'), ('lowerWord', 'AHMS'), ('corrAns', 'up')])
+107.8522 	DATA 	Keypress: up
+107.8719 	EXP 	fixation: autoDraw = False
+107.8719 	EXP 	upperStim: autoDraw = False
+107.8719 	EXP 	lowerStim: autoDraw = False
+107.8719 	EXP 	upperStim: text = 'BILL'
+107.8719 	EXP 	lowerStim: text = 'AHMS'
+107.8719 	EXP 	fixation: autoDraw = True
+108.8389 	EXP 	upperStim: autoDraw = True
+108.8389 	EXP 	lowerStim: autoDraw = True
+110.1431 	EXP 	New trial (rep=0, index=23): OrderedDict([('nonwordType', 'PSEUDOHOMOPHONE'), ('upperWord', 'LERN'), ('lowerWord', 'LIST'), ('corrAns', 'down')])
+110.1492 	DATA 	Keypress: up
+110.1720 	EXP 	fixation: autoDraw = False
+110.1720 	EXP 	upperStim: autoDraw = False
+110.1720 	EXP 	lowerStim: autoDraw = False
+110.1720 	EXP 	upperStim: text = 'LERN'
+110.1720 	EXP 	lowerStim: text = 'LIST'
+110.1720 	EXP 	fixation: autoDraw = True
+111.1397 	EXP 	upperStim: autoDraw = True
+111.1397 	EXP 	lowerStim: autoDraw = True
+112.6262 	EXP 	New trial (rep=0, index=24): OrderedDict([('nonwordType', 'CONTROL'), ('upperWord', 'HOPE'), ('lowerWord', 'FUTE'), ('corrAns', 'up')])
+112.6333 	DATA 	Keypress: down
+112.6572 	EXP 	fixation: autoDraw = False
+112.6572 	EXP 	upperStim: autoDraw = False
+112.6572 	EXP 	lowerStim: autoDraw = False
+112.6572 	EXP 	upperStim: text = 'HOPE'
+112.6572 	EXP 	lowerStim: text = 'FUTE'
+112.6572 	EXP 	fixation: autoDraw = True
+113.6194 	EXP 	upperStim: autoDraw = True
+113.6194 	EXP 	lowerStim: autoDraw = True
+114.3751 	DATA 	Keypress: up
+114.3892 	EXP 	New trial (rep=0, index=25): OrderedDict([('nonwordType', 'CONTROL'), ('upperWord', 'GAIR'), ('lowerWord', 'SHOT'), ('corrAns', 'down')])
+114.4079 	EXP 	fixation: autoDraw = False
+114.4079 	EXP 	upperStim: autoDraw = False
+114.4079 	EXP 	lowerStim: autoDraw = False
+114.4079 	EXP 	upperStim: text = 'GAIR'
+114.4079 	EXP 	lowerStim: text = 'SHOT'
+114.4079 	EXP 	fixation: autoDraw = True
+115.3903 	EXP 	upperStim: autoDraw = True
+115.3903 	EXP 	lowerStim: autoDraw = True
+116.3082 	EXP 	New trial (rep=0, index=26): OrderedDict([('nonwordType', 'CONTROL'), ('upperWord', 'SOAT'), ('lowerWord', 'TALK'), ('corrAns', 'down')])
+116.3145 	DATA 	Keypress: down
+116.3396 	EXP 	fixation: autoDraw = False
+116.3396 	EXP 	upperStim: autoDraw = False
+116.3396 	EXP 	lowerStim: autoDraw = False
+116.3396 	EXP 	upperStim: text = 'SOAT'
+116.3396 	EXP 	lowerStim: text = 'TALK'
+116.3396 	EXP 	fixation: autoDraw = True
+117.3067 	EXP 	upperStim: autoDraw = True
+117.3067 	EXP 	lowerStim: autoDraw = True
+118.0432 	EXP 	New trial (rep=0, index=27): OrderedDict([('nonwordType', 'CONTROL'), ('upperWord', 'NUCK'), ('lowerWord', 'STEP'), ('corrAns', 'down')])
+118.0505 	DATA 	Keypress: down
+118.0719 	EXP 	fixation: autoDraw = False
+118.0719 	EXP 	upperStim: autoDraw = False
+118.0719 	EXP 	lowerStim: autoDraw = False
+118.0719 	EXP 	upperStim: text = 'NUCK'
+118.0719 	EXP 	lowerStim: text = 'STEP'
+118.0719 	EXP 	fixation: autoDraw = True
+119.0402 	EXP 	upperStim: autoDraw = True
+119.0402 	EXP 	lowerStim: autoDraw = True
+119.7920 	EXP 	New trial (rep=0, index=28): OrderedDict([('nonwordType', 'CONTROL'), ('upperWord', 'DEEP'), ('lowerWord', 'BAIF'), ('corrAns', 'up')])
+119.7982 	DATA 	Keypress: down
+119.8212 	EXP 	fixation: autoDraw = False
+119.8212 	EXP 	upperStim: autoDraw = False
+119.8212 	EXP 	lowerStim: autoDraw = False
+119.8212 	EXP 	upperStim: text = 'DEEP'
+119.8212 	EXP 	lowerStim: text = 'BAIF'
+119.8212 	EXP 	fixation: autoDraw = True
+120.7881 	EXP 	upperStim: autoDraw = True
+120.7881 	EXP 	lowerStim: autoDraw = True
+122.0583 	EXP 	New trial (rep=0, index=29): OrderedDict([('nonwordType', 'CONTROL'), ('upperWord', 'DATE'), ('lowerWord', 'AHNS'), ('corrAns', 'up')])
+122.0645 	DATA 	Keypress: up
+122.0897 	EXP 	fixation: autoDraw = False
+122.0897 	EXP 	upperStim: autoDraw = False
+122.0897 	EXP 	lowerStim: autoDraw = False
+122.0897 	EXP 	upperStim: text = 'DATE'
+122.0897 	EXP 	lowerStim: text = 'AHNS'
+122.0897 	EXP 	fixation: autoDraw = True
+123.0566 	EXP 	upperStim: autoDraw = True
+123.0566 	EXP 	lowerStim: autoDraw = True
+123.9344 	DATA 	Keypress: up
+123.9540 	EXP 	fixation: autoDraw = False
+123.9540 	EXP 	upperStim: autoDraw = False
+123.9540 	EXP 	lowerStim: autoDraw = False
+124.2418 	EXP 	window1: mouseVisible = True

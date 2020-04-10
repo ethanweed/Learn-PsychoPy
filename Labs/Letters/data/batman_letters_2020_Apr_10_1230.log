@@ -1,0 +1,2018 @@
+0.9777 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+9.2585 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1680, 1050]. Using actual size
+10.1691 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x133abdb38>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x13b8afa90>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.1692 	EXP 	window1: recordFrameIntervals = False
+10.3356 	EXP 	window1: recordFrameIntervals = True
+10.5190 	EXP 	window1: recordFrameIntervals = False
+10.6650 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.7005 	EXP 	Created letter_left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='letter_left', opacity=1.0, ori=0, pos=array([-0.2,  0. ]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.7030 	EXP 	Created letter_right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='letter_right', opacity=1.0, ori=0, pos=array([0.2, 0. ]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.7349 	EXP 	Created text_done = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_done', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='All done!!', units='height', win=Window(...), wrapWidth=1)
+10.7634 	EXP 	text: autoDraw = True
+18.2777 	EXP 	Imported stims.xlsx as conditions, 2 conditions, 3 params
+18.2780 	EXP 	Created sequence: fullRandom, trialTypes=2, nReps=100, seed=None
+18.2787 	EXP 	New trial (rep=0, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+18.2829 	EXP 	window1: recordFrameIntervals = False
+18.2853 	DATA 	Keypress: down
+18.3079 	EXP 	text: autoDraw = False
+18.3079 	EXP 	letter_left: text = 'B'
+18.3079 	EXP 	letter_right: text = 'A'
+18.3081 	EXP 	window1: recordFrameIntervals = False
+18.4060 	EXP 	letter_left: autoDraw = True
+18.4060 	EXP 	letter_right: autoDraw = True
+18.8924 	EXP 	New trial (rep=0, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+18.8925 	EXP 	window1: recordFrameIntervals = False
+18.8942 	DATA 	Keypress: right
+18.9076 	EXP 	letter_left: autoDraw = False
+18.9076 	EXP 	letter_right: autoDraw = False
+18.9076 	EXP 	letter_left: text = 'B'
+18.9076 	EXP 	letter_right: text = 'A'
+18.9077 	EXP 	window1: recordFrameIntervals = False
+19.0218 	EXP 	letter_left: autoDraw = True
+19.0218 	EXP 	letter_right: autoDraw = True
+19.3765 	EXP 	New trial (rep=1, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+19.3784 	EXP 	window1: recordFrameIntervals = False
+19.3802 	DATA 	Keypress: right
+19.3940 	EXP 	letter_left: autoDraw = False
+19.3940 	EXP 	letter_right: autoDraw = False
+19.3940 	EXP 	letter_left: text = 'A'
+19.3940 	EXP 	letter_right: text = 'B'
+19.3941 	EXP 	window1: recordFrameIntervals = False
+19.5047 	EXP 	letter_left: autoDraw = True
+19.5047 	EXP 	letter_right: autoDraw = True
+19.8748 	DATA 	Keypress: left
+19.8931 	EXP 	New trial (rep=1, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+19.8933 	EXP 	window1: recordFrameIntervals = False
+19.9069 	EXP 	letter_left: autoDraw = False
+19.9069 	EXP 	letter_right: autoDraw = False
+19.9069 	EXP 	letter_left: text = 'A'
+19.9069 	EXP 	letter_right: text = 'B'
+19.9071 	EXP 	window1: recordFrameIntervals = False
+20.0222 	EXP 	letter_left: autoDraw = True
+20.0222 	EXP 	letter_right: autoDraw = True
+20.3587 	EXP 	New trial (rep=2, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+20.3607 	EXP 	window1: recordFrameIntervals = False
+20.3624 	DATA 	Keypress: left
+20.3760 	EXP 	letter_left: autoDraw = False
+20.3760 	EXP 	letter_right: autoDraw = False
+20.3760 	EXP 	letter_left: text = 'B'
+20.3760 	EXP 	letter_right: text = 'A'
+20.3762 	EXP 	window1: recordFrameIntervals = False
+20.4891 	EXP 	letter_left: autoDraw = True
+20.4891 	EXP 	letter_right: autoDraw = True
+20.8262 	EXP 	New trial (rep=2, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+20.8283 	EXP 	window1: recordFrameIntervals = False
+20.8306 	DATA 	Keypress: right
+20.8441 	EXP 	letter_left: autoDraw = False
+20.8441 	EXP 	letter_right: autoDraw = False
+20.8441 	EXP 	letter_left: text = 'A'
+20.8441 	EXP 	letter_right: text = 'B'
+20.8442 	EXP 	window1: recordFrameIntervals = False
+20.9553 	EXP 	letter_left: autoDraw = True
+20.9553 	EXP 	letter_right: autoDraw = True
+21.3748 	EXP 	New trial (rep=3, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+21.3749 	EXP 	window1: recordFrameIntervals = False
+21.3768 	DATA 	Keypress: left
+21.3902 	EXP 	letter_left: autoDraw = False
+21.3902 	EXP 	letter_right: autoDraw = False
+21.3902 	EXP 	letter_left: text = 'A'
+21.3902 	EXP 	letter_right: text = 'B'
+21.3902 	EXP 	window1: recordFrameIntervals = False
+21.5055 	EXP 	letter_left: autoDraw = True
+21.5055 	EXP 	letter_right: autoDraw = True
+21.8758 	EXP 	New trial (rep=3, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+21.8760 	EXP 	window1: recordFrameIntervals = False
+21.8778 	DATA 	Keypress: left
+21.8923 	EXP 	letter_left: autoDraw = False
+21.8923 	EXP 	letter_right: autoDraw = False
+21.8923 	EXP 	letter_left: text = 'A'
+21.8923 	EXP 	letter_right: text = 'B'
+21.8925 	EXP 	window1: recordFrameIntervals = False
+22.0057 	EXP 	letter_left: autoDraw = True
+22.0057 	EXP 	letter_right: autoDraw = True
+22.3413 	DATA 	Keypress: left
+22.3598 	EXP 	New trial (rep=4, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+22.3620 	EXP 	window1: recordFrameIntervals = False
+22.3758 	EXP 	letter_left: autoDraw = False
+22.3758 	EXP 	letter_right: autoDraw = False
+22.3758 	EXP 	letter_left: text = 'B'
+22.3758 	EXP 	letter_right: text = 'A'
+22.3759 	EXP 	window1: recordFrameIntervals = False
+22.4884 	EXP 	letter_left: autoDraw = True
+22.4884 	EXP 	letter_right: autoDraw = True
+22.8436 	EXP 	New trial (rep=4, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+22.8457 	EXP 	window1: recordFrameIntervals = False
+22.8476 	DATA 	Keypress: right
+22.8618 	EXP 	letter_left: autoDraw = False
+22.8618 	EXP 	letter_right: autoDraw = False
+22.8618 	EXP 	letter_left: text = 'A'
+22.8618 	EXP 	letter_right: text = 'B'
+22.8619 	EXP 	window1: recordFrameIntervals = False
+22.9724 	EXP 	letter_left: autoDraw = True
+22.9724 	EXP 	letter_right: autoDraw = True
+23.3284 	EXP 	New trial (rep=5, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+23.3286 	EXP 	window1: recordFrameIntervals = False
+23.3306 	DATA 	Keypress: left
+23.3566 	EXP 	letter_left: autoDraw = False
+23.3566 	EXP 	letter_right: autoDraw = False
+23.3566 	EXP 	letter_left: text = 'A'
+23.3566 	EXP 	letter_right: text = 'B'
+23.3567 	EXP 	window1: recordFrameIntervals = False
+23.4557 	EXP 	letter_left: autoDraw = True
+23.4557 	EXP 	letter_right: autoDraw = True
+23.8424 	EXP 	New trial (rep=5, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+23.8426 	EXP 	window1: recordFrameIntervals = False
+23.8445 	DATA 	Keypress: left
+23.8582 	EXP 	letter_left: autoDraw = False
+23.8582 	EXP 	letter_right: autoDraw = False
+23.8582 	EXP 	letter_left: text = 'A'
+23.8582 	EXP 	letter_right: text = 'B'
+23.8583 	EXP 	window1: recordFrameIntervals = False
+23.9727 	EXP 	letter_left: autoDraw = True
+23.9727 	EXP 	letter_right: autoDraw = True
+24.3091 	EXP 	New trial (rep=6, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+24.3093 	EXP 	window1: recordFrameIntervals = False
+24.3108 	DATA 	Keypress: left
+24.3242 	EXP 	letter_left: autoDraw = False
+24.3242 	EXP 	letter_right: autoDraw = False
+24.3242 	EXP 	letter_left: text = 'A'
+24.3242 	EXP 	letter_right: text = 'B'
+24.3243 	EXP 	window1: recordFrameIntervals = False
+24.4391 	EXP 	letter_left: autoDraw = True
+24.4391 	EXP 	letter_right: autoDraw = True
+24.8610 	EXP 	New trial (rep=6, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+24.8637 	EXP 	window1: recordFrameIntervals = False
+24.8656 	DATA 	Keypress: left
+24.8888 	EXP 	letter_left: autoDraw = False
+24.8888 	EXP 	letter_right: autoDraw = False
+24.8888 	EXP 	letter_left: text = 'B'
+24.8888 	EXP 	letter_right: text = 'A'
+24.8891 	EXP 	window1: recordFrameIntervals = False
+24.9891 	EXP 	letter_left: autoDraw = True
+24.9891 	EXP 	letter_right: autoDraw = True
+25.3617 	EXP 	New trial (rep=7, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+25.3619 	EXP 	window1: recordFrameIntervals = False
+25.3640 	DATA 	Keypress: right
+25.3900 	EXP 	letter_left: autoDraw = False
+25.3900 	EXP 	letter_right: autoDraw = False
+25.3900 	EXP 	letter_left: text = 'B'
+25.3900 	EXP 	letter_right: text = 'A'
+25.3903 	EXP 	window1: recordFrameIntervals = False
+25.4899 	EXP 	letter_left: autoDraw = True
+25.4899 	EXP 	letter_right: autoDraw = True
+25.8944 	EXP 	New trial (rep=7, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+25.8946 	EXP 	window1: recordFrameIntervals = False
+25.8966 	DATA 	Keypress: right
+25.9103 	EXP 	letter_left: autoDraw = False
+25.9103 	EXP 	letter_right: autoDraw = False
+25.9103 	EXP 	letter_left: text = 'B'
+25.9103 	EXP 	letter_right: text = 'A'
+25.9106 	EXP 	window1: recordFrameIntervals = False
+26.0228 	EXP 	letter_left: autoDraw = True
+26.0228 	EXP 	letter_right: autoDraw = True
+26.3780 	EXP 	New trial (rep=8, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+26.3809 	EXP 	window1: recordFrameIntervals = False
+26.3827 	DATA 	Keypress: right
+26.4079 	EXP 	letter_left: autoDraw = False
+26.4079 	EXP 	letter_right: autoDraw = False
+26.4079 	EXP 	letter_left: text = 'A'
+26.4079 	EXP 	letter_right: text = 'B'
+26.4081 	EXP 	window1: recordFrameIntervals = False
+26.5060 	EXP 	letter_left: autoDraw = True
+26.5060 	EXP 	letter_right: autoDraw = True
+26.8781 	EXP 	New trial (rep=8, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+26.8809 	EXP 	window1: recordFrameIntervals = False
+26.8828 	DATA 	Keypress: left
+26.9065 	EXP 	letter_left: autoDraw = False
+26.9065 	EXP 	letter_right: autoDraw = False
+26.9065 	EXP 	letter_left: text = 'B'
+26.9065 	EXP 	letter_right: text = 'A'
+26.9068 	EXP 	window1: recordFrameIntervals = False
+27.0065 	EXP 	letter_left: autoDraw = True
+27.0065 	EXP 	letter_right: autoDraw = True
+27.3592 	EXP 	New trial (rep=9, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+27.3612 	EXP 	window1: recordFrameIntervals = False
+27.3628 	DATA 	Keypress: right
+27.3767 	EXP 	letter_left: autoDraw = False
+27.3767 	EXP 	letter_right: autoDraw = False
+27.3767 	EXP 	letter_left: text = 'A'
+27.3767 	EXP 	letter_right: text = 'B'
+27.3769 	EXP 	window1: recordFrameIntervals = False
+27.4892 	EXP 	letter_left: autoDraw = True
+27.4892 	EXP 	letter_right: autoDraw = True
+27.8767 	EXP 	New trial (rep=9, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+27.8797 	EXP 	window1: recordFrameIntervals = False
+27.8817 	DATA 	Keypress: left
+27.9065 	EXP 	letter_left: autoDraw = False
+27.9065 	EXP 	letter_right: autoDraw = False
+27.9065 	EXP 	letter_left: text = 'B'
+27.9065 	EXP 	letter_right: text = 'A'
+27.9066 	EXP 	window1: recordFrameIntervals = False
+28.0067 	EXP 	letter_left: autoDraw = True
+28.0067 	EXP 	letter_right: autoDraw = True
+28.3445 	EXP 	New trial (rep=10, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+28.3447 	EXP 	window1: recordFrameIntervals = False
+28.3467 	DATA 	Keypress: right
+28.3602 	EXP 	letter_left: autoDraw = False
+28.3602 	EXP 	letter_right: autoDraw = False
+28.3602 	EXP 	letter_left: text = 'B'
+28.3602 	EXP 	letter_right: text = 'A'
+28.3604 	EXP 	window1: recordFrameIntervals = False
+28.4720 	EXP 	letter_left: autoDraw = True
+28.4720 	EXP 	letter_right: autoDraw = True
+28.9288 	EXP 	New trial (rep=10, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+28.9317 	EXP 	window1: recordFrameIntervals = False
+28.9336 	DATA 	Keypress: right
+28.9553 	EXP 	letter_left: autoDraw = False
+28.9553 	EXP 	letter_right: autoDraw = False
+28.9553 	EXP 	letter_left: text = 'A'
+28.9553 	EXP 	letter_right: text = 'B'
+28.9555 	EXP 	window1: recordFrameIntervals = False
+29.0564 	EXP 	letter_left: autoDraw = True
+29.0564 	EXP 	letter_right: autoDraw = True
+29.4280 	EXP 	New trial (rep=11, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+29.4308 	EXP 	window1: recordFrameIntervals = False
+29.4328 	DATA 	Keypress: left
+29.4565 	EXP 	letter_left: autoDraw = False
+29.4565 	EXP 	letter_right: autoDraw = False
+29.4565 	EXP 	letter_left: text = 'B'
+29.4565 	EXP 	letter_right: text = 'A'
+29.4567 	EXP 	window1: recordFrameIntervals = False
+29.5572 	EXP 	letter_left: autoDraw = True
+29.5572 	EXP 	letter_right: autoDraw = True
+29.9096 	DATA 	Keypress: right
+29.9292 	EXP 	New trial (rep=11, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+29.9320 	EXP 	window1: recordFrameIntervals = False
+29.9554 	EXP 	letter_left: autoDraw = False
+29.9554 	EXP 	letter_right: autoDraw = False
+29.9554 	EXP 	letter_left: text = 'A'
+29.9554 	EXP 	letter_right: text = 'B'
+29.9556 	EXP 	window1: recordFrameIntervals = False
+30.0564 	EXP 	letter_left: autoDraw = True
+30.0564 	EXP 	letter_right: autoDraw = True
+30.4775 	EXP 	New trial (rep=12, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+30.4777 	EXP 	window1: recordFrameIntervals = False
+30.4797 	DATA 	Keypress: left
+30.4934 	EXP 	letter_left: autoDraw = False
+30.4934 	EXP 	letter_right: autoDraw = False
+30.4934 	EXP 	letter_left: text = 'A'
+30.4934 	EXP 	letter_right: text = 'B'
+30.4936 	EXP 	window1: recordFrameIntervals = False
+30.6064 	EXP 	letter_left: autoDraw = True
+30.6064 	EXP 	letter_right: autoDraw = True
+30.9794 	EXP 	New trial (rep=12, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+30.9825 	EXP 	window1: recordFrameIntervals = False
+30.9844 	DATA 	Keypress: left
+31.0066 	EXP 	letter_left: autoDraw = False
+31.0066 	EXP 	letter_right: autoDraw = False
+31.0066 	EXP 	letter_left: text = 'B'
+31.0066 	EXP 	letter_right: text = 'A'
+31.0068 	EXP 	window1: recordFrameIntervals = False
+31.1066 	EXP 	letter_left: autoDraw = True
+31.1066 	EXP 	letter_right: autoDraw = True
+31.4780 	EXP 	New trial (rep=13, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+31.4782 	EXP 	window1: recordFrameIntervals = False
+31.4803 	DATA 	Keypress: right
+31.5059 	EXP 	letter_left: autoDraw = False
+31.5059 	EXP 	letter_right: autoDraw = False
+31.5059 	EXP 	letter_left: text = 'B'
+31.5059 	EXP 	letter_right: text = 'A'
+31.5061 	EXP 	window1: recordFrameIntervals = False
+31.6065 	EXP 	letter_left: autoDraw = True
+31.6065 	EXP 	letter_right: autoDraw = True
+31.9929 	EXP 	New trial (rep=13, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+31.9957 	EXP 	window1: recordFrameIntervals = False
+31.9977 	DATA 	Keypress: right
+32.0223 	EXP 	letter_left: autoDraw = False
+32.0223 	EXP 	letter_right: autoDraw = False
+32.0223 	EXP 	letter_left: text = 'A'
+32.0223 	EXP 	letter_right: text = 'B'
+32.0226 	EXP 	window1: recordFrameIntervals = False
+32.1230 	EXP 	letter_left: autoDraw = True
+32.1230 	EXP 	letter_right: autoDraw = True
+32.4781 	EXP 	New trial (rep=14, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+32.4809 	EXP 	window1: recordFrameIntervals = False
+32.4829 	DATA 	Keypress: left
+32.5065 	EXP 	letter_left: autoDraw = False
+32.5065 	EXP 	letter_right: autoDraw = False
+32.5065 	EXP 	letter_left: text = 'B'
+32.5065 	EXP 	letter_right: text = 'A'
+32.5068 	EXP 	window1: recordFrameIntervals = False
+32.6062 	EXP 	letter_left: autoDraw = True
+32.6062 	EXP 	letter_right: autoDraw = True
+32.9762 	EXP 	New trial (rep=14, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+32.9789 	EXP 	window1: recordFrameIntervals = False
+32.9809 	DATA 	Keypress: right
+33.0065 	EXP 	letter_left: autoDraw = False
+33.0065 	EXP 	letter_right: autoDraw = False
+33.0065 	EXP 	letter_left: text = 'A'
+33.0065 	EXP 	letter_right: text = 'B'
+33.0067 	EXP 	window1: recordFrameIntervals = False
+33.1057 	EXP 	letter_left: autoDraw = True
+33.1057 	EXP 	letter_right: autoDraw = True
+33.5073 	EXP 	New trial (rep=15, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+33.5075 	EXP 	window1: recordFrameIntervals = False
+33.5094 	DATA 	Keypress: left
+33.5213 	EXP 	letter_left: autoDraw = False
+33.5213 	EXP 	letter_right: autoDraw = False
+33.5213 	EXP 	letter_left: text = 'A'
+33.5213 	EXP 	letter_right: text = 'B'
+33.5215 	EXP 	window1: recordFrameIntervals = False
+33.6403 	EXP 	letter_left: autoDraw = True
+33.6403 	EXP 	letter_right: autoDraw = True
+34.0437 	EXP 	New trial (rep=15, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+34.0468 	EXP 	window1: recordFrameIntervals = False
+34.0487 	DATA 	Keypress: left
+34.0721 	EXP 	letter_left: autoDraw = False
+34.0721 	EXP 	letter_right: autoDraw = False
+34.0721 	EXP 	letter_left: text = 'B'
+34.0721 	EXP 	letter_right: text = 'A'
+34.0723 	EXP 	window1: recordFrameIntervals = False
+34.1721 	EXP 	letter_left: autoDraw = True
+34.1721 	EXP 	letter_right: autoDraw = True
+34.5581 	EXP 	New trial (rep=16, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+34.5582 	EXP 	window1: recordFrameIntervals = False
+34.5601 	DATA 	Keypress: right
+34.5711 	EXP 	letter_left: autoDraw = False
+34.5711 	EXP 	letter_right: autoDraw = False
+34.5711 	EXP 	letter_left: text = 'B'
+34.5711 	EXP 	letter_right: text = 'A'
+34.5713 	EXP 	window1: recordFrameIntervals = False
+34.6884 	EXP 	letter_left: autoDraw = True
+34.6884 	EXP 	letter_right: autoDraw = True
+35.0763 	EXP 	New trial (rep=16, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+35.0764 	EXP 	window1: recordFrameIntervals = False
+35.0783 	DATA 	Keypress: right
+35.0923 	EXP 	letter_left: autoDraw = False
+35.0923 	EXP 	letter_right: autoDraw = False
+35.0923 	EXP 	letter_left: text = 'B'
+35.0923 	EXP 	letter_right: text = 'A'
+35.0924 	EXP 	window1: recordFrameIntervals = False
+35.2064 	EXP 	letter_left: autoDraw = True
+35.2064 	EXP 	letter_right: autoDraw = True
+35.5612 	EXP 	New trial (rep=17, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+35.5641 	EXP 	window1: recordFrameIntervals = False
+35.5660 	DATA 	Keypress: right
+35.5898 	EXP 	letter_left: autoDraw = False
+35.5898 	EXP 	letter_right: autoDraw = False
+35.5898 	EXP 	letter_left: text = 'A'
+35.5898 	EXP 	letter_right: text = 'B'
+35.5901 	EXP 	window1: recordFrameIntervals = False
+35.6898 	EXP 	letter_left: autoDraw = True
+35.6898 	EXP 	letter_right: autoDraw = True
+36.0587 	EXP 	New trial (rep=17, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+36.0589 	EXP 	window1: recordFrameIntervals = False
+36.0605 	DATA 	Keypress: left
+36.0708 	EXP 	letter_left: autoDraw = False
+36.0708 	EXP 	letter_right: autoDraw = False
+36.0708 	EXP 	letter_left: text = 'A'
+36.0708 	EXP 	letter_right: text = 'B'
+36.0710 	EXP 	window1: recordFrameIntervals = False
+36.1895 	EXP 	letter_left: autoDraw = True
+36.1895 	EXP 	letter_right: autoDraw = True
+36.5434 	EXP 	New trial (rep=18, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+36.5459 	EXP 	window1: recordFrameIntervals = False
+36.5477 	DATA 	Keypress: left
+36.5722 	EXP 	letter_left: autoDraw = False
+36.5722 	EXP 	letter_right: autoDraw = False
+36.5722 	EXP 	letter_left: text = 'B'
+36.5722 	EXP 	letter_right: text = 'A'
+36.5724 	EXP 	window1: recordFrameIntervals = False
+36.6728 	EXP 	letter_left: autoDraw = True
+36.6728 	EXP 	letter_right: autoDraw = True
+37.0263 	EXP 	New trial (rep=18, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+37.0265 	EXP 	window1: recordFrameIntervals = False
+37.0284 	DATA 	Keypress: right
+37.0378 	EXP 	letter_left: autoDraw = False
+37.0378 	EXP 	letter_right: autoDraw = False
+37.0378 	EXP 	letter_left: text = 'B'
+37.0378 	EXP 	letter_right: text = 'A'
+37.0380 	EXP 	window1: recordFrameIntervals = False
+37.1554 	EXP 	letter_left: autoDraw = True
+37.1554 	EXP 	letter_right: autoDraw = True
+37.5106 	EXP 	New trial (rep=19, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+37.5108 	EXP 	window1: recordFrameIntervals = False
+37.5128 	DATA 	Keypress: right
+37.5264 	EXP 	letter_left: autoDraw = False
+37.5264 	EXP 	letter_right: autoDraw = False
+37.5264 	EXP 	letter_left: text = 'B'
+37.5264 	EXP 	letter_right: text = 'A'
+37.5266 	EXP 	window1: recordFrameIntervals = False
+37.6387 	EXP 	letter_left: autoDraw = True
+37.6387 	EXP 	letter_right: autoDraw = True
+37.9777 	EXP 	New trial (rep=19, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+37.9806 	EXP 	window1: recordFrameIntervals = False
+37.9826 	DATA 	Keypress: right
+38.0058 	EXP 	letter_left: autoDraw = False
+38.0058 	EXP 	letter_right: autoDraw = False
+38.0058 	EXP 	letter_left: text = 'A'
+38.0058 	EXP 	letter_right: text = 'B'
+38.0060 	EXP 	window1: recordFrameIntervals = False
+38.1062 	EXP 	letter_left: autoDraw = True
+38.1062 	EXP 	letter_right: autoDraw = True
+38.5118 	EXP 	New trial (rep=20, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+38.5153 	EXP 	window1: recordFrameIntervals = False
+38.5173 	DATA 	Keypress: left
+38.5386 	EXP 	letter_left: autoDraw = False
+38.5386 	EXP 	letter_right: autoDraw = False
+38.5386 	EXP 	letter_left: text = 'B'
+38.5386 	EXP 	letter_right: text = 'A'
+38.5388 	EXP 	window1: recordFrameIntervals = False
+38.6389 	EXP 	letter_left: autoDraw = True
+38.6389 	EXP 	letter_right: autoDraw = True
+38.9950 	EXP 	New trial (rep=20, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+38.9952 	EXP 	window1: recordFrameIntervals = False
+38.9972 	DATA 	Keypress: right
+39.0220 	EXP 	letter_left: autoDraw = False
+39.0220 	EXP 	letter_right: autoDraw = False
+39.0220 	EXP 	letter_left: text = 'B'
+39.0220 	EXP 	letter_right: text = 'A'
+39.0223 	EXP 	window1: recordFrameIntervals = False
+39.1219 	EXP 	letter_left: autoDraw = True
+39.1219 	EXP 	letter_right: autoDraw = True
+39.5450 	EXP 	New trial (rep=21, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+39.5452 	EXP 	window1: recordFrameIntervals = False
+39.5473 	DATA 	Keypress: right
+39.5729 	EXP 	letter_left: autoDraw = False
+39.5729 	EXP 	letter_right: autoDraw = False
+39.5729 	EXP 	letter_left: text = 'B'
+39.5729 	EXP 	letter_right: text = 'A'
+39.5730 	EXP 	window1: recordFrameIntervals = False
+39.6718 	EXP 	letter_left: autoDraw = True
+39.6718 	EXP 	letter_right: autoDraw = True
+40.0108 	EXP 	New trial (rep=21, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+40.0136 	EXP 	window1: recordFrameIntervals = False
+40.0156 	DATA 	Keypress: right
+40.0395 	EXP 	letter_left: autoDraw = False
+40.0395 	EXP 	letter_right: autoDraw = False
+40.0395 	EXP 	letter_left: text = 'A'
+40.0395 	EXP 	letter_right: text = 'B'
+40.0398 	EXP 	window1: recordFrameIntervals = False
+40.1397 	EXP 	letter_left: autoDraw = True
+40.1397 	EXP 	letter_right: autoDraw = True
+40.4940 	EXP 	New trial (rep=22, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+40.4969 	EXP 	window1: recordFrameIntervals = False
+40.4990 	DATA 	Keypress: left
+40.5237 	EXP 	letter_left: autoDraw = False
+40.5237 	EXP 	letter_right: autoDraw = False
+40.5237 	EXP 	letter_left: text = 'B'
+40.5237 	EXP 	letter_right: text = 'A'
+40.5239 	EXP 	window1: recordFrameIntervals = False
+40.6231 	EXP 	letter_left: autoDraw = True
+40.6231 	EXP 	letter_right: autoDraw = True
+40.9619 	EXP 	New trial (rep=22, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+40.9647 	EXP 	window1: recordFrameIntervals = False
+40.9666 	DATA 	Keypress: right
+40.9893 	EXP 	letter_left: autoDraw = False
+40.9893 	EXP 	letter_right: autoDraw = False
+40.9893 	EXP 	letter_left: text = 'A'
+40.9893 	EXP 	letter_right: text = 'B'
+40.9895 	EXP 	window1: recordFrameIntervals = False
+41.0894 	EXP 	letter_left: autoDraw = True
+41.0894 	EXP 	letter_right: autoDraw = True
+41.4942 	EXP 	New trial (rep=23, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+41.4973 	EXP 	window1: recordFrameIntervals = False
+41.4993 	DATA 	Keypress: left
+41.5220 	EXP 	letter_left: autoDraw = False
+41.5220 	EXP 	letter_right: autoDraw = False
+41.5220 	EXP 	letter_left: text = 'B'
+41.5220 	EXP 	letter_right: text = 'A'
+41.5223 	EXP 	window1: recordFrameIntervals = False
+41.6231 	EXP 	letter_left: autoDraw = True
+41.6231 	EXP 	letter_right: autoDraw = True
+42.0574 	EXP 	New trial (rep=23, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+42.0598 	EXP 	window1: recordFrameIntervals = False
+42.0615 	DATA 	Keypress: right
+42.0751 	EXP 	letter_left: autoDraw = False
+42.0751 	EXP 	letter_right: autoDraw = False
+42.0751 	EXP 	letter_left: text = 'A'
+42.0751 	EXP 	letter_right: text = 'B'
+42.0753 	EXP 	window1: recordFrameIntervals = False
+42.1891 	EXP 	letter_left: autoDraw = True
+42.1891 	EXP 	letter_right: autoDraw = True
+42.5942 	EXP 	New trial (rep=24, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+42.5971 	EXP 	window1: recordFrameIntervals = False
+42.5991 	DATA 	Keypress: left
+42.6241 	EXP 	letter_left: autoDraw = False
+42.6241 	EXP 	letter_right: autoDraw = False
+42.6241 	EXP 	letter_left: text = 'B'
+42.6241 	EXP 	letter_right: text = 'A'
+42.6242 	EXP 	window1: recordFrameIntervals = False
+42.7231 	EXP 	letter_left: autoDraw = True
+42.7231 	EXP 	letter_right: autoDraw = True
+43.0776 	EXP 	New trial (rep=24, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+43.0808 	EXP 	window1: recordFrameIntervals = False
+43.0831 	DATA 	Keypress: right
+43.1069 	EXP 	letter_left: autoDraw = False
+43.1069 	EXP 	letter_right: autoDraw = False
+43.1069 	EXP 	letter_left: text = 'A'
+43.1069 	EXP 	letter_right: text = 'B'
+43.1071 	EXP 	window1: recordFrameIntervals = False
+43.2064 	EXP 	letter_left: autoDraw = True
+43.2064 	EXP 	letter_right: autoDraw = True
+43.6277 	EXP 	New trial (rep=25, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+43.6305 	EXP 	window1: recordFrameIntervals = False
+43.6325 	DATA 	Keypress: left
+43.6556 	EXP 	letter_left: autoDraw = False
+43.6556 	EXP 	letter_right: autoDraw = False
+43.6556 	EXP 	letter_left: text = 'B'
+43.6556 	EXP 	letter_right: text = 'A'
+43.6558 	EXP 	window1: recordFrameIntervals = False
+43.7560 	EXP 	letter_left: autoDraw = True
+43.7560 	EXP 	letter_right: autoDraw = True
+44.1098 	EXP 	New trial (rep=25, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+44.1127 	EXP 	window1: recordFrameIntervals = False
+44.1146 	DATA 	Keypress: right
+44.1396 	EXP 	letter_left: autoDraw = False
+44.1396 	EXP 	letter_right: autoDraw = False
+44.1396 	EXP 	letter_left: text = 'A'
+44.1396 	EXP 	letter_right: text = 'B'
+44.1398 	EXP 	window1: recordFrameIntervals = False
+44.2391 	EXP 	letter_left: autoDraw = True
+44.2391 	EXP 	letter_right: autoDraw = True
+44.6448 	EXP 	New trial (rep=26, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+44.6476 	EXP 	window1: recordFrameIntervals = False
+44.6496 	DATA 	Keypress: left
+44.6716 	EXP 	letter_left: autoDraw = False
+44.6716 	EXP 	letter_right: autoDraw = False
+44.6716 	EXP 	letter_left: text = 'B'
+44.6716 	EXP 	letter_right: text = 'A'
+44.6718 	EXP 	window1: recordFrameIntervals = False
+44.7722 	EXP 	letter_left: autoDraw = True
+44.7722 	EXP 	letter_right: autoDraw = True
+45.1769 	EXP 	New trial (rep=26, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+45.1797 	EXP 	window1: recordFrameIntervals = False
+45.1816 	DATA 	Keypress: right
+45.2063 	EXP 	letter_left: autoDraw = False
+45.2063 	EXP 	letter_right: autoDraw = False
+45.2063 	EXP 	letter_left: text = 'A'
+45.2063 	EXP 	letter_right: text = 'B'
+45.2065 	EXP 	window1: recordFrameIntervals = False
+45.3057 	EXP 	letter_left: autoDraw = True
+45.3057 	EXP 	letter_right: autoDraw = True
+45.6944 	EXP 	New trial (rep=27, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+45.6946 	EXP 	window1: recordFrameIntervals = False
+45.6966 	DATA 	Keypress: left
+45.7105 	EXP 	letter_left: autoDraw = False
+45.7105 	EXP 	letter_right: autoDraw = False
+45.7105 	EXP 	letter_left: text = 'A'
+45.7105 	EXP 	letter_right: text = 'B'
+45.7108 	EXP 	window1: recordFrameIntervals = False
+45.8227 	EXP 	letter_left: autoDraw = True
+45.8227 	EXP 	letter_right: autoDraw = True
+46.2299 	EXP 	New trial (rep=27, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+46.2328 	EXP 	window1: recordFrameIntervals = False
+46.2347 	DATA 	Keypress: left
+46.2551 	EXP 	letter_left: autoDraw = False
+46.2551 	EXP 	letter_right: autoDraw = False
+46.2551 	EXP 	letter_left: text = 'B'
+46.2551 	EXP 	letter_right: text = 'A'
+46.2554 	EXP 	window1: recordFrameIntervals = False
+46.3556 	EXP 	letter_left: autoDraw = True
+46.3556 	EXP 	letter_right: autoDraw = True
+46.7241 	EXP 	New trial (rep=28, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+46.7267 	EXP 	window1: recordFrameIntervals = False
+46.7283 	DATA 	Keypress: right
+46.7417 	EXP 	letter_left: autoDraw = False
+46.7417 	EXP 	letter_right: autoDraw = False
+46.7417 	EXP 	letter_left: text = 'A'
+46.7417 	EXP 	letter_right: text = 'B'
+46.7419 	EXP 	window1: recordFrameIntervals = False
+46.8564 	EXP 	letter_left: autoDraw = True
+46.8564 	EXP 	letter_right: autoDraw = True
+47.2788 	EXP 	New trial (rep=28, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+47.2817 	EXP 	window1: recordFrameIntervals = False
+47.2837 	DATA 	Keypress: left
+47.3067 	EXP 	letter_left: autoDraw = False
+47.3067 	EXP 	letter_right: autoDraw = False
+47.3067 	EXP 	letter_left: text = 'B'
+47.3067 	EXP 	letter_right: text = 'A'
+47.3070 	EXP 	window1: recordFrameIntervals = False
+47.4067 	EXP 	letter_left: autoDraw = True
+47.4067 	EXP 	letter_right: autoDraw = True
+47.7946 	EXP 	New trial (rep=29, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+47.7948 	EXP 	window1: recordFrameIntervals = False
+47.7968 	DATA 	Keypress: right
+47.8225 	EXP 	letter_left: autoDraw = False
+47.8225 	EXP 	letter_right: autoDraw = False
+47.8225 	EXP 	letter_left: text = 'B'
+47.8225 	EXP 	letter_right: text = 'A'
+47.8227 	EXP 	window1: recordFrameIntervals = False
+47.9230 	EXP 	letter_left: autoDraw = True
+47.9230 	EXP 	letter_right: autoDraw = True
+48.2775 	EXP 	New trial (rep=29, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+48.2777 	EXP 	window1: recordFrameIntervals = False
+48.2797 	DATA 	Keypress: left
+48.3074 	EXP 	letter_left: autoDraw = False
+48.3074 	EXP 	letter_right: autoDraw = False
+48.3074 	EXP 	letter_left: text = 'B'
+48.3074 	EXP 	letter_right: text = 'A'
+48.3076 	EXP 	window1: recordFrameIntervals = False
+48.4059 	EXP 	letter_left: autoDraw = True
+48.4059 	EXP 	letter_right: autoDraw = True
+48.4926 	EXP 	New trial (rep=30, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+48.4928 	EXP 	window1: recordFrameIntervals = False
+48.4943 	DATA 	Keypress: right
+48.5081 	EXP 	letter_left: autoDraw = False
+48.5081 	EXP 	letter_right: autoDraw = False
+48.5081 	EXP 	letter_left: text = 'B'
+48.5081 	EXP 	letter_right: text = 'A'
+48.5084 	EXP 	window1: recordFrameIntervals = False
+48.6247 	EXP 	letter_left: autoDraw = True
+48.6247 	EXP 	letter_right: autoDraw = True
+49.0273 	EXP 	New trial (rep=30, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+49.0275 	EXP 	window1: recordFrameIntervals = False
+49.0293 	DATA 	Keypress: right
+49.0428 	EXP 	letter_left: autoDraw = False
+49.0428 	EXP 	letter_right: autoDraw = False
+49.0428 	EXP 	letter_left: text = 'B'
+49.0428 	EXP 	letter_right: text = 'A'
+49.0430 	EXP 	window1: recordFrameIntervals = False
+49.1562 	EXP 	letter_left: autoDraw = True
+49.1562 	EXP 	letter_right: autoDraw = True
+49.5113 	EXP 	New trial (rep=31, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+49.5141 	EXP 	window1: recordFrameIntervals = False
+49.5161 	DATA 	Keypress: right
+49.5392 	EXP 	letter_left: autoDraw = False
+49.5392 	EXP 	letter_right: autoDraw = False
+49.5392 	EXP 	letter_left: text = 'A'
+49.5392 	EXP 	letter_right: text = 'B'
+49.5394 	EXP 	window1: recordFrameIntervals = False
+49.6395 	EXP 	letter_left: autoDraw = True
+49.6395 	EXP 	letter_right: autoDraw = True
+50.0787 	EXP 	New trial (rep=31, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+50.0815 	EXP 	window1: recordFrameIntervals = False
+50.0835 	DATA 	Keypress: left
+50.1060 	EXP 	letter_left: autoDraw = False
+50.1060 	EXP 	letter_right: autoDraw = False
+50.1060 	EXP 	letter_left: text = 'B'
+50.1060 	EXP 	letter_right: text = 'A'
+50.1063 	EXP 	window1: recordFrameIntervals = False
+50.2057 	EXP 	letter_left: autoDraw = True
+50.2057 	EXP 	letter_right: autoDraw = True
+50.5626 	EXP 	New trial (rep=32, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+50.5628 	EXP 	window1: recordFrameIntervals = False
+50.5648 	DATA 	Keypress: right
+50.5897 	EXP 	letter_left: autoDraw = False
+50.5897 	EXP 	letter_right: autoDraw = False
+50.5897 	EXP 	letter_left: text = 'B'
+50.5897 	EXP 	letter_right: text = 'A'
+50.5899 	EXP 	window1: recordFrameIntervals = False
+50.6896 	EXP 	letter_left: autoDraw = True
+50.6896 	EXP 	letter_right: autoDraw = True
+51.1443 	EXP 	New trial (rep=32, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+51.1445 	EXP 	window1: recordFrameIntervals = False
+51.1465 	DATA 	Keypress: right
+51.1732 	EXP 	letter_left: autoDraw = False
+51.1732 	EXP 	letter_right: autoDraw = False
+51.1732 	EXP 	letter_left: text = 'B'
+51.1732 	EXP 	letter_right: text = 'A'
+51.1735 	EXP 	window1: recordFrameIntervals = False
+51.2724 	EXP 	letter_left: autoDraw = True
+51.2724 	EXP 	letter_right: autoDraw = True
+51.6764 	EXP 	New trial (rep=33, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+51.6766 	EXP 	window1: recordFrameIntervals = False
+51.6784 	DATA 	Keypress: right
+51.6920 	EXP 	letter_left: autoDraw = False
+51.6920 	EXP 	letter_right: autoDraw = False
+51.6920 	EXP 	letter_left: text = 'B'
+51.6920 	EXP 	letter_right: text = 'A'
+51.6922 	EXP 	window1: recordFrameIntervals = False
+51.8058 	EXP 	letter_left: autoDraw = True
+51.8058 	EXP 	letter_right: autoDraw = True
+52.1617 	EXP 	New trial (rep=33, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+52.1619 	EXP 	window1: recordFrameIntervals = False
+52.1640 	DATA 	Keypress: right
+52.1886 	EXP 	letter_left: autoDraw = False
+52.1886 	EXP 	letter_right: autoDraw = False
+52.1886 	EXP 	letter_left: text = 'B'
+52.1886 	EXP 	letter_right: text = 'A'
+52.1888 	EXP 	window1: recordFrameIntervals = False
+52.2888 	EXP 	letter_left: autoDraw = True
+52.2888 	EXP 	letter_right: autoDraw = True
+52.6284 	EXP 	New trial (rep=34, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+52.6286 	EXP 	window1: recordFrameIntervals = False
+52.6307 	DATA 	Keypress: right
+52.6567 	EXP 	letter_left: autoDraw = False
+52.6567 	EXP 	letter_right: autoDraw = False
+52.6567 	EXP 	letter_left: text = 'B'
+52.6567 	EXP 	letter_right: text = 'A'
+52.6570 	EXP 	window1: recordFrameIntervals = False
+52.7567 	EXP 	letter_left: autoDraw = True
+52.7567 	EXP 	letter_right: autoDraw = True
+53.0775 	EXP 	New trial (rep=34, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+53.0803 	EXP 	window1: recordFrameIntervals = False
+53.0823 	DATA 	Keypress: right
+53.1060 	EXP 	letter_left: autoDraw = False
+53.1060 	EXP 	letter_right: autoDraw = False
+53.1060 	EXP 	letter_left: text = 'A'
+53.1060 	EXP 	letter_right: text = 'B'
+53.1062 	EXP 	window1: recordFrameIntervals = False
+53.2057 	EXP 	letter_left: autoDraw = True
+53.2057 	EXP 	letter_right: autoDraw = True
+53.5940 	EXP 	New trial (rep=35, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+53.5968 	EXP 	window1: recordFrameIntervals = False
+53.5987 	DATA 	Keypress: left
+53.6228 	EXP 	letter_left: autoDraw = False
+53.6228 	EXP 	letter_right: autoDraw = False
+53.6228 	EXP 	letter_left: text = 'B'
+53.6228 	EXP 	letter_right: text = 'A'
+53.6231 	EXP 	window1: recordFrameIntervals = False
+53.7229 	EXP 	letter_left: autoDraw = True
+53.7229 	EXP 	letter_right: autoDraw = True
+54.1086 	EXP 	New trial (rep=35, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+54.1113 	EXP 	window1: recordFrameIntervals = False
+54.1133 	DATA 	Keypress: right
+54.1409 	EXP 	letter_left: autoDraw = False
+54.1409 	EXP 	letter_right: autoDraw = False
+54.1409 	EXP 	letter_left: text = 'A'
+54.1409 	EXP 	letter_right: text = 'B'
+54.1411 	EXP 	window1: recordFrameIntervals = False
+54.2384 	EXP 	letter_left: autoDraw = True
+54.2384 	EXP 	letter_right: autoDraw = True
+54.6277 	EXP 	New trial (rep=36, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+54.6279 	EXP 	window1: recordFrameIntervals = False
+54.6303 	DATA 	Keypress: left
+54.6548 	EXP 	letter_left: autoDraw = False
+54.6548 	EXP 	letter_right: autoDraw = False
+54.6548 	EXP 	letter_left: text = 'A'
+54.6548 	EXP 	letter_right: text = 'B'
+54.6549 	EXP 	window1: recordFrameIntervals = False
+54.7546 	EXP 	letter_left: autoDraw = True
+54.7546 	EXP 	letter_right: autoDraw = True
+55.1932 	EXP 	New trial (rep=36, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+55.1960 	EXP 	window1: recordFrameIntervals = False
+55.1979 	DATA 	Keypress: left
+55.2219 	EXP 	letter_left: autoDraw = False
+55.2219 	EXP 	letter_right: autoDraw = False
+55.2219 	EXP 	letter_left: text = 'B'
+55.2219 	EXP 	letter_right: text = 'A'
+55.2221 	EXP 	window1: recordFrameIntervals = False
+55.3218 	EXP 	letter_left: autoDraw = True
+55.3218 	EXP 	letter_right: autoDraw = True
+55.6609 	EXP 	New trial (rep=37, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+55.6638 	EXP 	window1: recordFrameIntervals = False
+55.6657 	DATA 	Keypress: right
+55.6892 	EXP 	letter_left: autoDraw = False
+55.6892 	EXP 	letter_right: autoDraw = False
+55.6892 	EXP 	letter_left: text = 'A'
+55.6892 	EXP 	letter_right: text = 'B'
+55.6894 	EXP 	window1: recordFrameIntervals = False
+55.7893 	EXP 	letter_left: autoDraw = True
+55.7893 	EXP 	letter_right: autoDraw = True
+56.1773 	EXP 	New trial (rep=37, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+56.1775 	EXP 	window1: recordFrameIntervals = False
+56.1795 	DATA 	Keypress: left
+56.1932 	EXP 	letter_left: autoDraw = False
+56.1932 	EXP 	letter_right: autoDraw = False
+56.1932 	EXP 	letter_left: text = 'A'
+56.1932 	EXP 	letter_right: text = 'B'
+56.1934 	EXP 	window1: recordFrameIntervals = False
+56.3049 	EXP 	letter_left: autoDraw = True
+56.3049 	EXP 	letter_right: autoDraw = True
+56.6735 	EXP 	New trial (rep=38, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+56.6737 	EXP 	window1: recordFrameIntervals = False
+56.6755 	DATA 	Keypress: left
+56.6893 	EXP 	letter_left: autoDraw = False
+56.6893 	EXP 	letter_right: autoDraw = False
+56.6893 	EXP 	letter_left: text = 'A'
+56.6893 	EXP 	letter_right: text = 'B'
+56.6895 	EXP 	window1: recordFrameIntervals = False
+56.8060 	EXP 	letter_left: autoDraw = True
+56.8060 	EXP 	letter_right: autoDraw = True
+57.2775 	EXP 	New trial (rep=38, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+57.2778 	EXP 	window1: recordFrameIntervals = False
+57.2798 	DATA 	Keypress: left
+57.3075 	EXP 	letter_left: autoDraw = False
+57.3075 	EXP 	letter_right: autoDraw = False
+57.3075 	EXP 	letter_left: text = 'A'
+57.3075 	EXP 	letter_right: text = 'B'
+57.3078 	EXP 	window1: recordFrameIntervals = False
+57.4052 	EXP 	letter_left: autoDraw = True
+57.4052 	EXP 	letter_right: autoDraw = True
+57.7610 	EXP 	New trial (rep=39, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+57.7612 	EXP 	window1: recordFrameIntervals = False
+57.7632 	DATA 	Keypress: left
+57.7889 	EXP 	letter_left: autoDraw = False
+57.7889 	EXP 	letter_right: autoDraw = False
+57.7889 	EXP 	letter_left: text = 'A'
+57.7889 	EXP 	letter_right: text = 'B'
+57.7891 	EXP 	window1: recordFrameIntervals = False
+57.8886 	EXP 	letter_left: autoDraw = True
+57.8886 	EXP 	letter_right: autoDraw = True
+58.2089 	DATA 	Keypress: left
+58.2280 	EXP 	New trial (rep=39, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+58.2282 	EXP 	window1: recordFrameIntervals = False
+58.2424 	EXP 	letter_left: autoDraw = False
+58.2424 	EXP 	letter_right: autoDraw = False
+58.2424 	EXP 	letter_left: text = 'A'
+58.2424 	EXP 	letter_right: text = 'B'
+58.2426 	EXP 	window1: recordFrameIntervals = False
+58.3570 	EXP 	letter_left: autoDraw = True
+58.3570 	EXP 	letter_right: autoDraw = True
+58.6918 	EXP 	New trial (rep=40, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+58.6920 	EXP 	window1: recordFrameIntervals = False
+58.6940 	DATA 	Keypress: left
+58.7073 	EXP 	letter_left: autoDraw = False
+58.7073 	EXP 	letter_right: autoDraw = False
+58.7073 	EXP 	letter_left: text = 'A'
+58.7073 	EXP 	letter_right: text = 'B'
+58.7075 	EXP 	window1: recordFrameIntervals = False
+58.8224 	EXP 	letter_left: autoDraw = True
+58.8224 	EXP 	letter_right: autoDraw = True
+59.1775 	EXP 	New trial (rep=40, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+59.1777 	EXP 	window1: recordFrameIntervals = False
+59.1797 	DATA 	Keypress: left
+59.1939 	EXP 	letter_left: autoDraw = False
+59.1939 	EXP 	letter_right: autoDraw = False
+59.1939 	EXP 	letter_left: text = 'A'
+59.1939 	EXP 	letter_right: text = 'B'
+59.1947 	EXP 	window1: recordFrameIntervals = False
+59.3059 	EXP 	letter_left: autoDraw = True
+59.3059 	EXP 	letter_right: autoDraw = True
+59.6608 	EXP 	New trial (rep=41, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+59.6610 	EXP 	window1: recordFrameIntervals = False
+59.6631 	DATA 	Keypress: left
+59.6770 	EXP 	letter_left: autoDraw = False
+59.6770 	EXP 	letter_right: autoDraw = False
+59.6770 	EXP 	letter_left: text = 'A'
+59.6770 	EXP 	letter_right: text = 'B'
+59.6772 	EXP 	window1: recordFrameIntervals = False
+59.7884 	EXP 	letter_left: autoDraw = True
+59.7884 	EXP 	letter_right: autoDraw = True
+60.1446 	EXP 	New trial (rep=41, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+60.1448 	EXP 	window1: recordFrameIntervals = False
+60.1467 	DATA 	Keypress: left
+60.1720 	EXP 	letter_left: autoDraw = False
+60.1720 	EXP 	letter_right: autoDraw = False
+60.1720 	EXP 	letter_left: text = 'A'
+60.1720 	EXP 	letter_right: text = 'B'
+60.1722 	EXP 	window1: recordFrameIntervals = False
+60.2720 	EXP 	letter_left: autoDraw = True
+60.2720 	EXP 	letter_right: autoDraw = True
+60.6248 	EXP 	New trial (rep=42, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+60.6250 	EXP 	window1: recordFrameIntervals = False
+60.6266 	DATA 	Keypress: left
+60.6402 	EXP 	letter_left: autoDraw = False
+60.6402 	EXP 	letter_right: autoDraw = False
+60.6402 	EXP 	letter_left: text = 'A'
+60.6402 	EXP 	letter_right: text = 'B'
+60.6403 	EXP 	window1: recordFrameIntervals = False
+60.7554 	EXP 	letter_left: autoDraw = True
+60.7554 	EXP 	letter_right: autoDraw = True
+61.1280 	EXP 	New trial (rep=42, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+61.1307 	EXP 	window1: recordFrameIntervals = False
+61.1326 	DATA 	Keypress: left
+61.1561 	EXP 	letter_left: autoDraw = False
+61.1561 	EXP 	letter_right: autoDraw = False
+61.1561 	EXP 	letter_left: text = 'B'
+61.1561 	EXP 	letter_right: text = 'A'
+61.1563 	EXP 	window1: recordFrameIntervals = False
+61.2557 	EXP 	letter_left: autoDraw = True
+61.2557 	EXP 	letter_right: autoDraw = True
+61.6582 	EXP 	New trial (rep=43, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+61.6603 	EXP 	window1: recordFrameIntervals = False
+61.6618 	DATA 	Keypress: right
+61.6757 	EXP 	letter_left: autoDraw = False
+61.6757 	EXP 	letter_right: autoDraw = False
+61.6757 	EXP 	letter_left: text = 'A'
+61.6757 	EXP 	letter_right: text = 'B'
+61.6759 	EXP 	window1: recordFrameIntervals = False
+61.7892 	EXP 	letter_left: autoDraw = True
+61.7892 	EXP 	letter_right: autoDraw = True
+62.1253 	DATA 	Keypress: left
+62.1445 	EXP 	New trial (rep=43, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+62.1447 	EXP 	window1: recordFrameIntervals = False
+62.1588 	EXP 	letter_left: autoDraw = False
+62.1588 	EXP 	letter_right: autoDraw = False
+62.1588 	EXP 	letter_left: text = 'A'
+62.1588 	EXP 	letter_right: text = 'B'
+62.1591 	EXP 	window1: recordFrameIntervals = False
+62.2725 	EXP 	letter_left: autoDraw = True
+62.2725 	EXP 	letter_right: autoDraw = True
+62.6596 	EXP 	New trial (rep=44, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+62.6598 	EXP 	window1: recordFrameIntervals = False
+62.6618 	DATA 	Keypress: left
+62.6757 	EXP 	letter_left: autoDraw = False
+62.6757 	EXP 	letter_right: autoDraw = False
+62.6757 	EXP 	letter_left: text = 'A'
+62.6757 	EXP 	letter_right: text = 'B'
+62.6759 	EXP 	window1: recordFrameIntervals = False
+62.7897 	EXP 	letter_left: autoDraw = True
+62.7897 	EXP 	letter_right: autoDraw = True
+63.1102 	EXP 	New trial (rep=44, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+63.1104 	EXP 	window1: recordFrameIntervals = False
+63.1124 	DATA 	Keypress: left
+63.1264 	EXP 	letter_left: autoDraw = False
+63.1264 	EXP 	letter_right: autoDraw = False
+63.1264 	EXP 	letter_left: text = 'A'
+63.1264 	EXP 	letter_right: text = 'B'
+63.1266 	EXP 	window1: recordFrameIntervals = False
+63.2393 	EXP 	letter_left: autoDraw = True
+63.2393 	EXP 	letter_right: autoDraw = True
+63.5768 	EXP 	New trial (rep=45, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+63.5797 	EXP 	window1: recordFrameIntervals = False
+63.5815 	DATA 	Keypress: left
+63.6052 	EXP 	letter_left: autoDraw = False
+63.6052 	EXP 	letter_right: autoDraw = False
+63.6052 	EXP 	letter_left: text = 'B'
+63.6052 	EXP 	letter_right: text = 'A'
+63.6054 	EXP 	window1: recordFrameIntervals = False
+63.7051 	EXP 	letter_left: autoDraw = True
+63.7051 	EXP 	letter_right: autoDraw = True
+64.0941 	EXP 	New trial (rep=45, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+64.0965 	EXP 	window1: recordFrameIntervals = False
+64.0982 	DATA 	Keypress: right
+64.1222 	EXP 	letter_left: autoDraw = False
+64.1222 	EXP 	letter_right: autoDraw = False
+64.1222 	EXP 	letter_left: text = 'A'
+64.1222 	EXP 	letter_right: text = 'B'
+64.1224 	EXP 	window1: recordFrameIntervals = False
+64.2216 	EXP 	letter_left: autoDraw = True
+64.2216 	EXP 	letter_right: autoDraw = True
+64.5953 	EXP 	New trial (rep=46, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+64.5979 	EXP 	window1: recordFrameIntervals = False
+64.5996 	DATA 	Keypress: left
+64.6217 	EXP 	letter_left: autoDraw = False
+64.6217 	EXP 	letter_right: autoDraw = False
+64.6217 	EXP 	letter_left: text = 'B'
+64.6217 	EXP 	letter_right: text = 'A'
+64.6220 	EXP 	window1: recordFrameIntervals = False
+64.7229 	EXP 	letter_left: autoDraw = True
+64.7229 	EXP 	letter_right: autoDraw = True
+65.0595 	DATA 	Keypress: right
+65.0788 	EXP 	New trial (rep=46, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+65.0790 	EXP 	window1: recordFrameIntervals = False
+65.0932 	EXP 	letter_left: autoDraw = False
+65.0932 	EXP 	letter_right: autoDraw = False
+65.0932 	EXP 	letter_left: text = 'B'
+65.0932 	EXP 	letter_right: text = 'A'
+65.0935 	EXP 	window1: recordFrameIntervals = False
+65.2056 	EXP 	letter_left: autoDraw = True
+65.2056 	EXP 	letter_right: autoDraw = True
+65.6109 	EXP 	New trial (rep=47, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+65.6111 	EXP 	window1: recordFrameIntervals = False
+65.6131 	DATA 	Keypress: right
+65.6389 	EXP 	letter_left: autoDraw = False
+65.6389 	EXP 	letter_right: autoDraw = False
+65.6389 	EXP 	letter_left: text = 'B'
+65.6389 	EXP 	letter_right: text = 'A'
+65.6392 	EXP 	window1: recordFrameIntervals = False
+65.7386 	EXP 	letter_left: autoDraw = True
+65.7386 	EXP 	letter_right: autoDraw = True
+66.0793 	EXP 	New trial (rep=47, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+66.0824 	EXP 	window1: recordFrameIntervals = False
+66.0843 	DATA 	Keypress: right
+66.1050 	EXP 	letter_left: autoDraw = False
+66.1050 	EXP 	letter_right: autoDraw = False
+66.1050 	EXP 	letter_left: text = 'A'
+66.1050 	EXP 	letter_right: text = 'B'
+66.1053 	EXP 	window1: recordFrameIntervals = False
+66.2051 	EXP 	letter_left: autoDraw = True
+66.2051 	EXP 	letter_right: autoDraw = True
+66.6764 	EXP 	New trial (rep=48, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+66.6789 	EXP 	window1: recordFrameIntervals = False
+66.6806 	DATA 	Keypress: left
+66.7051 	EXP 	letter_left: autoDraw = False
+66.7051 	EXP 	letter_right: autoDraw = False
+66.7051 	EXP 	letter_left: text = 'B'
+66.7051 	EXP 	letter_right: text = 'A'
+66.7054 	EXP 	window1: recordFrameIntervals = False
+66.8057 	EXP 	letter_left: autoDraw = True
+66.8057 	EXP 	letter_right: autoDraw = True
+67.1767 	EXP 	New trial (rep=48, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+67.1791 	EXP 	window1: recordFrameIntervals = False
+67.1808 	DATA 	Keypress: right
+67.2058 	EXP 	letter_left: autoDraw = False
+67.2058 	EXP 	letter_right: autoDraw = False
+67.2058 	EXP 	letter_left: text = 'A'
+67.2058 	EXP 	letter_right: text = 'B'
+67.2060 	EXP 	window1: recordFrameIntervals = False
+67.3052 	EXP 	letter_left: autoDraw = True
+67.3052 	EXP 	letter_right: autoDraw = True
+67.7433 	EXP 	New trial (rep=49, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+67.7435 	EXP 	window1: recordFrameIntervals = False
+67.7454 	DATA 	Keypress: left
+67.7600 	EXP 	letter_left: autoDraw = False
+67.7600 	EXP 	letter_right: autoDraw = False
+67.7600 	EXP 	letter_left: text = 'A'
+67.7600 	EXP 	letter_right: text = 'B'
+67.7602 	EXP 	window1: recordFrameIntervals = False
+67.8721 	EXP 	letter_left: autoDraw = True
+67.8721 	EXP 	letter_right: autoDraw = True
+68.2425 	DATA 	Keypress: left
+68.2620 	EXP 	New trial (rep=49, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+68.2622 	EXP 	window1: recordFrameIntervals = False
+68.2762 	EXP 	letter_left: autoDraw = False
+68.2762 	EXP 	letter_right: autoDraw = False
+68.2762 	EXP 	letter_left: text = 'A'
+68.2762 	EXP 	letter_right: text = 'B'
+68.2764 	EXP 	window1: recordFrameIntervals = False
+68.3885 	EXP 	letter_left: autoDraw = True
+68.3885 	EXP 	letter_right: autoDraw = True
+68.7776 	EXP 	New trial (rep=50, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+68.7805 	EXP 	window1: recordFrameIntervals = False
+68.7824 	DATA 	Keypress: left
+68.8055 	EXP 	letter_left: autoDraw = False
+68.8055 	EXP 	letter_right: autoDraw = False
+68.8055 	EXP 	letter_left: text = 'B'
+68.8055 	EXP 	letter_right: text = 'A'
+68.8058 	EXP 	window1: recordFrameIntervals = False
+68.9056 	EXP 	letter_left: autoDraw = True
+68.9056 	EXP 	letter_right: autoDraw = True
+69.2279 	EXP 	New trial (rep=50, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+69.2282 	EXP 	window1: recordFrameIntervals = False
+69.2303 	DATA 	Keypress: right
+69.2548 	EXP 	letter_left: autoDraw = False
+69.2548 	EXP 	letter_right: autoDraw = False
+69.2548 	EXP 	letter_left: text = 'B'
+69.2548 	EXP 	letter_right: text = 'A'
+69.2549 	EXP 	window1: recordFrameIntervals = False
+69.3555 	EXP 	letter_left: autoDraw = True
+69.3555 	EXP 	letter_right: autoDraw = True
+69.7102 	EXP 	New trial (rep=51, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+69.7104 	EXP 	window1: recordFrameIntervals = False
+69.7125 	DATA 	Keypress: right
+69.7262 	EXP 	letter_left: autoDraw = False
+69.7262 	EXP 	letter_right: autoDraw = False
+69.7262 	EXP 	letter_left: text = 'B'
+69.7262 	EXP 	letter_right: text = 'A'
+69.7264 	EXP 	window1: recordFrameIntervals = False
+69.8392 	EXP 	letter_left: autoDraw = True
+69.8392 	EXP 	letter_right: autoDraw = True
+70.2083 	EXP 	New trial (rep=51, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+70.2109 	EXP 	window1: recordFrameIntervals = False
+70.2129 	DATA 	Keypress: right
+70.2268 	EXP 	letter_left: autoDraw = False
+70.2268 	EXP 	letter_right: autoDraw = False
+70.2268 	EXP 	letter_left: text = 'A'
+70.2268 	EXP 	letter_right: text = 'B'
+70.2269 	EXP 	window1: recordFrameIntervals = False
+70.3388 	EXP 	letter_left: autoDraw = True
+70.3388 	EXP 	letter_right: autoDraw = True
+70.7471 	EXP 	New trial (rep=52, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+70.7495 	EXP 	window1: recordFrameIntervals = False
+70.7512 	DATA 	Keypress: left
+70.7725 	EXP 	letter_left: autoDraw = False
+70.7725 	EXP 	letter_right: autoDraw = False
+70.7725 	EXP 	letter_left: text = 'B'
+70.7725 	EXP 	letter_right: text = 'A'
+70.7726 	EXP 	window1: recordFrameIntervals = False
+70.8723 	EXP 	letter_left: autoDraw = True
+70.8723 	EXP 	letter_right: autoDraw = True
+71.2610 	EXP 	New trial (rep=52, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+71.2639 	EXP 	window1: recordFrameIntervals = False
+71.2658 	DATA 	Keypress: right
+71.2886 	EXP 	letter_left: autoDraw = False
+71.2886 	EXP 	letter_right: autoDraw = False
+71.2886 	EXP 	letter_left: text = 'A'
+71.2886 	EXP 	letter_right: text = 'B'
+71.2888 	EXP 	window1: recordFrameIntervals = False
+71.3883 	EXP 	letter_left: autoDraw = True
+71.3883 	EXP 	letter_right: autoDraw = True
+71.7443 	EXP 	New trial (rep=53, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+71.7472 	EXP 	window1: recordFrameIntervals = False
+71.7491 	DATA 	Keypress: left
+71.7713 	EXP 	letter_left: autoDraw = False
+71.7713 	EXP 	letter_right: autoDraw = False
+71.7713 	EXP 	letter_left: text = 'B'
+71.7713 	EXP 	letter_right: text = 'A'
+71.7715 	EXP 	window1: recordFrameIntervals = False
+71.8718 	EXP 	letter_left: autoDraw = True
+71.8718 	EXP 	letter_right: autoDraw = True
+72.2431 	EXP 	New trial (rep=53, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+72.2433 	EXP 	window1: recordFrameIntervals = False
+72.2452 	DATA 	Keypress: right
+72.2600 	EXP 	letter_left: autoDraw = False
+72.2600 	EXP 	letter_right: autoDraw = False
+72.2600 	EXP 	letter_left: text = 'B'
+72.2600 	EXP 	letter_right: text = 'A'
+72.2603 	EXP 	window1: recordFrameIntervals = False
+72.3729 	EXP 	letter_left: autoDraw = True
+72.3729 	EXP 	letter_right: autoDraw = True
+73.0296 	EXP 	New trial (rep=54, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+73.0334 	EXP 	window1: recordFrameIntervals = False
+73.0360 	DATA 	Keypress: right
+73.0570 	EXP 	letter_left: autoDraw = False
+73.0570 	EXP 	letter_right: autoDraw = False
+73.0570 	EXP 	letter_left: text = 'A'
+73.0570 	EXP 	letter_right: text = 'B'
+73.0571 	EXP 	window1: recordFrameIntervals = False
+73.1552 	EXP 	letter_left: autoDraw = True
+73.1552 	EXP 	letter_right: autoDraw = True
+73.5413 	EXP 	New trial (rep=54, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+73.5415 	EXP 	window1: recordFrameIntervals = False
+73.5431 	DATA 	Keypress: left
+73.5570 	EXP 	letter_left: autoDraw = False
+73.5570 	EXP 	letter_right: autoDraw = False
+73.5570 	EXP 	letter_left: text = 'A'
+73.5570 	EXP 	letter_right: text = 'B'
+73.5572 	EXP 	window1: recordFrameIntervals = False
+73.6725 	EXP 	letter_left: autoDraw = True
+73.6725 	EXP 	letter_right: autoDraw = True
+74.0127 	EXP 	New trial (rep=55, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+74.0129 	EXP 	window1: recordFrameIntervals = False
+74.0149 	DATA 	Keypress: left
+74.0385 	EXP 	letter_left: autoDraw = False
+74.0385 	EXP 	letter_right: autoDraw = False
+74.0385 	EXP 	letter_left: text = 'A'
+74.0385 	EXP 	letter_right: text = 'B'
+74.0387 	EXP 	window1: recordFrameIntervals = False
+74.1405 	EXP 	letter_left: autoDraw = True
+74.1405 	EXP 	letter_right: autoDraw = True
+74.6760 	EXP 	New trial (rep=55, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+74.6762 	EXP 	window1: recordFrameIntervals = False
+74.6782 	DATA 	Keypress: left
+74.6921 	EXP 	letter_left: autoDraw = False
+74.6921 	EXP 	letter_right: autoDraw = False
+74.6921 	EXP 	letter_left: text = 'A'
+74.6921 	EXP 	letter_right: text = 'B'
+74.6923 	EXP 	window1: recordFrameIntervals = False
+74.8052 	EXP 	letter_left: autoDraw = True
+74.8052 	EXP 	letter_right: autoDraw = True
+75.1278 	EXP 	New trial (rep=56, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+75.1280 	EXP 	window1: recordFrameIntervals = False
+75.1299 	DATA 	Keypress: left
+75.1560 	EXP 	letter_left: autoDraw = False
+75.1560 	EXP 	letter_right: autoDraw = False
+75.1560 	EXP 	letter_left: text = 'A'
+75.1560 	EXP 	letter_right: text = 'B'
+75.1562 	EXP 	window1: recordFrameIntervals = False
+75.2555 	EXP 	letter_left: autoDraw = True
+75.2555 	EXP 	letter_right: autoDraw = True
+75.5943 	DATA 	Keypress: left
+75.6138 	EXP 	New trial (rep=56, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+75.6140 	EXP 	window1: recordFrameIntervals = False
+75.6394 	EXP 	letter_left: autoDraw = False
+75.6394 	EXP 	letter_right: autoDraw = False
+75.6394 	EXP 	letter_left: text = 'A'
+75.6394 	EXP 	letter_right: text = 'B'
+75.6396 	EXP 	window1: recordFrameIntervals = False
+75.7382 	EXP 	letter_left: autoDraw = True
+75.7382 	EXP 	letter_right: autoDraw = True
+76.0935 	EXP 	New trial (rep=57, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+76.0963 	EXP 	window1: recordFrameIntervals = False
+76.0982 	DATA 	Keypress: left
+76.1223 	EXP 	letter_left: autoDraw = False
+76.1223 	EXP 	letter_right: autoDraw = False
+76.1223 	EXP 	letter_left: text = 'B'
+76.1223 	EXP 	letter_right: text = 'A'
+76.1225 	EXP 	window1: recordFrameIntervals = False
+76.2224 	EXP 	letter_left: autoDraw = True
+76.2224 	EXP 	letter_right: autoDraw = True
+76.6269 	EXP 	New trial (rep=57, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+76.6271 	EXP 	window1: recordFrameIntervals = False
+76.6289 	DATA 	Keypress: right
+76.6425 	EXP 	letter_left: autoDraw = False
+76.6425 	EXP 	letter_right: autoDraw = False
+76.6425 	EXP 	letter_left: text = 'B'
+76.6425 	EXP 	letter_right: text = 'A'
+76.6428 	EXP 	window1: recordFrameIntervals = False
+76.7553 	EXP 	letter_left: autoDraw = True
+76.7553 	EXP 	letter_right: autoDraw = True
+77.1270 	EXP 	New trial (rep=58, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+77.1299 	EXP 	window1: recordFrameIntervals = False
+77.1319 	DATA 	Keypress: right
+77.1557 	EXP 	letter_left: autoDraw = False
+77.1557 	EXP 	letter_right: autoDraw = False
+77.1557 	EXP 	letter_left: text = 'A'
+77.1557 	EXP 	letter_right: text = 'B'
+77.1559 	EXP 	window1: recordFrameIntervals = False
+77.2550 	EXP 	letter_left: autoDraw = True
+77.2550 	EXP 	letter_right: autoDraw = True
+77.6278 	EXP 	New trial (rep=58, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+77.6310 	EXP 	window1: recordFrameIntervals = False
+77.6329 	DATA 	Keypress: left
+77.6554 	EXP 	letter_left: autoDraw = False
+77.6554 	EXP 	letter_right: autoDraw = False
+77.6554 	EXP 	letter_left: text = 'B'
+77.6554 	EXP 	letter_right: text = 'A'
+77.6556 	EXP 	window1: recordFrameIntervals = False
+77.7553 	EXP 	letter_left: autoDraw = True
+77.7553 	EXP 	letter_right: autoDraw = True
+78.1446 	EXP 	New trial (rep=59, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+78.1474 	EXP 	window1: recordFrameIntervals = False
+78.1494 	DATA 	Keypress: right
+78.1716 	EXP 	letter_left: autoDraw = False
+78.1716 	EXP 	letter_right: autoDraw = False
+78.1716 	EXP 	letter_left: text = 'A'
+78.1716 	EXP 	letter_right: text = 'B'
+78.1718 	EXP 	window1: recordFrameIntervals = False
+78.2721 	EXP 	letter_left: autoDraw = True
+78.2721 	EXP 	letter_right: autoDraw = True
+78.6614 	EXP 	New trial (rep=59, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+78.6643 	EXP 	window1: recordFrameIntervals = False
+78.6662 	DATA 	Keypress: left
+78.6878 	EXP 	letter_left: autoDraw = False
+78.6878 	EXP 	letter_right: autoDraw = False
+78.6878 	EXP 	letter_left: text = 'B'
+78.6878 	EXP 	letter_right: text = 'A'
+78.6879 	EXP 	window1: recordFrameIntervals = False
+78.7890 	EXP 	letter_left: autoDraw = True
+78.7890 	EXP 	letter_right: autoDraw = True
+79.1256 	DATA 	Keypress: right
+79.1452 	EXP 	New trial (rep=60, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+79.1480 	EXP 	window1: recordFrameIntervals = False
+79.1717 	EXP 	letter_left: autoDraw = False
+79.1717 	EXP 	letter_right: autoDraw = False
+79.1717 	EXP 	letter_left: text = 'A'
+79.1717 	EXP 	letter_right: text = 'B'
+79.1719 	EXP 	window1: recordFrameIntervals = False
+79.2715 	EXP 	letter_left: autoDraw = True
+79.2715 	EXP 	letter_right: autoDraw = True
+79.6266 	EXP 	New trial (rep=60, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+79.6297 	EXP 	window1: recordFrameIntervals = False
+79.6317 	DATA 	Keypress: left
+79.6546 	EXP 	letter_left: autoDraw = False
+79.6546 	EXP 	letter_right: autoDraw = False
+79.6546 	EXP 	letter_left: text = 'B'
+79.6546 	EXP 	letter_right: text = 'A'
+79.6548 	EXP 	window1: recordFrameIntervals = False
+79.7555 	EXP 	letter_left: autoDraw = True
+79.7555 	EXP 	letter_right: autoDraw = True
+80.1263 	EXP 	New trial (rep=61, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+80.1291 	EXP 	window1: recordFrameIntervals = False
+80.1310 	DATA 	Keypress: right
+80.1569 	EXP 	letter_left: autoDraw = False
+80.1569 	EXP 	letter_right: autoDraw = False
+80.1569 	EXP 	letter_left: text = 'A'
+80.1569 	EXP 	letter_right: text = 'B'
+80.1571 	EXP 	window1: recordFrameIntervals = False
+80.2546 	EXP 	letter_left: autoDraw = True
+80.2546 	EXP 	letter_right: autoDraw = True
+80.6602 	EXP 	New trial (rep=61, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+80.6604 	EXP 	window1: recordFrameIntervals = False
+80.6624 	DATA 	Keypress: left
+80.6760 	EXP 	letter_left: autoDraw = False
+80.6760 	EXP 	letter_right: autoDraw = False
+80.6760 	EXP 	letter_left: text = 'A'
+80.6760 	EXP 	letter_right: text = 'B'
+80.6763 	EXP 	window1: recordFrameIntervals = False
+80.7887 	EXP 	letter_left: autoDraw = True
+80.7887 	EXP 	letter_right: autoDraw = True
+81.2102 	EXP 	New trial (rep=62, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+81.2131 	EXP 	window1: recordFrameIntervals = False
+81.2150 	DATA 	Keypress: left
+81.2379 	EXP 	letter_left: autoDraw = False
+81.2379 	EXP 	letter_right: autoDraw = False
+81.2379 	EXP 	letter_left: text = 'B'
+81.2379 	EXP 	letter_right: text = 'A'
+81.2381 	EXP 	window1: recordFrameIntervals = False
+81.3386 	EXP 	letter_left: autoDraw = True
+81.3386 	EXP 	letter_right: autoDraw = True
+81.7933 	EXP 	New trial (rep=62, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+81.7935 	EXP 	window1: recordFrameIntervals = False
+81.7955 	DATA 	Keypress: right
+81.8092 	EXP 	letter_left: autoDraw = False
+81.8092 	EXP 	letter_right: autoDraw = False
+81.8092 	EXP 	letter_left: text = 'B'
+81.8092 	EXP 	letter_right: text = 'A'
+81.8094 	EXP 	window1: recordFrameIntervals = False
+81.9221 	EXP 	letter_left: autoDraw = True
+81.9221 	EXP 	letter_right: autoDraw = True
+82.2763 	EXP 	New trial (rep=63, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+82.2792 	EXP 	window1: recordFrameIntervals = False
+82.2811 	DATA 	Keypress: right
+82.3062 	EXP 	letter_left: autoDraw = False
+82.3062 	EXP 	letter_right: autoDraw = False
+82.3062 	EXP 	letter_left: text = 'A'
+82.3062 	EXP 	letter_right: text = 'B'
+82.3064 	EXP 	window1: recordFrameIntervals = False
+82.4051 	EXP 	letter_left: autoDraw = True
+82.4051 	EXP 	letter_right: autoDraw = True
+82.7786 	EXP 	New trial (rep=63, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+82.7788 	EXP 	window1: recordFrameIntervals = False
+82.7808 	DATA 	Keypress: left
+82.8057 	EXP 	letter_left: autoDraw = False
+82.8057 	EXP 	letter_right: autoDraw = False
+82.8057 	EXP 	letter_left: text = 'A'
+82.8057 	EXP 	letter_right: text = 'B'
+82.8059 	EXP 	window1: recordFrameIntervals = False
+82.9050 	EXP 	letter_left: autoDraw = True
+82.9050 	EXP 	letter_right: autoDraw = True
+83.2437 	EXP 	New trial (rep=64, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+83.2475 	EXP 	window1: recordFrameIntervals = False
+83.2495 	DATA 	Keypress: left
+83.2720 	EXP 	letter_left: autoDraw = False
+83.2720 	EXP 	letter_right: autoDraw = False
+83.2720 	EXP 	letter_left: text = 'B'
+83.2720 	EXP 	letter_right: text = 'A'
+83.2723 	EXP 	window1: recordFrameIntervals = False
+83.3718 	EXP 	letter_left: autoDraw = True
+83.3718 	EXP 	letter_right: autoDraw = True
+83.7597 	EXP 	New trial (rep=64, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+83.7600 	EXP 	window1: recordFrameIntervals = False
+83.7620 	DATA 	Keypress: right
+83.7757 	EXP 	letter_left: autoDraw = False
+83.7757 	EXP 	letter_right: autoDraw = False
+83.7757 	EXP 	letter_left: text = 'B'
+83.7757 	EXP 	letter_right: text = 'A'
+83.7759 	EXP 	window1: recordFrameIntervals = False
+83.8885 	EXP 	letter_left: autoDraw = True
+83.8885 	EXP 	letter_right: autoDraw = True
+84.2104 	EXP 	New trial (rep=65, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+84.2134 	EXP 	window1: recordFrameIntervals = False
+84.2153 	DATA 	Keypress: right
+84.2389 	EXP 	letter_left: autoDraw = False
+84.2389 	EXP 	letter_right: autoDraw = False
+84.2389 	EXP 	letter_left: text = 'A'
+84.2389 	EXP 	letter_right: text = 'B'
+84.2392 	EXP 	window1: recordFrameIntervals = False
+84.3381 	EXP 	letter_left: autoDraw = True
+84.3381 	EXP 	letter_right: autoDraw = True
+84.7109 	EXP 	New trial (rep=65, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+84.7137 	EXP 	window1: recordFrameIntervals = False
+84.7157 	DATA 	Keypress: left
+84.7379 	EXP 	letter_left: autoDraw = False
+84.7379 	EXP 	letter_right: autoDraw = False
+84.7379 	EXP 	letter_left: text = 'B'
+84.7379 	EXP 	letter_right: text = 'A'
+84.7381 	EXP 	window1: recordFrameIntervals = False
+84.8389 	EXP 	letter_left: autoDraw = True
+84.8389 	EXP 	letter_right: autoDraw = True
+85.2442 	EXP 	New trial (rep=66, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+85.2444 	EXP 	window1: recordFrameIntervals = False
+85.2465 	DATA 	Keypress: right
+85.2721 	EXP 	letter_left: autoDraw = False
+85.2721 	EXP 	letter_right: autoDraw = False
+85.2721 	EXP 	letter_left: text = 'B'
+85.2721 	EXP 	letter_right: text = 'A'
+85.2724 	EXP 	window1: recordFrameIntervals = False
+85.3722 	EXP 	letter_left: autoDraw = True
+85.3722 	EXP 	letter_right: autoDraw = True
+85.7427 	EXP 	New trial (rep=66, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+85.7429 	EXP 	window1: recordFrameIntervals = False
+85.7450 	DATA 	Keypress: right
+85.7589 	EXP 	letter_left: autoDraw = False
+85.7589 	EXP 	letter_right: autoDraw = False
+85.7589 	EXP 	letter_left: text = 'B'
+85.7589 	EXP 	letter_right: text = 'A'
+85.7592 	EXP 	window1: recordFrameIntervals = False
+85.8712 	EXP 	letter_left: autoDraw = True
+85.8712 	EXP 	letter_right: autoDraw = True
+86.2449 	EXP 	New trial (rep=67, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+86.2451 	EXP 	window1: recordFrameIntervals = False
+86.2472 	DATA 	Keypress: right
+86.2738 	EXP 	letter_left: autoDraw = False
+86.2738 	EXP 	letter_right: autoDraw = False
+86.2738 	EXP 	letter_left: text = 'B'
+86.2738 	EXP 	letter_right: text = 'A'
+86.2740 	EXP 	window1: recordFrameIntervals = False
+86.3717 	EXP 	letter_left: autoDraw = True
+86.3717 	EXP 	letter_right: autoDraw = True
+86.7407 	EXP 	New trial (rep=67, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+86.7409 	EXP 	window1: recordFrameIntervals = False
+86.7428 	DATA 	Keypress: right
+86.7564 	EXP 	letter_left: autoDraw = False
+86.7564 	EXP 	letter_right: autoDraw = False
+86.7564 	EXP 	letter_left: text = 'B'
+86.7564 	EXP 	letter_right: text = 'A'
+86.7566 	EXP 	window1: recordFrameIntervals = False
+86.8712 	EXP 	letter_left: autoDraw = True
+86.8712 	EXP 	letter_right: autoDraw = True
+87.2102 	EXP 	New trial (rep=68, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+87.2130 	EXP 	window1: recordFrameIntervals = False
+87.2150 	DATA 	Keypress: right
+87.2385 	EXP 	letter_left: autoDraw = False
+87.2385 	EXP 	letter_right: autoDraw = False
+87.2385 	EXP 	letter_left: text = 'A'
+87.2385 	EXP 	letter_right: text = 'B'
+87.2387 	EXP 	window1: recordFrameIntervals = False
+87.3385 	EXP 	letter_left: autoDraw = True
+87.3385 	EXP 	letter_right: autoDraw = True
+87.7434 	EXP 	New trial (rep=68, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+87.7465 	EXP 	window1: recordFrameIntervals = False
+87.7487 	DATA 	Keypress: left
+87.7724 	EXP 	letter_left: autoDraw = False
+87.7724 	EXP 	letter_right: autoDraw = False
+87.7724 	EXP 	letter_left: text = 'B'
+87.7724 	EXP 	letter_right: text = 'A'
+87.7727 	EXP 	window1: recordFrameIntervals = False
+87.8724 	EXP 	letter_left: autoDraw = True
+87.8724 	EXP 	letter_right: autoDraw = True
+88.2759 	DATA 	Keypress: right
+88.2951 	EXP 	New trial (rep=69, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+88.2953 	EXP 	window1: recordFrameIntervals = False
+88.3096 	EXP 	letter_left: autoDraw = False
+88.3096 	EXP 	letter_right: autoDraw = False
+88.3096 	EXP 	letter_left: text = 'B'
+88.3096 	EXP 	letter_right: text = 'A'
+88.3098 	EXP 	window1: recordFrameIntervals = False
+88.4220 	EXP 	letter_left: autoDraw = True
+88.4220 	EXP 	letter_right: autoDraw = True
+88.8596 	EXP 	New trial (rep=69, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+88.8598 	EXP 	window1: recordFrameIntervals = False
+88.8618 	DATA 	Keypress: right
+88.8753 	EXP 	letter_left: autoDraw = False
+88.8753 	EXP 	letter_right: autoDraw = False
+88.8753 	EXP 	letter_left: text = 'B'
+88.8753 	EXP 	letter_right: text = 'A'
+88.8754 	EXP 	window1: recordFrameIntervals = False
+88.9890 	EXP 	letter_left: autoDraw = True
+88.9890 	EXP 	letter_right: autoDraw = True
+89.3447 	EXP 	New trial (rep=70, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+89.3476 	EXP 	window1: recordFrameIntervals = False
+89.3496 	DATA 	Keypress: right
+89.3721 	EXP 	letter_left: autoDraw = False
+89.3721 	EXP 	letter_right: autoDraw = False
+89.3721 	EXP 	letter_left: text = 'A'
+89.3721 	EXP 	letter_right: text = 'B'
+89.3724 	EXP 	window1: recordFrameIntervals = False
+89.4718 	EXP 	letter_left: autoDraw = True
+89.4718 	EXP 	letter_right: autoDraw = True
+89.7931 	EXP 	New trial (rep=70, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+89.7933 	EXP 	window1: recordFrameIntervals = False
+89.7953 	DATA 	Keypress: right
+89.8090 	EXP 	letter_left: autoDraw = False
+89.8090 	EXP 	letter_right: autoDraw = False
+89.8090 	EXP 	letter_left: text = 'A'
+89.8090 	EXP 	letter_right: text = 'B'
+89.8092 	EXP 	window1: recordFrameIntervals = False
+89.9222 	EXP 	letter_left: autoDraw = True
+89.9222 	EXP 	letter_right: autoDraw = True
+90.3104 	EXP 	New trial (rep=71, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+90.3106 	EXP 	window1: recordFrameIntervals = False
+90.3126 	DATA 	Keypress: left
+90.3263 	EXP 	letter_left: autoDraw = False
+90.3263 	EXP 	letter_right: autoDraw = False
+90.3263 	EXP 	letter_left: text = 'A'
+90.3263 	EXP 	letter_right: text = 'B'
+90.3265 	EXP 	window1: recordFrameIntervals = False
+90.4389 	EXP 	letter_left: autoDraw = True
+90.4389 	EXP 	letter_right: autoDraw = True
+90.7429 	EXP 	New trial (rep=71, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+90.7460 	EXP 	window1: recordFrameIntervals = False
+90.7485 	DATA 	Keypress: left
+90.7723 	EXP 	letter_left: autoDraw = False
+90.7723 	EXP 	letter_right: autoDraw = False
+90.7723 	EXP 	letter_left: text = 'B'
+90.7723 	EXP 	letter_right: text = 'A'
+90.7725 	EXP 	window1: recordFrameIntervals = False
+90.8721 	EXP 	letter_left: autoDraw = True
+90.8721 	EXP 	letter_right: autoDraw = True
+91.2764 	EXP 	New trial (rep=72, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+91.2766 	EXP 	window1: recordFrameIntervals = False
+91.2786 	DATA 	Keypress: right
+91.2923 	EXP 	letter_left: autoDraw = False
+91.2923 	EXP 	letter_right: autoDraw = False
+91.2923 	EXP 	letter_left: text = 'B'
+91.2923 	EXP 	letter_right: text = 'A'
+91.2925 	EXP 	window1: recordFrameIntervals = False
+91.4050 	EXP 	letter_left: autoDraw = True
+91.4050 	EXP 	letter_right: autoDraw = True
+91.7428 	EXP 	New trial (rep=72, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+91.7430 	EXP 	window1: recordFrameIntervals = False
+91.7449 	DATA 	Keypress: right
+91.7592 	EXP 	letter_left: autoDraw = False
+91.7592 	EXP 	letter_right: autoDraw = False
+91.7592 	EXP 	letter_left: text = 'B'
+91.7592 	EXP 	letter_right: text = 'A'
+91.7595 	EXP 	window1: recordFrameIntervals = False
+91.8722 	EXP 	letter_left: autoDraw = True
+91.8722 	EXP 	letter_right: autoDraw = True
+92.2099 	EXP 	New trial (rep=73, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+92.2124 	EXP 	window1: recordFrameIntervals = False
+92.2140 	DATA 	Keypress: right
+92.2389 	EXP 	letter_left: autoDraw = False
+92.2389 	EXP 	letter_right: autoDraw = False
+92.2389 	EXP 	letter_left: text = 'A'
+92.2389 	EXP 	letter_right: text = 'B'
+92.2391 	EXP 	window1: recordFrameIntervals = False
+92.3394 	EXP 	letter_left: autoDraw = True
+92.3394 	EXP 	letter_right: autoDraw = True
+92.6429 	EXP 	New trial (rep=73, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+92.6431 	EXP 	window1: recordFrameIntervals = False
+92.6447 	DATA 	Keypress: right
+92.6584 	EXP 	letter_left: autoDraw = False
+92.6584 	EXP 	letter_right: autoDraw = False
+92.6584 	EXP 	letter_left: text = 'A'
+92.6584 	EXP 	letter_right: text = 'B'
+92.6585 	EXP 	window1: recordFrameIntervals = False
+92.7719 	EXP 	letter_left: autoDraw = True
+92.7719 	EXP 	letter_right: autoDraw = True
+93.1097 	EXP 	New trial (rep=74, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+93.1098 	EXP 	window1: recordFrameIntervals = False
+93.1117 	DATA 	Keypress: left
+93.1254 	EXP 	letter_left: autoDraw = False
+93.1254 	EXP 	letter_right: autoDraw = False
+93.1254 	EXP 	letter_left: text = 'A'
+93.1254 	EXP 	letter_right: text = 'B'
+93.1256 	EXP 	window1: recordFrameIntervals = False
+93.2383 	EXP 	letter_left: autoDraw = True
+93.2383 	EXP 	letter_right: autoDraw = True
+93.6108 	EXP 	New trial (rep=74, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+93.6110 	EXP 	window1: recordFrameIntervals = False
+93.6130 	DATA 	Keypress: left
+93.6388 	EXP 	letter_left: autoDraw = False
+93.6388 	EXP 	letter_right: autoDraw = False
+93.6388 	EXP 	letter_left: text = 'A'
+93.6388 	EXP 	letter_right: text = 'B'
+93.6390 	EXP 	window1: recordFrameIntervals = False
+93.7390 	EXP 	letter_left: autoDraw = True
+93.7390 	EXP 	letter_right: autoDraw = True
+94.0449 	EXP 	New trial (rep=75, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+94.0476 	EXP 	window1: recordFrameIntervals = False
+94.0495 	DATA 	Keypress: left
+94.0720 	EXP 	letter_left: autoDraw = False
+94.0720 	EXP 	letter_right: autoDraw = False
+94.0720 	EXP 	letter_left: text = 'B'
+94.0720 	EXP 	letter_right: text = 'A'
+94.0722 	EXP 	window1: recordFrameIntervals = False
+94.1721 	EXP 	letter_left: autoDraw = True
+94.1721 	EXP 	letter_right: autoDraw = True
+94.5428 	EXP 	New trial (rep=75, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+94.5430 	EXP 	window1: recordFrameIntervals = False
+94.5448 	DATA 	Keypress: right
+94.5587 	EXP 	letter_left: autoDraw = False
+94.5587 	EXP 	letter_right: autoDraw = False
+94.5587 	EXP 	letter_left: text = 'B'
+94.5587 	EXP 	letter_right: text = 'A'
+94.5590 	EXP 	window1: recordFrameIntervals = False
+94.6718 	EXP 	letter_left: autoDraw = True
+94.6718 	EXP 	letter_right: autoDraw = True
+94.9935 	EXP 	New trial (rep=76, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+94.9963 	EXP 	window1: recordFrameIntervals = False
+94.9981 	DATA 	Keypress: right
+95.0219 	EXP 	letter_left: autoDraw = False
+95.0219 	EXP 	letter_right: autoDraw = False
+95.0219 	EXP 	letter_left: text = 'A'
+95.0219 	EXP 	letter_right: text = 'B'
+95.0220 	EXP 	window1: recordFrameIntervals = False
+95.1220 	EXP 	letter_left: autoDraw = True
+95.1220 	EXP 	letter_right: autoDraw = True
+95.5101 	EXP 	New trial (rep=76, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+95.5127 	EXP 	window1: recordFrameIntervals = False
+95.5143 	DATA 	Keypress: left
+95.5389 	EXP 	letter_left: autoDraw = False
+95.5389 	EXP 	letter_right: autoDraw = False
+95.5389 	EXP 	letter_left: text = 'B'
+95.5389 	EXP 	letter_right: text = 'A'
+95.5391 	EXP 	window1: recordFrameIntervals = False
+95.6388 	EXP 	letter_left: autoDraw = True
+95.6388 	EXP 	letter_right: autoDraw = True
+96.0102 	EXP 	New trial (rep=77, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+96.0104 	EXP 	window1: recordFrameIntervals = False
+96.0122 	DATA 	Keypress: right
+96.0258 	EXP 	letter_left: autoDraw = False
+96.0258 	EXP 	letter_right: autoDraw = False
+96.0258 	EXP 	letter_left: text = 'B'
+96.0258 	EXP 	letter_right: text = 'A'
+96.0261 	EXP 	window1: recordFrameIntervals = False
+96.1385 	EXP 	letter_left: autoDraw = True
+96.1385 	EXP 	letter_right: autoDraw = True
+96.7084 	EXP 	New trial (rep=77, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+96.7110 	EXP 	window1: recordFrameIntervals = False
+96.7129 	DATA 	Keypress: right
+96.7393 	EXP 	letter_left: autoDraw = False
+96.7393 	EXP 	letter_right: autoDraw = False
+96.7393 	EXP 	letter_left: text = 'A'
+96.7393 	EXP 	letter_right: text = 'B'
+96.7395 	EXP 	window1: recordFrameIntervals = False
+96.8387 	EXP 	letter_left: autoDraw = True
+96.8387 	EXP 	letter_right: autoDraw = True
+97.2432 	EXP 	New trial (rep=78, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+97.2463 	EXP 	window1: recordFrameIntervals = False
+97.2481 	DATA 	Keypress: left
+97.2717 	EXP 	letter_left: autoDraw = False
+97.2717 	EXP 	letter_right: autoDraw = False
+97.2717 	EXP 	letter_left: text = 'B'
+97.2717 	EXP 	letter_right: text = 'A'
+97.2719 	EXP 	window1: recordFrameIntervals = False
+97.3719 	EXP 	letter_left: autoDraw = True
+97.3719 	EXP 	letter_right: autoDraw = True
+97.7621 	EXP 	New trial (rep=78, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+97.7624 	EXP 	window1: recordFrameIntervals = False
+97.7642 	DATA 	Keypress: right
+97.7886 	EXP 	letter_left: autoDraw = False
+97.7886 	EXP 	letter_right: autoDraw = False
+97.7886 	EXP 	letter_left: text = 'B'
+97.7886 	EXP 	letter_right: text = 'A'
+97.7888 	EXP 	window1: recordFrameIntervals = False
+97.8886 	EXP 	letter_left: autoDraw = True
+97.8886 	EXP 	letter_right: autoDraw = True
+98.2614 	EXP 	New trial (rep=79, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+98.2643 	EXP 	window1: recordFrameIntervals = False
+98.2662 	DATA 	Keypress: right
+98.2876 	EXP 	letter_left: autoDraw = False
+98.2876 	EXP 	letter_right: autoDraw = False
+98.2876 	EXP 	letter_left: text = 'A'
+98.2876 	EXP 	letter_right: text = 'B'
+98.2877 	EXP 	window1: recordFrameIntervals = False
+98.3880 	EXP 	letter_left: autoDraw = True
+98.3880 	EXP 	letter_right: autoDraw = True
+98.8092 	EXP 	New trial (rep=79, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+98.8121 	EXP 	window1: recordFrameIntervals = False
+98.8140 	DATA 	Keypress: left
+98.8377 	EXP 	letter_left: autoDraw = False
+98.8377 	EXP 	letter_right: autoDraw = False
+98.8377 	EXP 	letter_left: text = 'B'
+98.8377 	EXP 	letter_right: text = 'A'
+98.8379 	EXP 	window1: recordFrameIntervals = False
+98.9389 	EXP 	letter_left: autoDraw = True
+98.9389 	EXP 	letter_right: autoDraw = True
+99.3762 	EXP 	New trial (rep=80, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+99.3792 	EXP 	window1: recordFrameIntervals = False
+99.3812 	DATA 	Keypress: right
+99.4044 	EXP 	letter_left: autoDraw = False
+99.4044 	EXP 	letter_right: autoDraw = False
+99.4044 	EXP 	letter_left: text = 'A'
+99.4044 	EXP 	letter_right: text = 'B'
+99.4046 	EXP 	window1: recordFrameIntervals = False
+99.5051 	EXP 	letter_left: autoDraw = True
+99.5051 	EXP 	letter_right: autoDraw = True
+100.0099 	EXP 	New trial (rep=80, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+100.0131 	EXP 	window1: recordFrameIntervals = False
+100.0149 	DATA 	Keypress: left
+100.0376 	EXP 	letter_left: autoDraw = False
+100.0376 	EXP 	letter_right: autoDraw = False
+100.0376 	EXP 	letter_left: text = 'B'
+100.0376 	EXP 	letter_right: text = 'A'
+100.0378 	EXP 	window1: recordFrameIntervals = False
+100.1387 	EXP 	letter_left: autoDraw = True
+100.1387 	EXP 	letter_right: autoDraw = True
+100.5286 	EXP 	New trial (rep=81, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+100.5288 	EXP 	window1: recordFrameIntervals = False
+100.5306 	DATA 	Keypress: right
+100.5544 	EXP 	letter_left: autoDraw = False
+100.5544 	EXP 	letter_right: autoDraw = False
+100.5544 	EXP 	letter_left: text = 'B'
+100.5544 	EXP 	letter_right: text = 'A'
+100.5546 	EXP 	window1: recordFrameIntervals = False
+100.6553 	EXP 	letter_left: autoDraw = True
+100.6553 	EXP 	letter_right: autoDraw = True
+101.1095 	EXP 	New trial (rep=81, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+101.1123 	EXP 	window1: recordFrameIntervals = False
+101.1141 	DATA 	Keypress: right
+101.1377 	EXP 	letter_left: autoDraw = False
+101.1377 	EXP 	letter_right: autoDraw = False
+101.1377 	EXP 	letter_left: text = 'A'
+101.1377 	EXP 	letter_right: text = 'B'
+101.1380 	EXP 	window1: recordFrameIntervals = False
+101.2388 	EXP 	letter_left: autoDraw = True
+101.2388 	EXP 	letter_right: autoDraw = True
+101.6433 	EXP 	New trial (rep=82, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+101.6435 	EXP 	window1: recordFrameIntervals = False
+101.6454 	DATA 	Keypress: left
+101.6588 	EXP 	letter_left: autoDraw = False
+101.6588 	EXP 	letter_right: autoDraw = False
+101.6588 	EXP 	letter_left: text = 'A'
+101.6588 	EXP 	letter_right: text = 'B'
+101.6590 	EXP 	window1: recordFrameIntervals = False
+101.7732 	EXP 	letter_left: autoDraw = True
+101.7732 	EXP 	letter_right: autoDraw = True
+102.1939 	EXP 	New trial (rep=82, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+102.1941 	EXP 	window1: recordFrameIntervals = False
+102.1960 	DATA 	Keypress: left
+102.2216 	EXP 	letter_left: autoDraw = False
+102.2216 	EXP 	letter_right: autoDraw = False
+102.2216 	EXP 	letter_left: text = 'A'
+102.2216 	EXP 	letter_right: text = 'B'
+102.2219 	EXP 	window1: recordFrameIntervals = False
+102.3216 	EXP 	letter_left: autoDraw = True
+102.3216 	EXP 	letter_right: autoDraw = True
+102.8108 	EXP 	New trial (rep=83, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+102.8110 	EXP 	window1: recordFrameIntervals = False
+102.8129 	DATA 	Keypress: left
+102.8384 	EXP 	letter_left: autoDraw = False
+102.8384 	EXP 	letter_right: autoDraw = False
+102.8384 	EXP 	letter_left: text = 'A'
+102.8384 	EXP 	letter_right: text = 'B'
+102.8386 	EXP 	window1: recordFrameIntervals = False
+102.9396 	EXP 	letter_left: autoDraw = True
+102.9396 	EXP 	letter_right: autoDraw = True
+103.2587 	EXP 	New trial (rep=83, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+103.2589 	EXP 	window1: recordFrameIntervals = False
+103.2607 	DATA 	Keypress: left
+103.2746 	EXP 	letter_left: autoDraw = False
+103.2746 	EXP 	letter_right: autoDraw = False
+103.2746 	EXP 	letter_left: text = 'A'
+103.2746 	EXP 	letter_right: text = 'B'
+103.2748 	EXP 	window1: recordFrameIntervals = False
+103.3881 	EXP 	letter_left: autoDraw = True
+103.3881 	EXP 	letter_right: autoDraw = True
+103.7429 	EXP 	New trial (rep=84, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+103.7457 	EXP 	window1: recordFrameIntervals = False
+103.7475 	DATA 	Keypress: left
+103.7705 	EXP 	letter_left: autoDraw = False
+103.7705 	EXP 	letter_right: autoDraw = False
+103.7705 	EXP 	letter_left: text = 'B'
+103.7705 	EXP 	letter_right: text = 'A'
+103.7707 	EXP 	window1: recordFrameIntervals = False
+103.8703 	EXP 	letter_left: autoDraw = True
+103.8703 	EXP 	letter_right: autoDraw = True
+104.2416 	EXP 	New trial (rep=84, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+104.2436 	EXP 	window1: recordFrameIntervals = False
+104.2451 	DATA 	Keypress: right
+104.2591 	EXP 	letter_left: autoDraw = False
+104.2591 	EXP 	letter_right: autoDraw = False
+104.2591 	EXP 	letter_left: text = 'A'
+104.2591 	EXP 	letter_right: text = 'B'
+104.2593 	EXP 	window1: recordFrameIntervals = False
+104.3718 	EXP 	letter_left: autoDraw = True
+104.3718 	EXP 	letter_right: autoDraw = True
+104.7594 	EXP 	New trial (rep=85, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+104.7626 	EXP 	window1: recordFrameIntervals = False
+104.7645 	DATA 	Keypress: left
+104.7885 	EXP 	letter_left: autoDraw = False
+104.7885 	EXP 	letter_right: autoDraw = False
+104.7885 	EXP 	letter_left: text = 'B'
+104.7885 	EXP 	letter_right: text = 'A'
+104.7888 	EXP 	window1: recordFrameIntervals = False
+104.8877 	EXP 	letter_left: autoDraw = True
+104.8877 	EXP 	letter_right: autoDraw = True
+105.2750 	EXP 	New trial (rep=85, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+105.2752 	EXP 	window1: recordFrameIntervals = False
+105.2771 	DATA 	Keypress: right
+105.2910 	EXP 	letter_left: autoDraw = False
+105.2910 	EXP 	letter_right: autoDraw = False
+105.2910 	EXP 	letter_left: text = 'B'
+105.2910 	EXP 	letter_right: text = 'A'
+105.2912 	EXP 	window1: recordFrameIntervals = False
+105.4042 	EXP 	letter_left: autoDraw = True
+105.4042 	EXP 	letter_right: autoDraw = True
+105.9252 	EXP 	New trial (rep=86, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+105.9254 	EXP 	window1: recordFrameIntervals = False
+105.9272 	DATA 	Keypress: right
+105.9411 	EXP 	letter_left: autoDraw = False
+105.9411 	EXP 	letter_right: autoDraw = False
+105.9411 	EXP 	letter_left: text = 'B'
+105.9411 	EXP 	letter_right: text = 'A'
+105.9413 	EXP 	window1: recordFrameIntervals = False
+106.0553 	EXP 	letter_left: autoDraw = True
+106.0553 	EXP 	letter_right: autoDraw = True
+106.4439 	EXP 	New trial (rep=86, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+106.4467 	EXP 	window1: recordFrameIntervals = False
+106.4486 	DATA 	Keypress: right
+106.4709 	EXP 	letter_left: autoDraw = False
+106.4709 	EXP 	letter_right: autoDraw = False
+106.4709 	EXP 	letter_left: text = 'A'
+106.4709 	EXP 	letter_right: text = 'B'
+106.4711 	EXP 	window1: recordFrameIntervals = False
+106.5708 	EXP 	letter_left: autoDraw = True
+106.5708 	EXP 	letter_right: autoDraw = True
+106.9266 	EXP 	New trial (rep=87, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+106.9268 	EXP 	window1: recordFrameIntervals = False
+106.9287 	DATA 	Keypress: left
+106.9426 	EXP 	letter_left: autoDraw = False
+106.9426 	EXP 	letter_right: autoDraw = False
+106.9426 	EXP 	letter_left: text = 'A'
+106.9426 	EXP 	letter_right: text = 'B'
+106.9428 	EXP 	window1: recordFrameIntervals = False
+107.0543 	EXP 	letter_left: autoDraw = True
+107.0543 	EXP 	letter_right: autoDraw = True
+107.4248 	EXP 	New trial (rep=87, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+107.4276 	EXP 	window1: recordFrameIntervals = False
+107.4296 	DATA 	Keypress: left
+107.4567 	EXP 	letter_left: autoDraw = False
+107.4567 	EXP 	letter_right: autoDraw = False
+107.4567 	EXP 	letter_left: text = 'B'
+107.4567 	EXP 	letter_right: text = 'A'
+107.4569 	EXP 	window1: recordFrameIntervals = False
+107.5551 	EXP 	letter_left: autoDraw = True
+107.5551 	EXP 	letter_right: autoDraw = True
+107.9252 	EXP 	New trial (rep=88, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+107.9254 	EXP 	window1: recordFrameIntervals = False
+107.9273 	DATA 	Keypress: right
+107.9412 	EXP 	letter_left: autoDraw = False
+107.9412 	EXP 	letter_right: autoDraw = False
+107.9412 	EXP 	letter_left: text = 'B'
+107.9412 	EXP 	letter_right: text = 'A'
+107.9414 	EXP 	window1: recordFrameIntervals = False
+108.0548 	EXP 	letter_left: autoDraw = True
+108.0548 	EXP 	letter_right: autoDraw = True
+108.4104 	EXP 	New trial (rep=88, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+108.4132 	EXP 	window1: recordFrameIntervals = False
+108.4151 	DATA 	Keypress: right
+108.4389 	EXP 	letter_left: autoDraw = False
+108.4389 	EXP 	letter_right: autoDraw = False
+108.4389 	EXP 	letter_left: text = 'A'
+108.4389 	EXP 	letter_right: text = 'B'
+108.4391 	EXP 	window1: recordFrameIntervals = False
+108.5385 	EXP 	letter_left: autoDraw = True
+108.5385 	EXP 	letter_right: autoDraw = True
+108.9768 	EXP 	New trial (rep=89, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+108.9770 	EXP 	window1: recordFrameIntervals = False
+108.9790 	DATA 	Keypress: left
+108.9928 	EXP 	letter_left: autoDraw = False
+108.9928 	EXP 	letter_right: autoDraw = False
+108.9928 	EXP 	letter_left: text = 'A'
+108.9928 	EXP 	letter_right: text = 'B'
+108.9930 	EXP 	window1: recordFrameIntervals = False
+109.1048 	EXP 	letter_left: autoDraw = True
+109.1048 	EXP 	letter_right: autoDraw = True
+109.4762 	EXP 	New trial (rep=89, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+109.4764 	EXP 	window1: recordFrameIntervals = False
+109.4783 	DATA 	Keypress: left
+109.4926 	EXP 	letter_left: autoDraw = False
+109.4926 	EXP 	letter_right: autoDraw = False
+109.4926 	EXP 	letter_left: text = 'A'
+109.4926 	EXP 	letter_right: text = 'B'
+109.4928 	EXP 	window1: recordFrameIntervals = False
+109.6045 	EXP 	letter_left: autoDraw = True
+109.6045 	EXP 	letter_right: autoDraw = True
+109.9451 	EXP 	New trial (rep=90, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+109.9453 	EXP 	window1: recordFrameIntervals = False
+109.9472 	DATA 	Keypress: left
+109.9713 	EXP 	letter_left: autoDraw = False
+109.9713 	EXP 	letter_right: autoDraw = False
+109.9713 	EXP 	letter_left: text = 'A'
+109.9713 	EXP 	letter_right: text = 'B'
+109.9716 	EXP 	window1: recordFrameIntervals = False
+110.0712 	EXP 	letter_left: autoDraw = True
+110.0712 	EXP 	letter_right: autoDraw = True
+110.4962 	EXP 	New trial (rep=90, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+110.4964 	EXP 	window1: recordFrameIntervals = False
+110.4983 	DATA 	Keypress: left
+110.5220 	EXP 	letter_left: autoDraw = False
+110.5220 	EXP 	letter_right: autoDraw = False
+110.5220 	EXP 	letter_left: text = 'A'
+110.5220 	EXP 	letter_right: text = 'B'
+110.5222 	EXP 	window1: recordFrameIntervals = False
+110.6216 	EXP 	letter_left: autoDraw = True
+110.6216 	EXP 	letter_right: autoDraw = True
+110.9414 	EXP 	New trial (rep=91, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+110.9441 	EXP 	window1: recordFrameIntervals = False
+110.9460 	DATA 	Keypress: left
+110.9729 	EXP 	letter_left: autoDraw = False
+110.9729 	EXP 	letter_right: autoDraw = False
+110.9729 	EXP 	letter_left: text = 'B'
+110.9729 	EXP 	letter_right: text = 'A'
+110.9731 	EXP 	window1: recordFrameIntervals = False
+111.0718 	EXP 	letter_left: autoDraw = True
+111.0718 	EXP 	letter_right: autoDraw = True
+111.4762 	EXP 	New trial (rep=91, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+111.4790 	EXP 	window1: recordFrameIntervals = False
+111.4809 	DATA 	Keypress: right
+111.5047 	EXP 	letter_left: autoDraw = False
+111.5047 	EXP 	letter_right: autoDraw = False
+111.5047 	EXP 	letter_left: text = 'A'
+111.5047 	EXP 	letter_right: text = 'B'
+111.5050 	EXP 	window1: recordFrameIntervals = False
+111.6051 	EXP 	letter_left: autoDraw = True
+111.6051 	EXP 	letter_right: autoDraw = True
+111.9762 	EXP 	New trial (rep=92, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+111.9790 	EXP 	window1: recordFrameIntervals = False
+111.9808 	DATA 	Keypress: left
+112.0064 	EXP 	letter_left: autoDraw = False
+112.0064 	EXP 	letter_right: autoDraw = False
+112.0064 	EXP 	letter_left: text = 'B'
+112.0064 	EXP 	letter_right: text = 'A'
+112.0067 	EXP 	window1: recordFrameIntervals = False
+112.1051 	EXP 	letter_left: autoDraw = True
+112.1051 	EXP 	letter_right: autoDraw = True
+112.4940 	EXP 	New trial (rep=92, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+112.4942 	EXP 	window1: recordFrameIntervals = False
+112.4962 	DATA 	Keypress: right
+112.5215 	EXP 	letter_left: autoDraw = False
+112.5215 	EXP 	letter_right: autoDraw = False
+112.5215 	EXP 	letter_left: text = 'B'
+112.5215 	EXP 	letter_right: text = 'A'
+112.5217 	EXP 	window1: recordFrameIntervals = False
+112.6208 	EXP 	letter_left: autoDraw = True
+112.6208 	EXP 	letter_right: autoDraw = True
+113.1911 	EXP 	New trial (rep=93, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+113.1937 	EXP 	window1: recordFrameIntervals = False
+113.1955 	DATA 	Keypress: right
+113.2214 	EXP 	letter_left: autoDraw = False
+113.2214 	EXP 	letter_right: autoDraw = False
+113.2214 	EXP 	letter_left: text = 'A'
+113.2214 	EXP 	letter_right: text = 'B'
+113.2217 	EXP 	window1: recordFrameIntervals = False
+113.3219 	EXP 	letter_left: autoDraw = True
+113.3219 	EXP 	letter_right: autoDraw = True
+113.6922 	EXP 	New trial (rep=93, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+113.6924 	EXP 	window1: recordFrameIntervals = False
+113.6943 	DATA 	Keypress: left
+113.7079 	EXP 	letter_left: autoDraw = False
+113.7079 	EXP 	letter_right: autoDraw = False
+113.7079 	EXP 	letter_left: text = 'A'
+113.7079 	EXP 	letter_right: text = 'B'
+113.7082 	EXP 	window1: recordFrameIntervals = False
+113.8214 	EXP 	letter_left: autoDraw = True
+113.8214 	EXP 	letter_right: autoDraw = True
+114.1928 	EXP 	New trial (rep=94, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+114.1930 	EXP 	window1: recordFrameIntervals = False
+114.1946 	DATA 	Keypress: left
+114.2083 	EXP 	letter_left: autoDraw = False
+114.2083 	EXP 	letter_right: autoDraw = False
+114.2083 	EXP 	letter_left: text = 'A'
+114.2083 	EXP 	letter_right: text = 'B'
+114.2085 	EXP 	window1: recordFrameIntervals = False
+114.3217 	EXP 	letter_left: autoDraw = True
+114.3217 	EXP 	letter_right: autoDraw = True
+114.6729 	EXP 	New trial (rep=94, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+114.6756 	EXP 	window1: recordFrameIntervals = False
+114.6775 	DATA 	Keypress: left
+114.6915 	EXP 	letter_left: autoDraw = False
+114.6915 	EXP 	letter_right: autoDraw = False
+114.6915 	EXP 	letter_left: text = 'B'
+114.6915 	EXP 	letter_right: text = 'A'
+114.6917 	EXP 	window1: recordFrameIntervals = False
+114.8060 	EXP 	letter_left: autoDraw = True
+114.8060 	EXP 	letter_right: autoDraw = True
+115.2096 	EXP 	New trial (rep=95, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+115.2098 	EXP 	window1: recordFrameIntervals = False
+115.2118 	DATA 	Keypress: right
+115.2253 	EXP 	letter_left: autoDraw = False
+115.2253 	EXP 	letter_right: autoDraw = False
+115.2253 	EXP 	letter_left: text = 'B'
+115.2253 	EXP 	letter_right: text = 'A'
+115.2255 	EXP 	window1: recordFrameIntervals = False
+115.3373 	EXP 	letter_left: autoDraw = True
+115.3373 	EXP 	letter_right: autoDraw = True
+115.6769 	EXP 	New trial (rep=95, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+115.6771 	EXP 	window1: recordFrameIntervals = False
+115.6789 	DATA 	Keypress: right
+115.7046 	EXP 	letter_left: autoDraw = False
+115.7046 	EXP 	letter_right: autoDraw = False
+115.7046 	EXP 	letter_left: text = 'B'
+115.7046 	EXP 	letter_right: text = 'A'
+115.7049 	EXP 	window1: recordFrameIntervals = False
+115.8047 	EXP 	letter_left: autoDraw = True
+115.8047 	EXP 	letter_right: autoDraw = True
+116.2267 	EXP 	New trial (rep=96, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+116.2295 	EXP 	window1: recordFrameIntervals = False
+116.2313 	DATA 	Keypress: right
+116.2552 	EXP 	letter_left: autoDraw = False
+116.2552 	EXP 	letter_right: autoDraw = False
+116.2552 	EXP 	letter_left: text = 'A'
+116.2552 	EXP 	letter_right: text = 'B'
+116.2555 	EXP 	window1: recordFrameIntervals = False
+116.3543 	EXP 	letter_left: autoDraw = True
+116.3543 	EXP 	letter_right: autoDraw = True
+116.7432 	EXP 	New trial (rep=96, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+116.7461 	EXP 	window1: recordFrameIntervals = False
+116.7479 	DATA 	Keypress: left
+116.7714 	EXP 	letter_left: autoDraw = False
+116.7714 	EXP 	letter_right: autoDraw = False
+116.7714 	EXP 	letter_left: text = 'B'
+116.7714 	EXP 	letter_right: text = 'A'
+116.7716 	EXP 	window1: recordFrameIntervals = False
+116.8716 	EXP 	letter_left: autoDraw = True
+116.8716 	EXP 	letter_right: autoDraw = True
+117.2431 	EXP 	New trial (rep=97, index=0): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+117.2459 	EXP 	window1: recordFrameIntervals = False
+117.2478 	DATA 	Keypress: right
+117.2711 	EXP 	letter_left: autoDraw = False
+117.2711 	EXP 	letter_right: autoDraw = False
+117.2711 	EXP 	letter_left: text = 'A'
+117.2711 	EXP 	letter_right: text = 'B'
+117.2713 	EXP 	window1: recordFrameIntervals = False
+117.3707 	EXP 	letter_left: autoDraw = True
+117.3707 	EXP 	letter_right: autoDraw = True
+117.8262 	EXP 	New trial (rep=97, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+117.8291 	EXP 	window1: recordFrameIntervals = False
+117.8309 	DATA 	Keypress: left
+117.8545 	EXP 	letter_left: autoDraw = False
+117.8545 	EXP 	letter_right: autoDraw = False
+117.8545 	EXP 	letter_left: text = 'B'
+117.8545 	EXP 	letter_right: text = 'A'
+117.8548 	EXP 	window1: recordFrameIntervals = False
+117.9549 	EXP 	letter_left: autoDraw = True
+117.9549 	EXP 	letter_right: autoDraw = True
+118.3421 	EXP 	New trial (rep=98, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+118.3423 	EXP 	window1: recordFrameIntervals = False
+118.3441 	DATA 	Keypress: right
+118.3578 	EXP 	letter_left: autoDraw = False
+118.3578 	EXP 	letter_right: autoDraw = False
+118.3578 	EXP 	letter_left: text = 'B'
+118.3578 	EXP 	letter_right: text = 'A'
+118.3580 	EXP 	window1: recordFrameIntervals = False
+118.4711 	EXP 	letter_left: autoDraw = True
+118.4711 	EXP 	letter_right: autoDraw = True
+119.0408 	DATA 	Keypress: right
+119.0605 	EXP 	New trial (rep=98, index=1): OrderedDict([('left', 'A'), ('right', 'B'), ('correctAns', 'left')])
+119.0635 	EXP 	window1: recordFrameIntervals = False
+119.0883 	EXP 	letter_left: autoDraw = False
+119.0883 	EXP 	letter_right: autoDraw = False
+119.0883 	EXP 	letter_left: text = 'A'
+119.0883 	EXP 	letter_right: text = 'B'
+119.0884 	EXP 	window1: recordFrameIntervals = False
+119.1879 	EXP 	letter_left: autoDraw = True
+119.1879 	EXP 	letter_right: autoDraw = True
+119.5916 	EXP 	New trial (rep=99, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+119.5944 	EXP 	window1: recordFrameIntervals = False
+119.5963 	DATA 	Keypress: left
+119.6214 	EXP 	letter_left: autoDraw = False
+119.6214 	EXP 	letter_right: autoDraw = False
+119.6214 	EXP 	letter_left: text = 'B'
+119.6214 	EXP 	letter_right: text = 'A'
+119.6217 	EXP 	window1: recordFrameIntervals = False
+119.7212 	EXP 	letter_left: autoDraw = True
+119.7212 	EXP 	letter_right: autoDraw = True
+120.1254 	EXP 	New trial (rep=99, index=1): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+120.1256 	EXP 	window1: recordFrameIntervals = False
+120.1275 	DATA 	Keypress: right
+120.1419 	EXP 	letter_left: autoDraw = False
+120.1419 	EXP 	letter_right: autoDraw = False
+120.1419 	EXP 	letter_left: text = 'B'
+120.1419 	EXP 	letter_right: text = 'A'
+120.1421 	EXP 	window1: recordFrameIntervals = False
+120.2549 	EXP 	letter_left: autoDraw = True
+120.2549 	EXP 	letter_right: autoDraw = True
+120.6945 	DATA 	Keypress: right
+120.7087 	EXP 	letter_left: autoDraw = False
+120.7087 	EXP 	letter_right: autoDraw = False
+120.7087 	EXP 	text_done: autoDraw = True
+124.7205 	EXP 	text_done: autoDraw = False
+125.0278 	EXP 	window1: mouseVisible = True
