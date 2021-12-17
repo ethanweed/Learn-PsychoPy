@@ -1,0 +1,23 @@
+1.0563 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+13.5820 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x133188be0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x13b86dba8>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.5820 	EXP 	window1: recordFrameIntervals = False
+13.7461 	EXP 	window1: recordFrameIntervals = True
+13.9301 	EXP 	window1: recordFrameIntervals = False
+14.0986 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.1296 	EXP 	Created letter_left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='letter_left', opacity=1.0, ori=0, pos=array([-0.2,  0. ]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+14.1319 	EXP 	Created letter_right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='letter_right', opacity=1.0, ori=0, pos=array([0.2, 0. ]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+14.1652 	EXP 	Created text_done = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_done', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='All done!!', units='height', win=Window(...), wrapWidth=1)
+14.1971 	EXP 	text: autoDraw = True
+14.8024 	EXP 	Imported stims.xlsx as conditions, 2 conditions, 3 params
+14.8043 	EXP 	Created sequence: fullRandom, trialTypes=2, nReps=100, seed=None
+14.8055 	EXP 	New trial (rep=0, index=0): OrderedDict([('left', 'B'), ('right', 'A'), ('correctAns', 'right')])
+14.8099 	EXP 	window1: recordFrameIntervals = False
+14.8190 	DATA 	Keypress: down
+14.8330 	EXP 	text: autoDraw = False
+14.8330 	EXP 	letter_left: text = 'B'
+14.8330 	EXP 	letter_right: text = 'A'
+14.8331 	EXP 	window1: recordFrameIntervals = False
+14.9297 	EXP 	letter_left: autoDraw = True
+14.9297 	EXP 	letter_right: autoDraw = True
+15.7990 	DATA 	Keypress: escape
+16.1707 	EXP 	window1: mouseVisible = True
